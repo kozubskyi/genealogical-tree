@@ -1,0 +1,191 @@
+.Person {
+	width: 114px;
+	min-width: 114px;
+	max-width: 114px;
+
+	height: 298px;
+	min-height: 298px;
+	max-height: 298px;
+
+	padding: 12px;
+	text-align: center;
+	position: absolute;
+	border-radius: 8px;
+	/* outline: 1px solid rgb(230, 230, 230); */
+}
+
+.Person .person-link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 8px;
+	border-radius: 8px;
+	width: 90px;
+	position: relative;
+	/* outline: 1px solid red; */
+}
+
+.Person .person-link:hover,
+.Person .person-link:focus {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.Person .image {
+	border: 1px solid black;
+	border-radius: 4px;
+	overflow: hidden;
+	position: relative;
+	width: 74px;
+	height: 103px;
+	/* min-width: 74px;
+	min-height: 103px;
+	max-width: 74px;
+	max-height: 103px; */
+}
+
+.Person .gender-line {
+	height: 5px;
+	border-bottom: 1px solid black;
+}
+
+.Person .gender-line.creator,
+.Person .gender-line.male {
+	background-color: deepskyblue;
+}
+.Person .gender-line.female {
+	background-color: hotpink;
+}
+/* .Person .gender-line.spouse-of-relative {
+	background-color: silver;
+} */
+
+.Person .photo {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	color: rgba(0, 0, 0, 0.15);
+	background-color: rgb(230, 230, 230);
+	height: calc(100% - 5px);
+	font-family: 'Akrobat Bold';
+	font-size: 1.2rem;
+}
+
+.Person .photo::before,
+.Person .photo::after {
+	content: '';
+	position: absolute;
+	border-radius: 50%;
+	background-color: silver;
+}
+.Person .photo::before {
+	width: 100%;
+	height: 40px;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%, 50%);
+}
+.Person .photo::after {
+	width: calc(100% - 16px);
+	height: calc(100% - 20px);
+	top: 8px;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.Person img {
+	width: 100%;
+	z-index: 1;
+}
+
+.Person img.dead {
+	filter: grayscale(100%);
+}
+
+.Person .person-link:hover img.dead,
+.Person .person-link:focus img.dead {
+	filter: grayscale(0%);
+}
+
+.Person .black-line {
+	width: 100%;
+	height: 10px;
+	background-color: black;
+	border: 1px solid gold;
+	position: absolute;
+	right: -25px;
+	bottom: 5px;
+	rotate: -45deg;
+	z-index: 2;
+}
+
+.Person .info {
+	text-align: center;
+}
+
+.Person .line {
+	position: absolute;
+}
+
+.Person .top-line {
+	height: 20px;
+	top: 0;
+}
+
+.Person .spouse-line {
+	width: 20px;
+	top: 72px;
+	/* right: -20px; */
+	border-top: 1px solid black;
+}
+.Person .spouse-line.left {
+	left: 0;
+}
+.Person .spouse-line.right {
+	right: 0;
+}
+
+.Person .spouses-line {
+	width: 114px;
+	top: 72px;
+	left: 0;
+	border-top: 1px solid black;
+}
+/* .Person .spouses-line.left {
+	right: 0;
+}
+.Person .spouses-line.right {
+	left: 0;
+} */
+
+.Person .children-line {
+	top: 72px;
+	/* left: -0.5px; */
+	width: 20px;
+	height: 226px;
+	/* border-left: 1px solid red; */
+}
+
+.Person .creator-icon {
+	position: absolute;
+	right: -8.5px;
+	top: -8.5px;
+	z-index: 3;
+}
+
+.Person .creator-icon + span {
+	display: none;
+	text-align: center;
+	position: absolute;
+	top: -60px;
+	right: -26px;
+	border: 1px solid silver;
+	border-radius: 8px;
+	/* background-color: rgb(230, 230, 230); */
+	background-color: white;
+	padding: 4px 8px;
+	z-index: 4;
+}
+
+.Person .creator-icon:hover + span {
+	display: block;
+}

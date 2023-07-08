@@ -1,0 +1,10 @@
+.Tree {
+	margin: 20px;
+	width: max-content;
+	position: relative;
+}
+
+.Tree .generation {
+	display: flex;
+	align-items: flex-start;
+}

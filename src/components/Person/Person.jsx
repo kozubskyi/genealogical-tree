@@ -1,0 +1,186 @@
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import { Icon } from '@iconify/react'
+import './Person.css'
+import data from '../../data'
+// import Margin from '../Margin/Margin'
+
+const Person = props => {
+	const {
+		id = '0',
+		photo,
+		surname,
+		maidenName,
+		name,
+		patronymic,
+		gender,
+		status,
+		dateOfBirth,
+		dead = false,
+		dateOfDeath,
+		parents = { mother: undefined, father: undefined },
+		spouse,
+		children,
+		position,
+	} = props
+
+	// if (status === 'spouse of relative') return
+	// if (status === 'spouse of relative') return <Margin />
+	// if (!status) return <Margin />
+
+	const checkStatus = () => (status === 'relative' || status === 'creator' ? true : false)
+
+	const setTopLineStyles = () => {
+		const styles = {}
+		const border = '1px solid black'
+
+		const parentsArray = data.filter(person => person.id === parents.mother || person.id === parents.father)
+
+		if (!parentsArray.length) return { left: '50%', borderLeft: border }
+
+		let parentsMid
+
+		if (parentsArray.length === 1) {
+			const parentPlace = parentsArray[0].position.place
+
+			parentsMid = position.place <= parentPlace ? parentPlace - 0.5 : parentPlace + 0.5
+		} else {
+			parentsMid = parentsArray.reduce((acc, parent) => acc + parent.position.place, 0) / 2
+		}
+
+		styles.borderTop = border
+
+		const parentWithLine = parentsArray.find(parent => parent.position.line)
+
+		if (parentWithLine) {
+			styles.top = parentWithLine.position.line * -20
+			styles.height = parentWithLine.position.line * 20 + 20
+		}
+
+		if (position.place > parentsMid) {
+			styles.right = '49.5%'
+			styles.borderRight = border
+			// styles.borderTopRightRadius = 4
+			styles.width = position.place * 114 - parentsMid * 114 + 1
+		} else {
+			styles.left = '49.5%'
+			styles.borderLeft = border
+			// styles.borderTopLeftRadius = 4
+			styles.width = parentsMid * 114 - position.place * 114 + 1
+		}
+
+		return styles
+	}
+
+	const setSpouseLineClasses = () => {
+		if (!spouse) return ''
+
+		if (Array.isArray(spouse)) return 's-line'
+
+		const spouseObject = data.find(person => person.id === spouse)
+
+		return spouseObject?.position?.place > position.place ? '-line right' : '-line left'
+	}
+
+	const setChildrenLineStyles = () => {
+		const border = '1px solid black'
+		const leftStyles = { left: -0.5, height: 226 - position?.line * 20, borderLeft: border, borderTop: border }
+		const rightStyles = { right: -0.5, height: 226 - position?.line * 20, borderRight: border, borderTop: border }
+
+		if (!spouse || Array.isArray(spouse)) {
+			const childrenObjects = data.filter(person => children.includes(person.id))
+
+			const childrenMid = childrenObjects.reduce((acc, child) => acc + child.position.place, 0) / children.length
+
+			return position.place > childrenMid ? leftStyles : rightStyles
+		}
+
+		const spouseObject = data.find(person => person.id === spouse)
+
+		return position.place > spouseObject.position.place ? leftStyles : rightStyles
+	}
+
+	return (
+		<div
+			className="Person"
+			style={position ? { top: position.generation * 298 - 298, left: position.place * 114 - 114 } : ''}
+		>
+			{checkStatus() && <div className={`line top-line`} style={setTopLineStyles()}></div>}
+			<div className={`line spouse${setSpouseLineClasses()}`}></div>
+			{children.length > 0 && <div className={`line children-line`} style={setChildrenLineStyles()}></div>}
+
+			{/* <NavLink to={`/person/${id}`} className="person-link"> */}
+			<div className="person-link">
+				{status === 'creator' && (
+					<>
+						<Icon icon="noto:star" fontSize={32} className="creator-icon" />
+						<span>
+							Творець
+							<br />
+							дерева
+						</span>
+					</>
+				)}
+				<div className="image">
+					<div className={`gender-line ${gender}`}></div>
+					<div className="photo">
+						{photo ? (
+							<img
+								src={photo}
+								alt={`${surname ? surname : ''} ${name ? name : ''} ${patronymic ? patronymic : ''}`}
+								className={dead ? 'dead' : ''}
+							/>
+						) : (
+							'НЕМАЄ ФОТО'
+						)}
+					</div>
+					{dead && <div className="black-line"></div>}
+				</div>
+				<div className="info">
+					{surname ? surname : ''}
+					{maidenName ? (
+						<>
+							{surname && <br />}({maidenName})
+						</>
+					) : (
+						''
+					)}
+					{name ? (
+						<>
+							{(surname || maidenName) && <br />}
+							{name}
+						</>
+					) : (
+						''
+					)}
+					{patronymic ? (
+						<>
+							{(surname || name) && <br />}
+							{patronymic}
+						</>
+					) : (
+						''
+					)}
+					{dateOfBirth ? (
+						<>
+							{(surname || name || patronymic) && <br />}
+							{dateOfBirth}
+						</>
+					) : (
+						''
+					)}
+					{dead && dateOfDeath ? (
+						<>
+							{(surname || name || patronymic) && dateOfBirth.length > 7 && <br />}
+							{dateOfBirth.length > 7 ? `- ${dateOfDeath}` : ` - ${dateOfDeath}`}
+						</>
+					) : (
+						''
+					)}
+				</div>
+			</div>
+		</div>
+	)
+}
+
+export default Person
