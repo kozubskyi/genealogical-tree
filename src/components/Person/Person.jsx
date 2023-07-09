@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom'
 import { Icon } from '@iconify/react'
 import './Person.css'
 import data from '../../data'
+import constants from '../../constants'
+const { DEFAULT_URL } = constants
 // import Margin from '../Margin/Margin'
 
 const Person = props => {
@@ -129,7 +131,7 @@ const Person = props => {
 			<div className={`line spouse${setSpouseLineClasses()}`}></div>
 			{children.length > 0 && <div className={`line children-line`} style={setChildrenLineStyles()}></div>}
 
-			{/* <NavLink to={`/person/${id}`} className="person-link"> */}
+			{/* <NavLink to={DEFAULT_URL + `/person/${id}`} className="person-link"> */}
 			<div className="person-link">
 				{status === 'creator' && (
 					<>
