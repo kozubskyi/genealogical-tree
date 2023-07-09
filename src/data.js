@@ -5763,7 +5763,7 @@ const data = [
 		photo: require('./photos/Козубський Денис Ігорович.jpg'),
 		gender: 'male',
 		status: 'creator',
-		dateOfBirth: '36.07.1993',
+		dateOfBirth: '26.07.1993',
 		placeOfBirth: 'м. Київ',
 		dead: false,
 		dateOfDeath: null,

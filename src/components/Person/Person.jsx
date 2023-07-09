@@ -129,8 +129,8 @@ const Person = props => {
 			<div className={`line spouse${setSpouseLineClasses()}`}></div>
 			{children.length > 0 && <div className={`line children-line`} style={setChildrenLineStyles()}></div>}
 
-			<NavLink to={`/person/${id}`} className="person-link">
-				{/* <div className="person-link"> */}
+			{/* <NavLink to={`/person/${id}`} className="person-link"> */}
+			<div className="person-link">
 				{status === 'creator' && (
 					<>
 						<Icon icon="noto:star" fontSize={32} className="creator-icon" />
@@ -198,8 +198,8 @@ const Person = props => {
 						''
 					)}
 				</div>
-				{/* </div> */}
-			</NavLink>
+			</div>
+			{/* </NavLink> */}
 		</div>
 	)
 }

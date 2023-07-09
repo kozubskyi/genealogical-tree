@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './Tree.css'
+import ZoomButtons from '../ZoomButtons/ZoomButtons'
 import Person from '../Person/Person'
 import Margin from '../Margin/Margin'
 import data from '../../data'
@@ -22,10 +23,7 @@ const Tree = () => {
 
 	return (
 		<>
-			{/* <div style={{ position: 'absolute' }}>
-				<button onClick={() => scale < 1 && setScale(prev => prev * 1.186)}>+</button>
-				<button onClick={() => scale > scaleMinValue && setScale(prev => prev / 1.186)}>-</button>
-			</div> */}
+			<ZoomButtons scale={scale} setScale={ setScale} scaleMinValue={scaleMinValue} />
 			<div
 				className="Tree"
 				style={{ transform: `matrix(${scale}, 0, 0, ${scale}, 0, 0)` }}

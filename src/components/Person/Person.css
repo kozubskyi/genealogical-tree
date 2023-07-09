@@ -28,6 +28,7 @@
 .Person .person-link:hover,
 .Person .person-link:focus {
 	background-color: rgba(0, 0, 0, 0.05);
+	/* outline: none; */
 }
 
 .Person .image {
@@ -167,8 +168,8 @@
 
 .Person .creator-icon {
 	position: absolute;
-	right: -8.5px;
-	top: -8.5px;
+	right: -7.5px;
+	top: -7.5px;
 	z-index: 3;
 }
 
@@ -177,7 +178,7 @@
 	text-align: center;
 	position: absolute;
 	top: -60px;
-	right: -26px;
+	right: -25px;
 	border: 1px solid silver;
 	border-radius: 8px;
 	/* background-color: rgb(230, 230, 230); */
@@ -186,6 +187,7 @@
 	z-index: 4;
 }
 
-.Person .creator-icon:hover + span {
+.Person .person-link:hover .creator-icon + span,
+.Person .person-link:focus .creator-icon + span {
 	display: block;
 }
