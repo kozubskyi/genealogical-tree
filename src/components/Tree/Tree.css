@@ -1,7 +1,11 @@
 .Tree {
-	margin: 20px;
+	margin-top: 5px;
 	width: max-content;
 	position: relative;
+	/* width: 6443px;
+	height: 2088px;
+	border: 1px solid red; */
+	transition: transform 0.2s ease-in-out;
 }
 
 .Tree .generation {

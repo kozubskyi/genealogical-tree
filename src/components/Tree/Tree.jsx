@@ -1,19 +1,41 @@
-// import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './Tree.css'
 import Person from '../Person/Person'
 import Margin from '../Margin/Margin'
 import data from '../../data'
 
 const Tree = () => {
-	// const [scale, setScale] = useState(1)
+	const scaleMinValue = window.innerHeight / 2150
+
+	const [scale, setScale] = useState(scaleMinValue)
+	// const [mouseDown, setMouseDown] = useState(false)
+
+	// useEffect(() => {
+	// 	const onScroll = evt => {
+	// 		console.log({ evt, window })
+	// 	}
+
+	// 	window.addEventListener('scroll', onScroll)
+
+	// 	return () => window.removeEventListener('scroll', onScroll)
+	// }, [])
 
 	return (
-		// <div className="Tree" style={{ transform: `scale(${scale})` }}>
-		<div className="Tree">
-			{data.map(person => (
-				<Person key={person.id} {...person} />
-			))}
-			{/* <div className="generation">
+		<>
+			{/* <div style={{ position: 'absolute' }}>
+				<button onClick={() => scale < 1 && setScale(prev => prev * 1.186)}>+</button>
+				<button onClick={() => scale > scaleMinValue && setScale(prev => prev / 1.186)}>-</button>
+			</div> */}
+			<div
+				className="Tree"
+				style={{ transform: `matrix(${scale}, 0, 0, ${scale}, 0, 0)` }}
+				// onMouseDown={evt => console.log({ evt })}
+			>
+				{data.map(person => (
+					<Person key={person.id} {...person} />
+				))}
+
+				{/* <div className="generation">
 				<Margin size={4.5} />
 				<Person gender="female" status="spouse of relative" dead />
 				<Person gender="male" status="relative" surname="Корінь" dead />
@@ -1318,7 +1340,8 @@ const Tree = () => {
 				<Margin size={7} />
 				<Person />
 			</div> */}
-		</div>
+			</div>
+		</>
 	)
 }
 
