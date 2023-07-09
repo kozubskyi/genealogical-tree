@@ -2736,7 +2736,7 @@ const data = [
 	},
 	{
 		id: '3-50',
-		surname: 'Жорницька',
+		surname: 'Жорницька Щербеньова',
 		maidenName: null,
 		name: 'Тетяна',
 		patronymic: 'Миколаївна',
@@ -2752,7 +2752,9 @@ const data = [
 		nationality: undefined,
 		phone: null,
 		email: null,
-		socialNetworks: null,
+		socialNetworks: {
+			facebook: 'https://www.facebook.com/profile.php?id=100034350588444',
+		},
 		parents: {
 			mother: '2-26',
 			father: '2-25',
@@ -2768,7 +2770,7 @@ const data = [
 	},
 	{
 		id: '3-51',
-		surname: 'Щербенєв',
+		surname: 'Щербеньов',
 		maidenName: null,
 		name: 'Анатолій',
 		patronymic: 'Павлович',
@@ -4503,7 +4505,7 @@ const data = [
 	},
 	{
 		id: '4-56',
-		surname: 'Щербенєва',
+		surname: 'Щербеньова',
 		maidenName: undefined,
 		name: undefined,
 		patronymic: undefined,
@@ -4535,7 +4537,7 @@ const data = [
 	},
 	{
 		id: '4-57',
-		surname: 'Щербенєв',
+		surname: 'Щербеньов',
 		maidenName: null,
 		name: 'Максим',
 		patronymic: 'Анатолійович',
@@ -4551,7 +4553,9 @@ const data = [
 		nationality: undefined,
 		phone: undefined,
 		email: undefined,
-		socialNetworks: null,
+		socialNetworks: {
+			facebook: 'https://www.facebook.com/profile.php?id=100011734742791',
+		},
 		parents: {
 			mother: '3-50',
 			father: '3-51',
@@ -4567,7 +4571,7 @@ const data = [
 	},
 	{
 		id: '4-58',
-		surname: 'Щербенєв',
+		surname: 'Щербеньов',
 		maidenName: null,
 		name: 'Павло',
 		patronymic: 'Анатолійович',
@@ -5085,10 +5089,10 @@ const data = [
 		maidenName: null,
 		name: 'Андрій',
 		patronymic: undefined,
-		photo: null,
+		photo: require('./photos/Степура Андрій.jpg'),
 		gender: 'male',
 		status: 'spouse of relative',
-		dateOfBirth: undefined,
+		dateOfBirth: '12.03.1975',
 		placeOfBirth: undefined,
 		dead: false,
 		dateOfDeath: undefined,
@@ -5772,7 +5776,9 @@ const data = [
 		nationality: 'Україна',
 		phone: '+380991050088',
 		email: 'denys.kozubskyi@gmail.com',
-		socialNetworks: null,
+		socialNetworks: {
+			facebook: 'https://www.facebook.com/k0zubskyi/',
+		},
 		parents: {
 			mother: '4-41',
 			father: '4-42',
