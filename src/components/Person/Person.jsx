@@ -19,6 +19,7 @@ const Person = props => {
 		dead = false,
 		dateOfDeath,
 		parents = { mother: undefined, father: undefined },
+		brothersAndSisters,
 		spouse,
 		children,
 		position,
@@ -36,7 +37,26 @@ const Person = props => {
 
 		const parentsArray = data.filter(person => person.id === parents.mother || person.id === parents.father)
 
-		if (!parentsArray.length) return { left: '50%', borderLeft: border }
+		if (parentsArray.length === 0) {
+			const brothersAndSistersArray = data.filter(person => brothersAndSisters.includes(person.id))
+
+			if (brothersAndSistersArray.length === 0) return { left: '50%', borderLeft: border }
+
+			const lastBrotherOrSisterPlace = brothersAndSistersArray.at(-1).position.place
+
+			if (position.place > lastBrotherOrSisterPlace) {
+				styles.right = '49.5%'
+				styles.borderRight = border
+				styles.width = position.place * 114 - lastBrotherOrSisterPlace * 114 + 1
+			} else {
+				styles.left = '49.5%'
+				styles.borderLeft = border
+				styles.width = lastBrotherOrSisterPlace * 114 - position.place * 114 + 1
+			}
+			styles.borderTop = border
+
+			return styles
+		}
 
 		let parentsMid
 
@@ -109,8 +129,8 @@ const Person = props => {
 			<div className={`line spouse${setSpouseLineClasses()}`}></div>
 			{children.length > 0 && <div className={`line children-line`} style={setChildrenLineStyles()}></div>}
 
-			{/* <NavLink to={`/person/${id}`} className="person-link"> */}
-			<div className="person-link">
+			<NavLink to={`/person/${id}`} className="person-link">
+				{/* <div className="person-link"> */}
 				{status === 'creator' && (
 					<>
 						<Icon icon="noto:star" fontSize={32} className="creator-icon" />
@@ -178,7 +198,8 @@ const Person = props => {
 						''
 					)}
 				</div>
-			</div>
+				{/* </div> */}
+			</NavLink>
 		</div>
 	)
 }
