@@ -7,7 +7,11 @@
 }
 
 .ZoomButtons button {
-	display: inline-block;
+	font: inherit;
+	font-size: 22px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
 	border-top: 1px solid silver;
 	border-bottom: 1px solid silver;
 	border-left: 0.5px solid silver;
@@ -15,9 +19,9 @@
 	background-color: white;
 	color: black;
 	margin: 0;
-	padding: 4px;
+	padding: 0 0 4px 0;
 	cursor: pointer;
-	width: 24.8px;
+	width: 32px;
 }
 .ZoomButtons button:hover {
 	background-color: rgb(240, 240, 240);
