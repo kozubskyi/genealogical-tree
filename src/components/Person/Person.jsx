@@ -42,7 +42,7 @@ const Person = props => {
 
 			if (brothersAndSistersArray.length === 0) return { left: '50%', borderLeft: border }
 
-			const lastBrotherOrSisterPlace = brothersAndSistersArray.at(-1).position.place
+			const lastBrotherOrSisterPlace = brothersAndSistersArray.slice(-1)[0].position.place
 
 			if (position.place > lastBrotherOrSisterPlace) {
 				styles.right = '49.5%'
