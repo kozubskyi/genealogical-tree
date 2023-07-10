@@ -1,11 +1,5 @@
-.zoom-buttons {
-	position: fixed;
-	top: 20px;
-	right: 20px;
-}
-
 .Tree {
-	margin-top: 5px;
+	margin: 10px;
 	width: max-content;
 	position: relative;
 	/* width: 6443px;
@@ -14,7 +8,43 @@
 	transition: transform 0.2s ease-in-out;
 }
 
-.Tree .generation {
+/* .Tree .generation {
 	display: flex;
 	align-items: flex-start;
+} */
+
+.Tree .branch-line {
+	border-left: 1px solid rgba(0, 0, 0, 0.2);
+	position: absolute;
+	height: 2060px;
+	width: 1800px;
+	left: 4458px;
+	top: 0;
+	bottom: 0;
+	transform: matrix(1, 0, 0.2, 1, 0, 0);
+}
+
+.Tree .branch-line span {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	top: 120px;
+}
+
+.Tree .branch-line span:nth-child(1) {
+	left: -122px;
+}
+.Tree .branch-line span:nth-child(2) {
+	left: 18px;
+}
+
+.Tree .branch-line .arrow-left,
+.Tree .branch-line .arrow-right {
+	margin-top: 3px;
+}
+.Tree .branch-line .arrow-left {
+	margin-right: 6px;
+}
+.Tree .branch-line .arrow-right {
+	margin-left: 6px;
 }
