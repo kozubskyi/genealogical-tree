@@ -8,11 +8,12 @@ font-family: 'Akrobat Bold', sans-serif;
 font-family: 'Akrobat ExtraBold', sans-serif;
 font-family: 'Akrobat Black', sans-serif;
 */
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
 
 body {
 	margin: 0;
-	font-family: 'Akrobat SemiBold', 'Arial Narrow', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-family: 'Akrobat SemiBold', 'Arial Narrow', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }

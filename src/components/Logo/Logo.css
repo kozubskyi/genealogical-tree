@@ -1,8 +1,8 @@
 .Logo {
 	display: inline-flex;
 	flex-direction: column;
-	/* align-items: center; */
-	font-family: 'Century Gothic', sans-serif;
+	align-items: center;
+	font-family: 'Ysabeau Infant', 'Century Gothic', sans-serif;
 	position: absolute;
 	left: 3200px;
 	top: 100px;
@@ -11,21 +11,22 @@
 
 .Logo span {
 	line-height: 1;
+	font-family: inherit;
 	/* border: 1px solid red; */
 }
 
 .Logo span:nth-child(1) {
-	font-size: 34px;
+	font-size: 32.5px;
 }
 .Logo span:nth-child(2) {
 	font-size: 62px;
 }
 .Logo span:nth-child(3) {
-	font-size: 32px;
+	font-size: 34px;
 }
 .Logo span:nth-child(4) {
-	font-size: 56px;
+	font-size: 57px;
 }
 .Logo span:nth-child(5) {
-	font-size: 43px;
+	font-size: 42.5px;
 }
