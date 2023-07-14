@@ -6,6 +6,7 @@ import Logo from '../Logo/Logo'
 import Person from '../Person/Person'
 // import Margin from '../Margin/Margin'
 import data from '../../data'
+import Info from '../Info/Info'
 
 const Tree = () => {
 	const scaleMinValue = window.innerHeight / 2166
@@ -1339,6 +1340,7 @@ const Tree = () => {
 				<Person />
 			</div> */}
 			</div>
+			<Info />
 		</>
 	)
 }

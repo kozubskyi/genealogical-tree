@@ -3541,9 +3541,10 @@ const data = [
 		nationality: 'українець',
 		phone: null,
 		email: null,
-		socialNetworks: {
-			facebook: 'https://www.facebook.com/profile.php?id=100055865724741',
-		},
+		socialNetworks: null,
+		// socialNetworks: {
+		// 	facebook: 'https://www.facebook.com/profile.php?id=100055865724741',
+		// },
 		parents: {
 			mother: '3-17',
 			father: '3-16',
@@ -3754,6 +3755,7 @@ const data = [
 		email: null,
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/profile.php?id=100006001207936',
+			telegram: 'https://www.t.me/NensiHait',
 		},
 		parents: {
 			mother: '3-20',
@@ -4104,7 +4106,9 @@ const data = [
 		nationality: 'українка',
 		phone: null,
 		email: null,
-		socialNetworks: null,
+		socialNetworks: {
+			telegram: 'https://www.t.me/+380505739556',
+		},
 		parents: {
 			mother: '3-29',
 			father: '3-30',
@@ -4237,7 +4241,9 @@ const data = [
 		nationality: 'українець',
 		phone: null,
 		email: null,
-		socialNetworks: null,
+		socialNetworks: {
+			telegram: 'https://www.t.me/+380506283800',
+		},
 		parents: {
 			mother: undefined,
 			father: undefined,
@@ -4275,6 +4281,7 @@ const data = [
 		email: null,
 		socialNetworks: {
 			instagram: 'https://www.instagram.com/lisnichenkoinna/',
+			telegram: 'https://www.t.me/+380668736928',
 		},
 		parents: {
 			mother: '3-33',
@@ -4311,7 +4318,9 @@ const data = [
 		nationality: 'українка',
 		phone: '+380503850802',
 		email: 'elena.kozubskaya@gmail.com',
-		socialNetworks: null,
+		socialNetworks: {
+			telegram: 'https://www.t.me/k0zubska',
+		},
 		parents: {
 			mother: '3-33',
 			father: '3-32',
@@ -4389,6 +4398,7 @@ const data = [
 		email: undefined,
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/inna.bas.5',
+			telegram: 'https://www.t.me/+380962011149',
 		},
 		parents: {
 			mother: '3-35',
@@ -4428,6 +4438,7 @@ const data = [
 		email: undefined,
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/evgeniy.dembitskiy',
+			telegram: 'https://www.t.me/D_Evgeniy',
 		},
 		parents: {
 			mother: undefined,
@@ -6071,6 +6082,7 @@ const data = [
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/kopansasha',
 			instagram: 'https://www.instagram.com/alex__kopan/',
+			telegram: 'https://www.t.me/OleksandrMaestro',
 		},
 		parents: {
 			mother: '4-33',
