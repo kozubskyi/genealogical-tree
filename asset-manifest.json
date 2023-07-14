@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/genealogical-tree/static/css/main.c4f8b5f8.css",
-    "main.js": "/genealogical-tree/static/js/main.adc9618e.js",
+    "main.css": "/genealogical-tree/static/css/main.f63e0445.css",
+    "main.js": "/genealogical-tree/static/js/main.909dccbe.js",
     "static/media/Корінь Михайло Іванович.JPEG": "/genealogical-tree/static/media/Корінь Михайло Іванович.a073ffe3a0a738074335.JPEG",
     "static/media/Яків.JPEG": "/genealogical-tree/static/media/Яків.f03fe4c63a11614a8b34.JPEG",
     "static/media/Ярмак Анна Василівна.jpg": "/genealogical-tree/static/media/Ярмак Анна Василівна.01daf8c881ffd3d5b26b.jpg",
@@ -84,21 +84,21 @@
     "static/media/Грималовський (Сирота) Юрій Миколайович.jpg": "/genealogical-tree/static/media/Грималовський (Сирота) Юрій Миколайович.e31013bdf6f7bd43316d.jpg",
     "static/media/Корінь (Поліщук) Зоряна Володимирівна 2.jpg": "/genealogical-tree/static/media/Корінь (Поліщук) Зоряна Володимирівна 2.780ecfa1e88fc4b170b3.jpg",
     "static/media/Корінь Олександр Іванович 2.jpg": "/genealogical-tree/static/media/Корінь Олександр Іванович 2.96302b8fd1d71789e820.jpg",
-    "static/media/Корінь Олександр Олександрович 3.jpg": "/genealogical-tree/static/media/Корінь Олександр Олександрович 3.63ab34f147ceeaa906a5.jpg",
     "static/media/Сердцева Неля Анатоліївна.jpg": "/genealogical-tree/static/media/Сердцева Неля Анатоліївна.4b20586dbc93852f9d83.jpg",
     "static/media/Корінь Маргарита Олександрівна.jpg": "/genealogical-tree/static/media/Корінь Маргарита Олександрівна.8b662f6ed5bbfddcb196.jpg",
     "static/media/Козубська (Лісніченко) Олена Миколаївна.jpg": "/genealogical-tree/static/media/Козубська (Лісніченко) Олена Миколаївна.a96be92fb8649dc6b39b.jpg",
+    "static/media/Корінь Олександр Олександрович.jpg": "/genealogical-tree/static/media/Корінь Олександр Олександрович.b4a09f1b88af77ddf46e.jpg",
     "static/media/Корінь Божена Олександрівна.jpg": "/genealogical-tree/static/media/Корінь Божена Олександрівна.ccd3591b503ff80127e1.jpg",
     "static/media/Сердцев Єгор Артемович.JPG": "/genealogical-tree/static/media/Сердцев Єгор Артемович.dc9e591cc1ac08f4d430.JPG",
     "static/media/Ульянічева (Шпирко) Людмила Іванівна.jpg": "/genealogical-tree/static/media/Ульянічева (Шпирко) Людмила Іванівна.491d70504c84478b2523.jpg",
     "static/media/Гоголь (Сердцева) Ніна Анатоліївна.jpg": "/genealogical-tree/static/media/Гоголь (Сердцева) Ніна Анатоліївна.12323634bc0934506bc3.jpg",
     "static/media/Баранов Анатолій Андрійович.jpg": "/genealogical-tree/static/media/Баранов Анатолій Андрійович.cee7125d96cc69089905.jpg",
     "index.html": "/genealogical-tree/index.html",
-    "main.c4f8b5f8.css.map": "/genealogical-tree/static/css/main.c4f8b5f8.css.map",
-    "main.adc9618e.js.map": "/genealogical-tree/static/js/main.adc9618e.js.map"
+    "main.f63e0445.css.map": "/genealogical-tree/static/css/main.f63e0445.css.map",
+    "main.909dccbe.js.map": "/genealogical-tree/static/js/main.909dccbe.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4f8b5f8.css",
-    "static/js/main.adc9618e.js"
+    "static/css/main.f63e0445.css",
+    "static/js/main.909dccbe.js"
   ]
 }
