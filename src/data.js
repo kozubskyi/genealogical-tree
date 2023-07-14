@@ -6623,7 +6623,7 @@ const data = [
 		maidenName: null,
 		name: 'Ілля',
 		patronymic: 'Вадимович',
-		photo: require('./photos/Ярмак Ілля Вадимович.jpg'),
+		photo: require('./photos/Ярмак Ілля Вадимович 2.jpg'),
 		gender: 'male',
 		status: 'relative',
 		dateOfBirth: '18.12.2007',
@@ -6641,6 +6641,7 @@ const data = [
 		email: null,
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/profile.php?id=100027050149185',
+			instagram: 'https://www.instagram.com/yarmak_ilia/',
 		},
 		parents: {
 			mother: '5-21',
