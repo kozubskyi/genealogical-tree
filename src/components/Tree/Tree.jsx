@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Icon } from '@iconify/react'
 import './Tree.css'
 import ZoomButtons from '../ZoomButtons/ZoomButtons'
@@ -11,17 +11,6 @@ const Tree = () => {
 	const scaleMinValue = window.innerHeight / 2166
 
 	const [scale, setScale] = useState(scaleMinValue)
-	// const [mouseDown, setMouseDown] = useState(false)
-
-	// useEffect(() => {
-	// 	const onScroll = evt => {
-	// 		console.log({ evt, window })
-	// 	}
-
-	// 	window.addEventListener('scroll', onScroll)
-
-	// 	return () => window.removeEventListener('scroll', onScroll)
-	// }, [])
 
 	return (
 		<>

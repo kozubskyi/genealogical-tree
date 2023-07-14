@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import './App.css'
 import { TreePage, PersonPage, MapPage } from './pages'
