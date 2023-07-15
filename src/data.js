@@ -765,7 +765,7 @@ const data = [
 		maidenName: null,
 		name: "Дем'ян",
 		patronymic: 'Семенович',
-		photo: null,
+		photo: require("./photos/Корінь Дем'ян Семенович.jpg"),
 		gender: 'male',
 		status: 'relative',
 		dateOfBirth: undefined,
