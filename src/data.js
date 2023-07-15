@@ -135,7 +135,7 @@ const data = [
 	},
 	{
 		id: '1-5',
-		surname: 'Корень',
+		surname: 'Корінь',
 		maidenName: null,
 		name: 'Карп',
 		patronymic: undefined,
@@ -169,7 +169,7 @@ const data = [
 	},
 	{
 		id: '1-6',
-		surname: 'Корень',
+		surname: 'Корінь',
 		maidenName: undefined,
 		name: 'Марфа',
 		patronymic: undefined,
@@ -469,7 +469,7 @@ const data = [
 	},
 	{
 		id: '2-3',
-		surname: 'Корень',
+		surname: 'Корінь',
 		maidenName: undefined,
 		name: 'Серафима',
 		patronymic: undefined,
@@ -501,7 +501,7 @@ const data = [
 	},
 	{
 		id: '2-4',
-		surname: 'Корень',
+		surname: 'Корінь',
 		maidenName: null,
 		name: 'Федір',
 		patronymic: 'Карпович',
@@ -534,7 +534,7 @@ const data = [
 	},
 	{
 		id: '2-5',
-		surname: 'Корень',
+		surname: 'Корінь',
 		maidenName: undefined,
 		name: 'Наталія',
 		patronymic: undefined,
@@ -566,7 +566,7 @@ const data = [
 	},
 	{
 		id: '2-6',
-		surname: 'Корень',
+		surname: 'Корінь',
 		maidenName: null,
 		name: 'Василь',
 		patronymic: 'Карпович',
@@ -1367,7 +1367,7 @@ const data = [
 	{
 		id: '3-4',
 		surname: 'Матлак',
-		maidenName: 'Корень',
+		maidenName: 'Корінь',
 		name: 'Любов',
 		patronymic: 'Федорівна',
 		photo: null,
@@ -1398,7 +1398,7 @@ const data = [
 	},
 	{
 		id: '3-5',
-		surname: 'Корень',
+		surname: 'Корінь',
 		maidenName: null,
 		name: 'Андрій',
 		patronymic: 'Федорович',
@@ -1411,7 +1411,7 @@ const data = [
 		dateOfDeath: '09.1943',
 		placeOfDeath: undefined,
 		address: {
-			value: 'Братська могила меморіалу Слави у міському парку м. Бориспіль',
+			value: 'Можливо Братська могила меморіалу Слави у міському парку м. Бориспіль',
 			link: 'https://www.google.com/maps/place/Memorial+Slavy/@50.3538811,30.9466252,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4e8a4e4fe0069:0x508463e778cf0bf1!8m2!3d50.3538777!4d30.9492001!16s%2Fg%2F11g6bdwlg_?authuser=0&entry=ttu',
 		},
 		nationality: 'українець',
@@ -1426,6 +1426,9 @@ const data = [
 		children: [],
 		spouse: null,
 		kinship: '3-юрідний дід, а Денис - 2-юрідний онуковий племінник (3-юрідний онук)',
+		biography: [
+			'Можливо загинув у вересні 1943-го року разом з дядьком та двоюрідними братами під час відступу німців з Борисполя у часи Другої світової війни. Інформаія не точна оскільки взята з меморіалу Слави де було вказано: "Корінь А.Ф.", проте є досить велика вірогідність, що це зовсім інша людина.',
+		],
 		position: {
 			generation: 3,
 			place: 6.5,
