@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/genealogical-tree/static/css/main.d041f8d4.css",
-    "main.js": "/genealogical-tree/static/js/main.26ae4ce0.js",
+    "main.js": "/genealogical-tree/static/js/main.6bb6b4ad.js",
     "static/media/Корінь Михайло Іванович.JPEG": "/genealogical-tree/static/media/Корінь Михайло Іванович.a073ffe3a0a738074335.JPEG",
     "static/media/Яків.JPEG": "/genealogical-tree/static/media/Яків.f03fe4c63a11614a8b34.JPEG",
     "static/media/Ярмак Анна Василівна.jpg": "/genealogical-tree/static/media/Ярмак Анна Василівна.01daf8c881ffd3d5b26b.jpg",
@@ -36,6 +36,7 @@
     "static/media/Басанько Інна Михайлівна.jpg": "/genealogical-tree/static/media/Басанько Інна Михайлівна.34cfc2fb88adfbf6fdaa.jpg",
     "static/media/Міхєєва (Корінь) Марія Іванівна.jpg": "/genealogical-tree/static/media/Міхєєва (Корінь) Марія Іванівна.1486d2aafb84cee943f7.jpg",
     "static/media/Козубський Ігор Юрійович.jpg": "/genealogical-tree/static/media/Козубський Ігор Юрійович.ddb0baf4cae51608040d.jpg",
+    "static/media/Корінь Дем'ян Семенович.jpg": "/genealogical-tree/static/media/Корінь Дем'ян Семенович.015443ae2a2da0d72a8c.jpg",
     "static/media/Корінь Іван Семенович.jpg": "/genealogical-tree/static/media/Корінь Іван Семенович.727302a0b04f45596b10.jpg",
     "static/media/Сердцев Анатолій (Антип) Гур'янович.jpg": "/genealogical-tree/static/media/Сердцев Анатолій (Антип) Гур'янович.99314124e6774ce55fe6.jpg",
     "static/media/Дембицький Євгеній Михайлович.JPG": "/genealogical-tree/static/media/Дембицький Євгеній Михайлович.ec01a266671f19039b59.JPG",
@@ -94,10 +95,10 @@
     "static/media/Баранов Анатолій Андрійович.jpg": "/genealogical-tree/static/media/Баранов Анатолій Андрійович.cee7125d96cc69089905.jpg",
     "index.html": "/genealogical-tree/index.html",
     "main.d041f8d4.css.map": "/genealogical-tree/static/css/main.d041f8d4.css.map",
-    "main.26ae4ce0.js.map": "/genealogical-tree/static/js/main.26ae4ce0.js.map"
+    "main.6bb6b4ad.js.map": "/genealogical-tree/static/js/main.6bb6b4ad.js.map"
   },
   "entrypoints": [
     "static/css/main.d041f8d4.css",
-    "static/js/main.26ae4ce0.js"
+    "static/js/main.6bb6b4ad.js"
   ]
 }
