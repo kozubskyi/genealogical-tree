@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/genealogical-tree/static/css/main.d041f8d4.css",
-    "main.js": "/genealogical-tree/static/js/main.6bb6b4ad.js",
+    "main.js": "/genealogical-tree/static/js/main.a08bda31.js",
     "static/media/Корінь Михайло Іванович.JPEG": "/genealogical-tree/static/media/Корінь Михайло Іванович.a073ffe3a0a738074335.JPEG",
     "static/media/Яків.JPEG": "/genealogical-tree/static/media/Яків.f03fe4c63a11614a8b34.JPEG",
     "static/media/Ярмак Анна Василівна.jpg": "/genealogical-tree/static/media/Ярмак Анна Василівна.01daf8c881ffd3d5b26b.jpg",
@@ -95,10 +95,10 @@
     "static/media/Баранов Анатолій Андрійович.jpg": "/genealogical-tree/static/media/Баранов Анатолій Андрійович.cee7125d96cc69089905.jpg",
     "index.html": "/genealogical-tree/index.html",
     "main.d041f8d4.css.map": "/genealogical-tree/static/css/main.d041f8d4.css.map",
-    "main.6bb6b4ad.js.map": "/genealogical-tree/static/js/main.6bb6b4ad.js.map"
+    "main.a08bda31.js.map": "/genealogical-tree/static/js/main.a08bda31.js.map"
   },
   "entrypoints": [
     "static/css/main.d041f8d4.css",
-    "static/js/main.6bb6b4ad.js"
+    "static/js/main.a08bda31.js"
   ]
 }
