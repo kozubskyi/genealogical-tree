@@ -3714,9 +3714,12 @@ const data = [
 		dateOfBirth: '15.03.1957',
 		placeOfBirth: 'м. Бориспіль',
 		dead: true,
-		dateOfDeath: '25.12.2014',
+		dateOfDeath: '27.12.2014',
 		placeOfDeath: 'м. Бориспіль',
-		address: { value: undefined, link: undefined },
+		address: {
+			value: 'Бориспільське міське (Рогозівське) кладовище',
+			link: 'https://www.google.com/maps/place/Mis%CA%B9ke+Kladovyshche/@50.331533,30.9711943,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4ef38edc17eef:0x6bbd17cbcf4b7eda!8m2!3d50.3315296!4d30.9737692!16s%2Fg%2F11c3v6zl99?authuser=0&entry=ttu',
+		},
 		nationality: 'українка',
 		phone: null,
 		email: null,
@@ -5575,7 +5578,7 @@ const data = [
 			// value: 'м. Бориспіль, вул. Садова, ?',
 			link: 'https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%A1%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F,+%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+08300/@50.353447,30.939759,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4e8bcca415e4f:0xaf25f6dde50ac1bc!8m2!3d50.3534436!4d30.9423339!16s%2Fg%2F1v3_15tl?authuser=0&entry=ttu',
 		},
-		nationality: undefined,
+		nationality: 'українець',
 		phone: null,
 		email: null,
 		socialNetworks: {
