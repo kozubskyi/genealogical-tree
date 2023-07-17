@@ -6671,7 +6671,7 @@ const data = [
 		photo: require('./photos/Ярмак Анна Василівна.jpg'),
 		gender: 'female',
 		status: 'relative',
-		dateOfBirth: '12.02.2014',
+		dateOfBirth: '12.02.2013',
 		placeOfBirth: 'м. Бориспіль',
 		dead: false,
 		dateOfDeath: null,
