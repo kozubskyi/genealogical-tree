@@ -4287,6 +4287,7 @@ const data = [
 		email: null,
 		socialNetworks: {
 			instagram: 'https://www.instagram.com/lisnichenkoinna/',
+			facebook: 'https://www.facebook.com/profile.php?id=100011370768931',
 			telegram: 'https://www.t.me/+380668736928',
 		},
 		parents: {
