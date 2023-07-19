@@ -2151,7 +2151,7 @@ const data = [
 		dateOfDeath: '09.03.2018',
 		placeOfDeath: undefined,
 		address: {
-			value: 'Бориспільське міське (Рогозівське) кладовище, сектор ?, ряд ?, місце ?',
+			value: 'Бориспільське міське (Рогозівське) кладовище, сектор 3, ряд 5, місце ?',
 			link: 'https://www.google.com/maps/place/Mis%CA%B9ke+Kladovyshche/@50.331533,30.9711943,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4ef38edc17eef:0x6bbd17cbcf4b7eda!8m2!3d50.3315296!4d30.9737692!16s%2Fg%2F11c3v6zl99?authuser=0&entry=ttu',
 		},
 		nationality: 'українець',
@@ -2186,7 +2186,7 @@ const data = [
 		dateOfDeath: '24.06.1978',
 		placeOfDeath: undefined,
 		address: {
-			value: 'Бориспільське міське (Рогозівське) кладовище, сектор ?, ряд ?, місце ?',
+			value: 'Бориспільське міське (Рогозівське) кладовище, сектор 3, ряд 5, місце ?',
 			link: 'https://www.google.com/maps/place/Mis%CA%B9ke+Kladovyshche/@50.331533,30.9711943,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4ef38edc17eef:0x6bbd17cbcf4b7eda!8m2!3d50.3315296!4d30.9737692!16s%2Fg%2F11c3v6zl99?authuser=0&entry=ttu',
 		},
 		nationality: 'українка',
