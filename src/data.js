@@ -3337,7 +3337,7 @@ const data = [
 		photo: null,
 		gender: 'female',
 		status: 'relative',
-		dateOfBirth: '?.03.?',
+		dateOfBirth: '?.03.1962',
 		placeOfBirth: undefined,
 		dead: false,
 		dateOfDeath: undefined,
