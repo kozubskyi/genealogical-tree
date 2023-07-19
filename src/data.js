@@ -2138,7 +2138,7 @@ const data = [
 	},
 	{
 		id: '3-27',
-		surname: 'Корінь',
+		surname: 'Корень',
 		maidenName: null,
 		name: 'Микола',
 		patronymic: 'Іванович',
@@ -2150,7 +2150,10 @@ const data = [
 		dead: true,
 		dateOfDeath: '09.03.2018',
 		placeOfDeath: undefined,
-		address: { value: undefined, link: undefined },
+		address: {
+			value: 'Бориспільське міське (Рогозівське) кладовище, сектор ?, ряд ?, місце ?',
+			link: 'https://www.google.com/maps/place/Mis%CA%B9ke+Kladovyshche/@50.331533,30.9711943,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4ef38edc17eef:0x6bbd17cbcf4b7eda!8m2!3d50.3315296!4d30.9737692!16s%2Fg%2F11c3v6zl99?authuser=0&entry=ttu',
+		},
 		nationality: 'українець',
 		phone: null,
 		email: null,
@@ -2170,8 +2173,8 @@ const data = [
 	},
 	{
 		id: '3-28',
-		surname: 'Корінь',
-		maidenName: undefined,
+		surname: 'Корень',
+		maidenName: 'Маско',
 		name: 'Анна (Галина)',
 		patronymic: 'Іванівна',
 		photo: require('./photos/Корінь Анна (Галина) Іванівна.jpg'),
@@ -2182,7 +2185,10 @@ const data = [
 		dead: true,
 		dateOfDeath: '24.06.1978',
 		placeOfDeath: undefined,
-		address: { value: undefined, link: undefined },
+		address: {
+			value: 'Бориспільське міське (Рогозівське) кладовище, сектор ?, ряд ?, місце ?',
+			link: 'https://www.google.com/maps/place/Mis%CA%B9ke+Kladovyshche/@50.331533,30.9711943,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4ef38edc17eef:0x6bbd17cbcf4b7eda!8m2!3d50.3315296!4d30.9737692!16s%2Fg%2F11c3v6zl99?authuser=0&entry=ttu',
+		},
 		nationality: 'українка',
 		phone: null,
 		email: null,
@@ -3917,7 +3923,7 @@ const data = [
 	{
 		id: '4-28',
 		surname: 'Бердник',
-		maidenName: 'Корінь',
+		maidenName: 'Корень',
 		name: 'Ольга',
 		patronymic: 'Миколаївна',
 		photo: require('./photos/Бердник (Корінь) Ольга Миколаївна.jpg'),
@@ -3988,7 +3994,7 @@ const data = [
 	},
 	{
 		id: '4-30',
-		surname: 'Корінь',
+		surname: 'Корень',
 		maidenName: null,
 		name: 'Валентин',
 		patronymic: 'Миколайович',
@@ -4024,7 +4030,7 @@ const data = [
 	{
 		id: '4-31',
 		surname: 'Паніна',
-		maidenName: 'Корінь',
+		maidenName: 'Корень',
 		name: 'Любов',
 		patronymic: 'Миколаївна',
 		photo: require('./photos/Паніна (Корінь) Любов Миколаївна.jpg'),
