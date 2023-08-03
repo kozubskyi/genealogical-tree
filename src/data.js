@@ -3703,6 +3703,7 @@ const data = [
 		email: null,
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/profile.php?id=100039156458958',
+			instagram: 'https://www.instagram.com/serdtsev_petr',
 		},
 		parents: {
 			mother: '3-20',
@@ -3775,6 +3776,7 @@ const data = [
 		phone: null,
 		email: null,
 		socialNetworks: {
+			instagram: 'https://www.instagram.com/nelyaserdtceva',
 			facebook: 'https://www.facebook.com/profile.php?id=100006001207936',
 			telegram: 'https://www.t.me/NensiHait',
 		},
@@ -5529,6 +5531,7 @@ const data = [
 		email: null,
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/profile.php?id=100004251310062',
+			instagram: 'https://www.instagram.com/serdtsev.artem',
 		},
 		parents: {
 			mother: '4-20',
@@ -5824,6 +5827,7 @@ const data = [
 		email: null,
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/profile.php?id=100064067342916',
+			instagram: 'https://www.instagram.com/oleksandr.korin',
 		},
 		parents: {
 			mother: '4-27',

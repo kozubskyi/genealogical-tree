@@ -1,6 +1,6 @@
 {
 	"name": "genealogical-tree",
-	"version": "0.1.20",
+	"version": "0.1.21",
 	"homepage": "https://kozubskyi.github.io/genealogical-tree",
 	"private": true,
 	"dependencies": {
