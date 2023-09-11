@@ -5844,8 +5844,8 @@ const data = [
 	},
 	{
 		id: '5-26',
-		surname: undefined,
-		maidenName: 'Корінь',
+		surname: 'Корінь',
+		maidenName: null,
 		name: 'Маргарита',
 		patronymic: 'Олександрівна',
 		photo: require('./photos/Корінь Маргарита Олександрівна.jpg'),
@@ -5865,7 +5865,9 @@ const data = [
 		nationality: 'українка',
 		phone: null,
 		email: null,
-		socialNetworks: null,
+		socialNetworks: {
+			facebook: 'https://www.facebook.com/profile.php?id=100007435665079',
+		},
 		parents: {
 			mother: '4-27',
 			father: '4-26',
