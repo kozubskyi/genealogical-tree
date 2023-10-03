@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/genealogical-tree/static/css/main.d041f8d4.css",
-    "main.js": "/genealogical-tree/static/js/main.c816a0c9.js",
+    "main.css": "/genealogical-tree/static/css/main.7f3caa7c.css",
+    "main.js": "/genealogical-tree/static/js/main.981a2bad.js",
     "static/media/Корінь Михайло Іванович.JPEG": "/genealogical-tree/static/media/Корінь Михайло Іванович.a073ffe3a0a738074335.JPEG",
     "static/media/Яків.JPEG": "/genealogical-tree/static/media/Яків.f03fe4c63a11614a8b34.JPEG",
     "static/media/Ярмак Анна Василівна.jpg": "/genealogical-tree/static/media/Ярмак Анна Василівна.01daf8c881ffd3d5b26b.jpg",
@@ -25,11 +25,10 @@
     "static/media/Жорницький Євгеній Миколайович.jpg": "/genealogical-tree/static/media/Жорницький Євгеній Миколайович.f437d6bc66176f6a84f0.jpg",
     "static/media/Ульянічев Юрій Андрійович.JPG": "/genealogical-tree/static/media/Ульянічев Юрій Андрійович.1e35a920042fbdf4083d.JPG",
     "static/media/Грималовська Альона Петрівна.JPG": "/genealogical-tree/static/media/Грималовська Альона Петрівна.aa35d06719de7f3d72da.JPG",
-    "static/media/Щербенєв Павло Анатолійович.jpg": "/genealogical-tree/static/media/Щербенєв Павло Анатолійович.fdf662e187907c76561c.jpg",
     "static/media/Лісніченко Микола Никифорович.jpg": "/genealogical-tree/static/media/Лісніченко Микола Никифорович.0608c7104d01ff00eb9b.jpg",
     "static/media/Піскунов Андрій Миколайович.jpg": "/genealogical-tree/static/media/Піскунов Андрій Миколайович.435cce2e2f446204b02e.jpg",
     "static/media/Корень Парасковія Карпівна.jpg": "/genealogical-tree/static/media/Корень Парасковія Карпівна.de11f99fd77305fa4fe1.jpg",
-    "static/media/Щербенєв Максим Анатолійович.jpg": "/genealogical-tree/static/media/Щербенєв Максим Анатолійович.f66524d5fdb2186a16a7.jpg",
+    "static/media/Щербеньов Максим Анатолійович.jpg": "/genealogical-tree/static/media/Щербеньов Максим Анатолійович.f66524d5fdb2186a16a7.jpg",
     "static/media/Трошков Максим Васильович.jpg": "/genealogical-tree/static/media/Трошков Максим Васильович.439814c3ec540b5b408f.jpg",
     "static/media/Баранкова (Капран) Валентина Анатоліївна.jpg": "/genealogical-tree/static/media/Баранкова (Капран) Валентина Анатоліївна.3123da50f72cf20e1fb4.jpg",
     "static/media/Корінь Василь Іванович.jpg": "/genealogical-tree/static/media/Корінь Василь Іванович.9a22247faef4f0517316.jpg",
@@ -70,6 +69,7 @@
     "static/media/Козубський Денис Ігорович.jpg": "/genealogical-tree/static/media/Козубський Денис Ігорович.3b86383e4415ce060d4b.jpg",
     "static/media/(Рак) Олена Олексіївна.PNG": "/genealogical-tree/static/media/(Рак) Олена Олексіївна.da7570e4e113ef6eb5ae.PNG",
     "static/media/Гоголь Євгеній Віталійович.jpg": "/genealogical-tree/static/media/Гоголь Євгеній Віталійович.22212b245cb7b7553886.jpg",
+    "static/media/Щербеньов Павло Анатолійович 2.jpg": "/genealogical-tree/static/media/Щербеньов Павло Анатолійович 2.ce63059b6575daabf89e.jpg",
     "static/media/Степура Андрій.jpg": "/genealogical-tree/static/media/Степура Андрій.8a0d64bbf20515534250.jpg",
     "static/media/Лапко (Жукова) Тетяна Миколаївна.JPG": "/genealogical-tree/static/media/Лапко (Жукова) Тетяна Миколаївна.6d145754092321c3c665.JPG",
     "static/media/Паніна Юлія.jpg": "/genealogical-tree/static/media/Паніна Юлія.6c3cbb83c9c10cbdf961.jpg",
@@ -95,11 +95,11 @@
     "static/media/Гоголь (Сердцева) Ніна Анатоліївна.jpg": "/genealogical-tree/static/media/Гоголь (Сердцева) Ніна Анатоліївна.12323634bc0934506bc3.jpg",
     "static/media/Баранов Анатолій Андрійович.jpg": "/genealogical-tree/static/media/Баранов Анатолій Андрійович.cee7125d96cc69089905.jpg",
     "index.html": "/genealogical-tree/index.html",
-    "main.d041f8d4.css.map": "/genealogical-tree/static/css/main.d041f8d4.css.map",
-    "main.c816a0c9.js.map": "/genealogical-tree/static/js/main.c816a0c9.js.map"
+    "main.7f3caa7c.css.map": "/genealogical-tree/static/css/main.7f3caa7c.css.map",
+    "main.981a2bad.js.map": "/genealogical-tree/static/js/main.981a2bad.js.map"
   },
   "entrypoints": [
-    "static/css/main.d041f8d4.css",
-    "static/js/main.c816a0c9.js"
+    "static/css/main.7f3caa7c.css",
+    "static/js/main.981a2bad.js"
   ]
 }
