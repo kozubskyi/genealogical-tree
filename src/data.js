@@ -312,7 +312,7 @@ const data = [
 		dateOfBirth: '≈1896',
 		placeOfBirth: undefined,
 		dead: true,
-		dateOfDeath: '1900',
+		dateOfDeath: '1990',
 		placeOfDeath: undefined,
 		address: { value: undefined, link: undefined },
 		nationality: 'українка',
