@@ -297,7 +297,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 1,
-			place: 47,
+			place: 47.5,
 		},
 	},
 	{
@@ -330,7 +330,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 1,
-			place: 48,
+			place: 48.5,
 		},
 	},
 	{
@@ -363,7 +363,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 1,
-			place: 49.5,
+			place: 50.5,
 		},
 	},
 	{
@@ -396,7 +396,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 1,
-			place: 51,
+			place: 52.5,
 		},
 	},
 
@@ -1161,9 +1161,11 @@ const data = [
 		kinship: '2-юрідний прадід, а Денис - 2-юрідний праонук',
 		branch: 'Шпирко-Голяк',
 		position: {
+			// generation: 2,
+			// place: 48.5,
+			// line: 2,
 			generation: 2,
-			place: 48.5,
-			line: 2,
+			place: 54,
 		},
 	},
 	{
@@ -1195,9 +1197,11 @@ const data = [
 		kinship: '2-юрідна прабабуся, а Денис - 2-юрідний праонук',
 		branch: 'Шпирко-Голяк',
 		position: {
+			// generation: 2,
+			// place: 49.5,
+			// line: 2,
 			generation: 2,
-			place: 49.5,
-			line: 2,
+			place: 55,
 		},
 	},
 	{
@@ -1229,8 +1233,11 @@ const data = [
 		kinship: '2-юрідний прадід, а Денис - 2-юрідний праонук',
 		branch: 'Шпирко-Голяк',
 		position: {
+			// generation: 2,
+			// place: 52,
 			generation: 2,
-			place: 52,
+			place: 49.5,
+			// line: 2,
 		},
 	},
 	{
@@ -1262,8 +1269,11 @@ const data = [
 		kinship: '2-юрідна прабабуся, а Денис - 2-юрідний праонук',
 		branch: 'Шпирко-Голяк',
 		position: {
+			// generation: 2,
+			// place: 53,
 			generation: 2,
-			place: 53,
+			place: 50.5,
+			// line: 2,
 		},
 	},
 
@@ -2797,7 +2807,8 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 50.5,
+			// place: 50.5,
+			place: 54.5,
 		},
 	},
 	{
@@ -2830,7 +2841,8 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 51.5,
+			// place: 51.5,
+			place: 55.5,
 		},
 	},
 	{
@@ -2866,7 +2878,8 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 52.5,
+			// place: 52.5,
+			place: 50.5,
 		},
 	},
 	{
@@ -2896,13 +2909,14 @@ const data = [
 			father: '2-25',
 		},
 		brothersAndSisters: ['3-50'],
-		children: ['4-52', '4-53'],
+		children: ['4-54', '4-55'],
 		spouse: ['3-47', '3-49'],
 		kinship: '3-юрідний дід, а Денис - 2-юрідний онуковий племінник (3-юрідний онук)',
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 53.5,
+			// place: 53.5,
+			place: 51.5,
 		},
 	},
 	{
@@ -2938,12 +2952,13 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 54.5,
+			// place: 54.5,
+			place: 52.5,
 		},
 	},
 	{
 		id: '3-50',
-		surname: 'Жорницька Щербеньова',
+		surname: 'Жорницька-Щербеньова',
 		maidenName: null,
 		name: 'Тетяна',
 		patronymic: 'Миколаївна',
@@ -2971,50 +2986,52 @@ const data = [
 		},
 		brothersAndSisters: ['3-48'],
 		children: ['4-55', '4-56'],
-		spouse: '3-51',
+		// spouse: '3-51',
+		spouse: null,
 		kinship: '3-юрідна бабуся, а Денис - 2-юрідний онуковий племінник (3-юрідний онук)',
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 55.5,
+			// place: 55.5,
+			place: 53.5,
 		},
 	},
-	{
-		id: '3-51',
-		surname: 'Щербеньов',
-		maidenName: null,
-		name: 'Анатолій',
-		patronymic: 'Павлович',
-		photo: null,
-		gender: 'male',
-		status: 'spouse of relative',
-		dateOfBirth: '22.01.1956',
-		placeOfBirth: undefined,
-		dead: false,
-		dateOfDeath: null,
-		placeOfDeath: null,
-		address: {
-			value: 'м. Жмеринка',
-			link: 'https://www.google.com/maps/place/%D0%96%D0%BC%D0%B5%D1%80%D0%B8%D0%BD%D0%BA%D0%B0,+%D0%92%D0%B8%D0%BD%D0%BD%D0%B8%D1%86%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@49.0347624,28.0591777,13z/data=!3m1!4b1!4m6!3m5!1s0x4732a29eea829a9d:0xcfa8490cd0cf2c20!8m2!3d49.0390512!4d28.1085937!16zL20vMGRzeXAx?authuser=0&entry=ttu',
-		},
-		nationality: 'українець',
-		phone: null,
-		email: null,
-		socialNetworks: null,
-		parents: {
-			mother: undefined,
-			father: undefined,
-		},
-		brothersAndSisters: [],
-		children: ['4-55', '4-56'],
-		spouse: '3-50',
-		kinship: '3-юрідний дід, а Денис - 2-юрідний онуковий племінник (3-юрідний онук)',
-		branch: 'Шпирко-Голяк',
-		position: {
-			generation: 3,
-			place: 56.5,
-		},
-	},
+	// {
+	// 	id: '3-51',
+	// 	surname: 'Щербеньов',
+	// 	maidenName: null,
+	// 	name: 'Анатолій',
+	// 	patronymic: 'Павлович',
+	// 	photo: null,
+	// 	gender: 'male',
+	// 	status: 'spouse of relative',
+	// 	dateOfBirth: '22.01.1956',
+	// 	placeOfBirth: undefined,
+	// 	dead: false,
+	// 	dateOfDeath: null,
+	// 	placeOfDeath: null,
+	// 	address: {
+	// 		value: 'м. Жмеринка',
+	// 		link: 'https://www.google.com/maps/place/%D0%96%D0%BC%D0%B5%D1%80%D0%B8%D0%BD%D0%BA%D0%B0,+%D0%92%D0%B8%D0%BD%D0%BD%D0%B8%D1%86%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@49.0347624,28.0591777,13z/data=!3m1!4b1!4m6!3m5!1s0x4732a29eea829a9d:0xcfa8490cd0cf2c20!8m2!3d49.0390512!4d28.1085937!16zL20vMGRzeXAx?authuser=0&entry=ttu',
+	// 	},
+	// 	nationality: 'українець',
+	// 	phone: null,
+	// 	email: null,
+	// 	socialNetworks: null,
+	// 	parents: {
+	// 		mother: undefined,
+	// 		father: undefined,
+	// 	},
+	// 	brothersAndSisters: [],
+	// 	children: ['4-55', '4-56'],
+	// 	spouse: '3-50',
+	// 	kinship: '3-юрідний дід, а Денис - 2-юрідний онуковий племінник (3-юрідний онук)',
+	// 	branch: 'Шпирко-Голяк',
+	// 	position: {
+	// 		generation: 3,
+	// 		place: 56.5,
+	// 	},
+	// },
 
 	// generation 4
 	{
@@ -4760,7 +4777,8 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 50.5,
+			// place: 50.5,
+			place: 54.5,
 		},
 	},
 	{
@@ -4796,7 +4814,8 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 51.5,
+			// place: 51.5,
+			place: 55.5,
 		},
 	},
 	{
@@ -4832,7 +4851,8 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 52.5,
+			// place: 52.5,
+			place: 50.5,
 		},
 	},
 	{
@@ -4868,7 +4888,8 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 53.5,
+			// place: 53.5,
+			place: 51.5,
 		},
 	},
 	// {
@@ -4913,7 +4934,7 @@ const data = [
 		maidenName: null,
 		name: 'Максим',
 		patronymic: 'Анатолійович',
-		photo: require('./photos/Щербенєв Максим Анатолійович.jpg'),
+		photo: require('./photos/Щербеньов Максим Анатолійович.jpg'),
 		gender: 'male',
 		status: 'relative',
 		dateOfBirth: '03.09.1981',
@@ -4943,7 +4964,8 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 54.5,
+			// place: 54.5,
+			place: 52.5,
 		},
 	},
 	{
@@ -4952,7 +4974,7 @@ const data = [
 		maidenName: null,
 		name: 'Павло',
 		patronymic: 'Анатолійович',
-		photo: require('./photos/Щербенєв Павло Анатолійович.jpg'),
+		photo: require('./photos/Щербеньов Павло Анатолійович 2.jpg'),
 		gender: 'male',
 		status: 'relative',
 		dateOfBirth: '05.03.1988',
@@ -4967,7 +4989,9 @@ const data = [
 		nationality: 'українець',
 		phone: undefined,
 		email: undefined,
-		socialNetworks: null,
+		socialNetworks: {
+			facebook: 'https://www.facebook.com/profile.php?id=100023525235453',
+		},
 		parents: {
 			mother: '3-50',
 			father: '3-51',
@@ -4979,7 +5003,8 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 55.5,
+			// place: 55.5,
+			place: 53.5,
 		},
 	},
 
@@ -6224,8 +6249,8 @@ const data = [
 	},
 	{
 		id: '5-37',
-		surname: null,
-		maidenName: 'Рак',
+		surname: 'Рак',
+		maidenName: null,
 		name: 'Олена',
 		patronymic: 'Олексіївна',
 		photo: require('./photos/(Рак) Олена Олексіївна.PNG'),
