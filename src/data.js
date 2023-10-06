@@ -5878,7 +5878,7 @@ const data = [
 		gender: 'female',
 		status: 'relative',
 		dateOfBirth: '30.07.1992',
-		placeOfBirth: 'м. Бориспіль',
+		placeOfBirth: undefined,
 		dead: false,
 		dateOfDeath: undefined,
 		placeOfDeath: undefined,
