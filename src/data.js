@@ -1527,7 +1527,7 @@ const data = [
 		dateOfDeath: '05.03.2005',
 		placeOfDeath: undefined,
 		address: {
-			value: 'Бориспільське міське (Рогозівське) кладовище, мабуть 1, ряд 2, місце ?',
+			value: 'Бориспільське міське (Рогозівське) кладовище, сектор 1, ряд 2, місце ?',
 			link: "https://www.google.com/maps/place/50%C2%B019'56.8%22N+30%C2%B058'26.1%22E/@50.3324494,30.9713481,549m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d50.332446!4d30.973923?authuser=0&entry=ttu",
 		},
 		nationality: undefined,
