@@ -89,3 +89,7 @@
 .Details .biography p {
 	margin: 8px 0 0 0;
 }
+
+.Details a:hover {
+	color: deepskyblue;
+}
