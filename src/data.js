@@ -4993,8 +4993,8 @@ const data = [
 		dateOfDeath: null,
 		placeOfDeath: null,
 		address: {
-			value: 'м. Жмеринка',
-			link: 'https://www.google.com/maps/place/%D0%96%D0%BC%D0%B5%D1%80%D0%B8%D0%BD%D0%BA%D0%B0,+%D0%92%D0%B8%D0%BD%D0%BD%D0%B8%D1%86%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@49.0347624,28.0591777,13z/data=!3m1!4b1!4m6!3m5!1s0x4732a29eea829a9d:0xcfa8490cd0cf2c20!8m2!3d49.0390512!4d28.1085937!16zL20vMGRzeXAx?authuser=0&entry=ttu',
+			value: 'мабуть м. Варшава (Польща)',
+			link: 'https://www.google.com/maps/place/%D0%92%D0%B0%D1%80%D1%88%D0%B0%D0%B2%D0%B0,+%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0/@52.2330335,20.8963867,11z/data=!3m1!4b1!4m6!3m5!1s0x471ecc669a869f01:0x72f0be2a88ead3fc!8m2!3d52.2296756!4d21.0122287!16zL20vMDgxbV8?authuser=0&entry=ttu',
 		},
 		nationality: 'українець',
 		phone: undefined,
