@@ -1,0 +1,93 @@
+.Details {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding: 15px;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 6;
+}
+
+/* .Details * {
+	outline: 1px solid red;
+} */
+
+.Details .card {
+	background-color: white;
+	padding: 15px;
+	min-width: 200px;
+	border-radius: 8px;
+}
+
+.Details .card .left {
+	display: flex;
+	justify-content: center;
+}
+
+.Details .card .right {
+	padding: 15px 0 0 0;
+}
+
+.Details .photo {
+	width: 120px;
+	max-width: 120px;
+	height: 160px;
+	max-height: 160px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Details .photo.no-photo {
+	color: rgba(0, 0, 0, 0.15);
+	background-color: rgb(230, 230, 230);
+	font-family: 'Akrobat Bold';
+	font-size: 2rem;
+	text-align: center;
+}
+
+.Details td {
+	padding: 0;
+	vertical-align: top;
+	text-align: left;
+}
+
+.Details td:first-child {
+	color: silver;
+	padding-right: 8px;
+	/* word-wrap: break-word; */
+}
+
+/* .Details td:last-child {
+	text-align: right;
+} */
+
+.Details a:hover {
+	color: deepskyblue;
+}
+
+.Details .sn-link {
+	margin-right: 4px;
+}
+
+.Details .full-name td:last-child {
+	font-family: 'Akrobat Black', 'Arial Narrow', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen and (min-width: 560px) {
+	.Details .card {
+		display: flex;
+	}
+
+	.Details .card .right {
+		padding: 0 0 0 15px;
+	}
+
+	.Details table {
+		margin: -2px;
+	}
+}

@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 import { Icon } from '@iconify/react'
 import './Person.css'
 import data from '../../data'
-import Details from '../Details/Details'
+import constants from '../../constants'
+const { DEFAULT_URL } = constants
 // import Margin from '../Margin/Margin'
 
 const Person = props => {
@@ -24,8 +25,6 @@ const Person = props => {
 		children,
 		position,
 	} = props
-
-	const [areDetailsOpened, setAreDetailsOpened] = useState(false)
 
 	const checkStatus = () => (status === 'relative' || status === 'creator' ? true : false)
 
@@ -127,7 +126,7 @@ const Person = props => {
 			<div className={`line spouse${setSpouseLineClasses()}`}></div>
 			{children.length > 0 && <div className={`line children-line`} style={setChildrenLineStyles()}></div>}
 
-			<button type="button" className="person-link" onClick={() => setAreDetailsOpened(prev => !prev)}>
+			<NavLink to={`${DEFAULT_URL}/person/${id}`} className="person-link">
 				{status === 'creator' && (
 					<>
 						<Icon icon="noto:star" fontSize={32} className="creator-icon" />
@@ -195,8 +194,9 @@ const Person = props => {
 						''
 					)}
 				</div>
-			</button>
-			{areDetailsOpened && <Details key={id} {...props} />}
+			</NavLink>
+
+			{/* {areDetailsOpened && <Details key={id} {...props} />} */}
 		</div>
 	)
 }

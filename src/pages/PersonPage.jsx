@@ -1,12 +1,12 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom'
+import PersonDetails from '../components/PersonDetails/PersonDetails'
 
 const PersonPage = () => {
-	const location = useLocation()
-
-	console.log({ location })
-
-	return <div>PersonPage</div>
+	return (
+		<div className="PersonPage">
+			<PersonDetails />
+		</div>
+	)
 }
 
 export default PersonPage
