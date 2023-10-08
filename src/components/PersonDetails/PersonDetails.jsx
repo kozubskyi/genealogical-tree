@@ -91,12 +91,10 @@ const PersonDetails = () => {
 									</td>
 								</tr>
 							)}
-							{nationality && (
-								<tr>
-									<td>Національність:</td>
-									<td>{nationality}</td>
-								</tr>
-							)}
+							<tr>
+								<td>Національність:</td>
+								<td>{nationality || UNKNOWN}</td>
+							</tr>
 							{/* <tr>
 								<td>Рідне місто:</td>
 								<td>{nativeLocality || UNKNOWN}</td>
