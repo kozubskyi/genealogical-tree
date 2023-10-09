@@ -1,6 +1,6 @@
 import React from 'react'
 import { PieChart, Pie, Tooltip, Cell, Legend } from 'recharts'
-import data from '../../data.js'
+import data from '../../../data.js'
 
 const chartData = [
 	{ name: 'невідомо', value: 0 },

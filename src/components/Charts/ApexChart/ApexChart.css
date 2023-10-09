@@ -1,0 +1,9 @@
+.ApexChart {
+	position: absolute;
+	display: inline-block;
+	width: 600px;
+	top: 1500px;
+	left: 5450px;
+	/* border: 1px solid red; */
+	font-size: 0.5rem;
+}

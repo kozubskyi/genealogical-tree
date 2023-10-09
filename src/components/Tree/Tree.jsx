@@ -1,11 +1,10 @@
 import { useState } from 'react'
 import { Icon } from '@iconify/react'
 import './Tree.css'
-import Chart from '../Chart/Chart'
 import ZoomButtons from '../ZoomButtons/ZoomButtons'
 import Logo from '../Logo/Logo'
 import Person from '../Person/Person'
-// import Margin from '../Margin/Margin'
+import ApexChart from '../Charts/ApexChart/ApexChart'
 import data from '../../data'
 import Info from '../Info/Info'
 
@@ -34,7 +33,7 @@ const Tree = () => {
 				{data.map(person => (
 					<Person key={person.id} {...person} />
 				))}
-				<Chart />
+				<ApexChart />
 			</div>
 			<Info />
 		</>

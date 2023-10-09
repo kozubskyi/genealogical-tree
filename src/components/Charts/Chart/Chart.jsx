@@ -2,7 +2,7 @@ import React from 'react'
 import { Chart as ChartJS, ArcElement, Title, Tooltip, Legend, Colors } from 'chart.js'
 import { Doughnut } from 'react-chartjs-2'
 import './Chart.css'
-import data from '../../data.js'
+import data from '../../../data.js'
 
 ChartJS.register(ArcElement, Title, Tooltip, Legend, Colors)
 
@@ -31,7 +31,7 @@ const Chart = () => {
 		datasets: [
 			{
 				label: 'Кількість родичів',
-				data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+				data: [],
 				backgroundColor: [
 					'#DCDCDC',
 					'rgb(153, 102, 255)',
@@ -60,7 +60,9 @@ const Chart = () => {
 
 		const index = chartData.labels.indexOf(person.address.value)
 
-		if (index >= 0) {
+		if (index >= 0 && chartData.datasets[0].data[index] === undefined) {
+			chartData.datasets[0].data[index] = 1
+		} else if (index >= 0 && chartData.datasets[0].data[index] !== undefined) {
 			chartData.datasets[0].data[index] += 1
 		} else {
 			chartData.labels.push(person.address.value)
