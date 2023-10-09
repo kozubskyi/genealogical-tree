@@ -16,7 +16,7 @@
 }
 
 .ApexChart .apexcharts-datalabel-label {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .ApexChart .apexcharts-datalabel-value {
@@ -29,6 +29,10 @@
 
 .ApexChart .apexcharts-tooltip * {
 	font-size: 16px;
+}
+
+.ApexChart .apexcharts-tooltip.apexcharts-active {
+	display: none;
 }
 
 .ApexChart .apexcharts-legend-text {
