@@ -1,0 +1,8 @@
+.Chart {
+	position: absolute;
+	display: inline-block;
+	height: 350px;
+	width: 350px;
+	border: 1px solid red;
+	font-size: 0.5rem;
+}
