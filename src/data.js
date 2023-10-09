@@ -2800,7 +2800,10 @@ const data = [
 		dead: false,
 		dateOfDeath: null,
 		placeOfDeath: null,
-		address: { value: undefined, link: undefined },
+		address: {
+			value: 'мабуть м. Жмеринка',
+			link: 'https://www.google.com/maps/place/%D0%96%D0%BC%D0%B5%D1%80%D0%B8%D0%BD%D0%BA%D0%B0,+%D0%92%D0%B8%D0%BD%D0%BD%D0%B8%D1%86%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@49.0347624,28.0591777,13z/data=!3m1!4b1!4m6!3m5!1s0x4732a29eea829a9d:0xcfa8490cd0cf2c20!8m2!3d49.0390512!4d28.1085937!16zL20vMGRzeXAx?authuser=0&entry=ttu',
+		},
 		nationality: 'мабуть українка',
 		phone: null,
 		email: null,
@@ -2834,7 +2837,10 @@ const data = [
 		dead: false,
 		dateOfDeath: undefined,
 		placeOfDeath: undefined,
-		address: { value: undefined, link: undefined },
+		address: {
+			value: 'мабуть м. Жмеринка',
+			link: 'https://www.google.com/maps/place/%D0%96%D0%BC%D0%B5%D1%80%D0%B8%D0%BD%D0%BA%D0%B0,+%D0%92%D0%B8%D0%BD%D0%BD%D0%B8%D1%86%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@49.0347624,28.0591777,13z/data=!3m1!4b1!4m6!3m5!1s0x4732a29eea829a9d:0xcfa8490cd0cf2c20!8m2!3d49.0390512!4d28.1085937!16zL20vMGRzeXAx?authuser=0&entry=ttu',
+		},
 		nationality: undefined,
 		phone: null,
 		email: null,
@@ -3122,7 +3128,7 @@ const data = [
 		dateOfDeath: undefined,
 		placeOfDeath: undefined,
 		address: {
-			value: 'м. Бориспіль',
+			value: 'мабуть м. Бориспіль',
 			// value: 'м. Бориспіль, вул. Європейська, ?',
 			link: 'https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%95%D0%B2%D1%80%D0%BE%D0%BF%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F,+%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+08300/@50.3562182,30.9585928,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4e8a8826548c3:0x80cfcb735b25b356!8m2!3d50.3562148!4d30.9611677!16s%2Fg%2F1vnthdtb?authuser=0&entry=ttu',
 		},
