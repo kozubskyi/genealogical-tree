@@ -82,14 +82,14 @@ const chartOptions = {
 			text: 'Місця проживання',
 			font: {
 				family: 'Akrobat Black',
-				// size: 12,
+				size: 16,
 			},
 		},
 		legend: {
 			labels: {
 				font: {
 					family: 'Akrobat SemiBold',
-					size: 8,
+					size: 16,
 				},
 			},
 		},
