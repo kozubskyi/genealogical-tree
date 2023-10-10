@@ -33,7 +33,9 @@ const Tree = () => {
 				{data.map(person => (
 					<Person key={person.id} {...person} />
 				))}
-				<ApexChart />
+				<ApexChart type="gender" />
+				<ApexChart type="gender relatives" />
+				<ApexChart type="address" />
 			</div>
 			<Info />
 		</>

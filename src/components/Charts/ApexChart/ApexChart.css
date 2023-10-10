@@ -1,9 +1,24 @@
 .ApexChart {
 	position: absolute;
 	display: inline-block;
+}
+
+.ApexChart.gender {
+	width: 491px;
+	top: 1600px;
+	left: 4525px;
+}
+
+.ApexChart.gender.relatives {
+	width: 491px;
+	top: 1600px;
+	left: 5050px;
+}
+
+.ApexChart.address {
 	width: 600px;
-	top: 1500px;
-	left: 5450px;
+	top: 1600px;
+	left: 5575px;
 }
 
 .ApexChart .apexcharts-title-text {
