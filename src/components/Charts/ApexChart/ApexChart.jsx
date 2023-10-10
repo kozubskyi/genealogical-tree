@@ -33,7 +33,7 @@ const ApexChart = ({ type }) => {
 		for (let i = 0; i < data.length; i++) {
 			const person = data[i]
 
-			if (person.status !== 'relative') continue
+			if (person.status === 'spouse of relative') continue
 
 			if (person.gender === 'female') series[0] += 1
 			if (person.gender === 'male') series[1] += 1

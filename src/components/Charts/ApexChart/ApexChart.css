@@ -11,7 +11,8 @@
 
 .ApexChart.gender {
 	top: 1600px;
-	left: 4525px;
+	/* left: 4525px; */
+	left: 5050px;
 }
 
 .ApexChart.gender.relatives {

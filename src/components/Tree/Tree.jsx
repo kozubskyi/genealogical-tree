@@ -34,7 +34,7 @@ const Tree = () => {
 					<Person key={person.id} {...person} />
 				))}
 				<ApexChart type="gender" />
-				<ApexChart type="gender relatives" />
+				{/* <ApexChart type="gender relatives" /> */}
 				<ApexChart type="address" />
 			</div>
 			<Info />
