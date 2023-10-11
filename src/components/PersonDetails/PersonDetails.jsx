@@ -36,7 +36,9 @@ const PersonDetails = () => {
 		dateOfDeath,
 		placeOfDeath,
 		nationality,
+		citizenship,
 		address,
+		// nativeLocality,
 		status,
 		kinship,
 		socialNetworks,
@@ -95,10 +97,16 @@ const PersonDetails = () => {
 								<td>Національність:</td>
 								<td>{nationality || UNKNOWN}</td>
 							</tr>
-							{/* <tr>
-								<td>Рідне місто:</td>
-								<td>{nativeLocality || UNKNOWN}</td>
-							</tr> */}
+							<tr>
+								<td>Громадянство:</td>
+								<td>{citizenship || UNKNOWN}</td>
+							</tr>
+							{/* {nativeLocality && (
+								<tr>
+									<td>Рідне місто:</td>
+									<td>{nativeLocality || UNKNOWN}</td>
+								</tr>
+							)} */}
 							<tr>
 								<td>
 									{dead && gender === 'male' && 'Похований:'}

@@ -6,7 +6,7 @@
 	position: absolute;
 	left: 3200px;
 	top: 100px;
-	transform: matrix(1, 0, 0, 1, 0, 0);
+	/* transform: matrix(1, 0, 0, 1, 0, 0); */
 }
 
 .Logo span {
