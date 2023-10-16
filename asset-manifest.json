@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/genealogical-tree/static/css/main.8e29098c.css",
-    "main.js": "/genealogical-tree/static/js/main.e5c0b8c8.js",
+    "main.css": "/genealogical-tree/static/css/main.496db9a6.css",
+    "main.js": "/genealogical-tree/static/js/main.af4d9d80.js",
     "static/media/Корінь Михайло Іванович.JPEG": "/genealogical-tree/static/media/Корінь Михайло Іванович.a073ffe3a0a738074335.JPEG",
     "static/media/Яків.JPEG": "/genealogical-tree/static/media/Яків.f03fe4c63a11614a8b34.JPEG",
     "static/media/Ярмак Анна Василівна.jpg": "/genealogical-tree/static/media/Ярмак Анна Василівна.01daf8c881ffd3d5b26b.jpg",
@@ -82,8 +82,9 @@
     "static/media/Грималовська Наталія Петрівна.jpg": "/genealogical-tree/static/media/Грималовська Наталія Петрівна.860800866a562e256156.jpg",
     "static/media/Корень Надія Акимівна.jpg": "/genealogical-tree/static/media/Корень Надія Акимівна.2e1526d3b6588f60d1e5.jpg",
     "static/media/Піскунов Максим Андрійович.jpg": "/genealogical-tree/static/media/Піскунов Максим Андрійович.d0f5d2c67780c39094a8.jpg",
-    "static/media/Грималовський (Сирота) Юрій Миколайович.jpg": "/genealogical-tree/static/media/Грималовський (Сирота) Юрій Миколайович.e31013bdf6f7bd43316d.jpg",
+    "static/media/Жорницька (Клейнерман) Галина Петрівна.jpg": "/genealogical-tree/static/media/Жорницька (Клейнерман) Галина Петрівна.290c3a9b6596bc44c9c8.jpg",
     "static/media/Корінь (Поліщук) Зоряна Володимирівна 2.jpg": "/genealogical-tree/static/media/Корінь (Поліщук) Зоряна Володимирівна 2.780ecfa1e88fc4b170b3.jpg",
+    "static/media/Грималовський (Сирота) Юрій Миколайович 2.jpg": "/genealogical-tree/static/media/Грималовський (Сирота) Юрій Миколайович 2.3aff879182fec30101bb.jpg",
     "static/media/Корень Олександр Іванович 2.jpg": "/genealogical-tree/static/media/Корень Олександр Іванович 2.96302b8fd1d71789e820.jpg",
     "static/media/Сердцева Неля Анатоліївна.jpg": "/genealogical-tree/static/media/Сердцева Неля Анатоліївна.4b20586dbc93852f9d83.jpg",
     "static/media/Корінь Маргарита Олександрівна.jpg": "/genealogical-tree/static/media/Корінь Маргарита Олександрівна.8b662f6ed5bbfddcb196.jpg",
@@ -95,11 +96,11 @@
     "static/media/Гоголь (Сердцева) Ніна Анатоліївна.jpg": "/genealogical-tree/static/media/Гоголь (Сердцева) Ніна Анатоліївна.12323634bc0934506bc3.jpg",
     "static/media/Баранов Анатолій Андрійович.jpg": "/genealogical-tree/static/media/Баранов Анатолій Андрійович.cee7125d96cc69089905.jpg",
     "index.html": "/genealogical-tree/index.html",
-    "main.8e29098c.css.map": "/genealogical-tree/static/css/main.8e29098c.css.map",
-    "main.e5c0b8c8.js.map": "/genealogical-tree/static/js/main.e5c0b8c8.js.map"
+    "main.496db9a6.css.map": "/genealogical-tree/static/css/main.496db9a6.css.map",
+    "main.af4d9d80.js.map": "/genealogical-tree/static/js/main.af4d9d80.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e29098c.css",
-    "static/js/main.e5c0b8c8.js"
+    "static/css/main.496db9a6.css",
+    "static/js/main.af4d9d80.js"
   ]
 }
