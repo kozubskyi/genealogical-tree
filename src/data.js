@@ -2916,7 +2916,7 @@ const data = [
 		position: {
 			generation: 3,
 			// place: 50.5,
-			place: 54,
+			place: 54.5,
 		},
 	},
 	{
@@ -2954,46 +2954,49 @@ const data = [
 		position: {
 			generation: 3,
 			// place: 51.5,
-			place: 55,
+			place: 55.5,
 		},
 	},
-	// {
-	// 	id: '3-47',
-	// 	surname: 'Жорницька',
-	// 	maidenName: 'Клейнерман',
-	// 	name: 'Галина',
-	// 	patronymic: 'Петрівна',
-	// 	photo: null,
-	// 	gender: 'female',
-	// 	status: 'spouse of relative',
-	// 	dateOfBirth: '23.02.1957',
-	// 	placeOfBirth: undefined,
-	// 	dead: false,
-	// 	dateOfDeath: null,
-	// 	placeOfDeath: null,
-	// 	address: {
-	// 		value: undefined,
-	// 		link: undefined,
-	// 	},
-	// 	nationality: 'єврейка',
-	// 	phone: null,
-	// 	email: null,
-	// 	socialNetworks: null,
-	// 	parents: {
-	// 		mother: undefined,
-	// 		father: undefined,
-	// 	},
-	// 	brothersAndSisters: [],
-	// 	children: ['4-54', '4-55'],
-	// 	spouse: '3-48',
-	// 	kinship: '3-юрідна бабуся, а Денис - 2-юрідний онуковий племінник (3-юрідний онук)',
-	// 	branch: 'Шпирко-Голяк',
-	// 	position: {
-	// 		generation: 3,
-	// 		// place: 52.5,
-	// 		place: 50.5,
-	// 	},
-	// },
+	{
+		id: '3-47',
+		surname: 'Жорницька',
+		maidenName: 'Клейнерман',
+		name: 'Галина',
+		patronymic: 'Петрівна',
+		photo: require('./photos/Жорницька (Клейнерман) Галина Петрівна.jpg'),
+		gender: 'female',
+		status: 'spouse of relative',
+		dateOfBirth: '23.02.1957',
+		placeOfBirth: undefined,
+		dead: false,
+		dateOfDeath: null,
+		placeOfDeath: null,
+		address: {
+			value: 'мабуть м. Тель-Авів, Ізраїль',
+			link: 'https://www.google.com/maps/place/%D0%A2%D0%B5%D0%BB%D1%8C-%D0%90%D0%B2%D0%B8%D0%B2,+%D0%98%D0%B7%D1%80%D0%B0%D0%B8%D0%BB%D1%8C/@32.0880503,34.7148443,12z/data=!3m1!4b1!4m6!3m5!1s0x151d4ca6193b7c1f:0xc1fb72a2c0963f90!8m2!3d32.0852999!4d34.7817676!16zL20vMDdxenY?authuser=0&entry=ttu',
+		},
+		nationality: 'єврейка',
+		citizenship: 'мабуть Ізраїль',
+		phone: null,
+		email: null,
+		socialNetworks: {
+			facebook: 'https://www.facebook.com/galiazhor',
+		},
+		parents: {
+			mother: undefined,
+			father: undefined,
+		},
+		brothersAndSisters: [],
+		children: ['4-54', '4-55'],
+		spouse: '3-48',
+		kinship: '3-юрідна бабуся, а Денис - 2-юрідний онуковий племінник (3-юрідний онук)',
+		branch: 'Шпирко-Голяк',
+		position: {
+			generation: 3,
+			// place: 52.5,
+			place: 50.5,
+		},
+	},
 	{
 		id: '3-48',
 		surname: 'Жорницький',
@@ -3009,11 +3012,11 @@ const data = [
 		dateOfDeath: null,
 		placeOfDeath: null,
 		address: {
-			value: 'Ізраїль',
-			link: 'https://www.google.com/maps/place/%D0%98%D0%B7%D1%80%D0%B0%D0%B8%D0%BB%D1%8C/@31.38387,32.4405477,7z/data=!3m1!4b1!4m6!3m5!1s0x1500492432a7c98b:0x6a6b422013352cba!8m2!3d31.046051!4d34.851612!16zL20vMDNzcHo?authuser=0&entry=ttu',
+			value: 'мабуть м. Тель-Авів, Ізраїль',
+			link: 'https://www.google.com/maps/place/%D0%A2%D0%B5%D0%BB%D1%8C-%D0%90%D0%B2%D0%B8%D0%B2,+%D0%98%D0%B7%D1%80%D0%B0%D0%B8%D0%BB%D1%8C/@32.0880503,34.7148443,12z/data=!3m1!4b1!4m6!3m5!1s0x151d4ca6193b7c1f:0xc1fb72a2c0963f90!8m2!3d32.0852999!4d34.7817676!16zL20vMDdxenY?authuser=0&entry=ttu',
 		},
 		nationality: 'українець',
-		citizenship: 'мабуть СРСР та Україна або Ізраїль',
+		citizenship: 'мабуть СРСР, Україна, можливо Ізраїль',
 		phone: null,
 		email: null,
 		socialNetworks: null,
@@ -3029,7 +3032,7 @@ const data = [
 		position: {
 			generation: 3,
 			// place: 53.5,
-			place: 51,
+			place: 51.5,
 		},
 	},
 	{
@@ -3047,8 +3050,8 @@ const data = [
 		dateOfDeath: undefined,
 		placeOfDeath: undefined,
 		address: {
-			value: 'мабуть Ізраїль',
-			link: 'https://www.google.com/maps/place/%D0%98%D0%B7%D1%80%D0%B0%D0%B8%D0%BB%D1%8C/@31.38387,32.4405477,7z/data=!3m1!4b1!4m6!3m5!1s0x1500492432a7c98b:0x6a6b422013352cba!8m2!3d31.046051!4d34.851612!16zL20vMDNzcHo?authuser=0&entry=ttu',
+			value: undefined,
+			link: undefined,
 		},
 		nationality: undefined,
 		phone: null,
@@ -3066,7 +3069,7 @@ const data = [
 		position: {
 			generation: 3,
 			// place: 54.5,
-			place: 52,
+			place: 52.5,
 		},
 	},
 	{
@@ -3107,7 +3110,7 @@ const data = [
 		position: {
 			generation: 3,
 			// place: 55.5,
-			place: 53,
+			place: 53.5,
 		},
 	},
 	// {
@@ -4115,7 +4118,7 @@ const data = [
 		dateOfDeath: null,
 		placeOfDeath: null,
 		address: {
-			value: 'м. Амстердам (Нідерланди)',
+			value: 'м. Амстердам, Нідерланди',
 			link: 'https://www.google.com/maps/place/%D0%90%D0%BC%D1%81%D1%82%D0%B5%D1%80%D0%B4%D0%B0%D0%BC,+%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B/@52.3547607,4.7391532,11z/data=!3m1!4b1!4m6!3m5!1s0x47c63fb5949a7755:0x6600fd4cb7c0af8d!8m2!3d52.3675734!4d4.9041389!16zL20vMGszcA?authuser=0&entry=ttu',
 		},
 		nationality: 'українка',
@@ -4671,7 +4674,7 @@ const data = [
 		maidenName: 'Сирота',
 		name: 'Юрій',
 		patronymic: 'Миколайович',
-		photo: require('./photos/Грималовський (Сирота) Юрій Миколайович.jpg'),
+		photo: require('./photos/Грималовський (Сирота) Юрій Миколайович 2.jpg'),
 		gender: 'male',
 		status: 'spouse of relative',
 		dateOfBirth: '11.07.1973',
@@ -4679,6 +4682,7 @@ const data = [
 		dead: false,
 		dateOfDeath: null,
 		placeOfDeath: null,
+		nativeLocality: 'м. Жмеринка',
 		address: {
 			value: 'м. Жмеринка',
 			link: 'https://www.google.com/maps/place/%D0%96%D0%BC%D0%B5%D1%80%D0%B8%D0%BD%D0%BA%D0%B0,+%D0%92%D0%B8%D0%BD%D0%BD%D0%B8%D1%86%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@49.0347624,28.0591777,13z/data=!3m1!4b1!4m6!3m5!1s0x4732a29eea829a9d:0xcfa8490cd0cf2c20!8m2!3d49.0390512!4d28.1085937!16zL20vMGRzeXAx?authuser=0&entry=ttu',
@@ -4699,6 +4703,9 @@ const data = [
 		spouse: '4-46',
 		kinship: '2-юрідний дядько, а Денис - 2-юрідний племінник',
 		branch: 'Шпирко-Голяк',
+		// biography: [
+		// 	'Мабуть працює вчителем у школі в м. Жмеринка.',
+		// ],
 		position: {
 			generation: 4,
 			place: 43,
@@ -4947,7 +4954,7 @@ const data = [
 		position: {
 			generation: 4,
 			// place: 50.5,
-			place: 54,
+			place: 54.5,
 		},
 	},
 	{
@@ -4985,32 +4992,35 @@ const data = [
 		position: {
 			generation: 4,
 			// place: 51.5,
-			place: 55,
+			place: 55.5,
 		},
 	},
 	{
 		id: '4-54',
 		surname: 'Жорницький',
 		maidenName: null,
-		name: 'Євгеній',
+		name: 'Євген',
 		patronymic: 'Миколайович',
 		photo: require('./photos/Жорницький Євгеній Миколайович.jpg'),
 		gender: 'male',
 		status: 'relative',
-		dateOfBirth: '11.11.1973',
-		placeOfBirth: 'мабуть м. Жмеринка',
+		// dateOfBirth: '11.11.1973',
+		dateOfBirth: '11.11.19??',
+		placeOfBirth: undefined,
 		dead: false,
 		dateOfDeath: null,
 		placeOfDeath: null,
 		address: {
-			value: 'Ізраїль',
-			link: 'https://www.google.com/maps/place/%D0%98%D0%B7%D1%80%D0%B0%D0%B8%D0%BB%D1%8C/@31.38387,32.4405477,7z/data=!3m1!4b1!4m6!3m5!1s0x1500492432a7c98b:0x6a6b422013352cba!8m2!3d31.046051!4d34.851612!16zL20vMDNzcHo?authuser=0&entry=ttu',
+			value: 'м. Тель-Авів, Ізраїль',
+			link: 'https://www.google.com/maps/place/%D0%A2%D0%B5%D0%BB%D1%8C-%D0%90%D0%B2%D0%B8%D0%B2,+%D0%98%D0%B7%D1%80%D0%B0%D0%B8%D0%BB%D1%8C/@32.0880503,34.7148443,12z/data=!3m1!4b1!4m6!3m5!1s0x151d4ca6193b7c1f:0xc1fb72a2c0963f90!8m2!3d32.0852999!4d34.7817676!16zL20vMDdxenY?authuser=0&entry=ttu',
 		},
 		nationality: 'єврей',
-		citizenship: 'мабуть СРСР та Ізраїль або Україна',
+		citizenship: 'мабуть СРСР, Україна або Ізраїль',
 		phone: undefined,
 		email: undefined,
-		socialNetworks: null,
+		socialNetworks: {
+			facebook: 'https://www.facebook.com/jean.jornitsky',
+		},
 		parents: {
 			mother: '3-47',
 			father: '3-48',
@@ -5023,7 +5033,7 @@ const data = [
 		position: {
 			generation: 4,
 			// place: 52.5,
-			place: 50,
+			place: 50.5,
 		},
 	},
 	{
@@ -5036,16 +5046,16 @@ const data = [
 		gender: 'male',
 		status: 'relative',
 		dateOfBirth: undefined,
-		placeOfBirth: 'мабуть м. Жмеринка',
+		placeOfBirth: undefined,
 		dead: false,
 		dateOfDeath: null,
 		placeOfDeath: null,
 		address: {
-			value: 'Ізраїль',
-			link: 'https://www.google.com/maps/place/%D0%98%D0%B7%D1%80%D0%B0%D0%B8%D0%BB%D1%8C/@31.38387,32.4405477,7z/data=!3m1!4b1!4m6!3m5!1s0x1500492432a7c98b:0x6a6b422013352cba!8m2!3d31.046051!4d34.851612!16zL20vMDNzcHo?authuser=0&entry=ttu',
+			value: 'мабуть м. Тель-Авів, Ізраїль',
+			link: 'https://www.google.com/maps/place/%D0%A2%D0%B5%D0%BB%D1%8C-%D0%90%D0%B2%D0%B8%D0%B2,+%D0%98%D0%B7%D1%80%D0%B0%D0%B8%D0%BB%D1%8C/@32.0880503,34.7148443,12z/data=!3m1!4b1!4m6!3m5!1s0x151d4ca6193b7c1f:0xc1fb72a2c0963f90!8m2!3d32.0852999!4d34.7817676!16zL20vMDdxenY?authuser=0&entry=ttu',
 		},
 		nationality: 'єврей',
-		citizenship: 'мабуть СРСР та Ізраїль або Україна',
+		citizenship: 'мабуть СРСР, Україна або Ізраїль',
 		phone: undefined,
 		email: undefined,
 		socialNetworks: null,
@@ -5061,7 +5071,7 @@ const data = [
 		position: {
 			generation: 4,
 			// place: 53.5,
-			place: 51,
+			place: 51.5,
 		},
 	},
 	// {
@@ -5138,7 +5148,7 @@ const data = [
 		position: {
 			generation: 4,
 			// place: 54.5,
-			place: 52,
+			place: 52.5,
 		},
 	},
 	{
@@ -5156,7 +5166,7 @@ const data = [
 		dateOfDeath: null,
 		placeOfDeath: null,
 		address: {
-			value: 'м. Варшава (Польща)',
+			value: 'м. Варшава, Польща',
 			link: 'https://www.google.com/maps/place/%D0%92%D0%B0%D1%80%D1%88%D0%B0%D0%B2%D0%B0,+%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0/@52.2330335,20.8963867,11z/data=!3m1!4b1!4m6!3m5!1s0x471ecc669a869f01:0x72f0be2a88ead3fc!8m2!3d52.2296756!4d21.0122287!16zL20vMDgxbV8?authuser=0&entry=ttu',
 		},
 		nationality: 'мабуть українець',
@@ -5178,7 +5188,7 @@ const data = [
 		position: {
 			generation: 4,
 			// place: 55.5,
-			place: 53,
+			place: 53.5,
 		},
 	},
 
@@ -6119,7 +6129,7 @@ const data = [
 		placeOfDeath: null,
 		nativeLocality: 'м. Бориспіль',
 		address: {
-			value: 'м. Амстердам (Нідерланди)',
+			value: 'м. Амстердам, Нідерланди',
 			link: 'https://www.google.com/maps/place/%D0%90%D0%BC%D1%81%D1%82%D0%B5%D1%80%D0%B4%D0%B0%D0%BC,+%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B/@52.3547607,4.7391532,11z/data=!3m1!4b1!4m6!3m5!1s0x47c63fb5949a7755:0x6600fd4cb7c0af8d!8m2!3d52.3675734!4d4.9041389!16zL20vMGszcA?authuser=0&entry=ttu',
 		},
 		nationality: 'українка',
@@ -7071,7 +7081,7 @@ const data = [
 		dateOfDeath: null,
 		placeOfDeath: null,
 		address: {
-			value: 'м. Амстердам (Нідерланди)',
+			value: 'м. Амстердам, Нідерланди',
 			link: 'https://www.google.com/maps/place/%D0%90%D0%BC%D1%81%D1%82%D0%B5%D1%80%D0%B4%D0%B0%D0%BC,+%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B/@52.3547607,4.7391532,11z/data=!3m1!4b1!4m6!3m5!1s0x47c63fb5949a7755:0x6600fd4cb7c0af8d!8m2!3d52.3675734!4d4.9041389!16zL20vMGszcA?authuser=0&entry=ttu',
 		},
 		nationality: 'мабуть українець',
@@ -7107,7 +7117,7 @@ const data = [
 		dateOfDeath: null,
 		placeOfDeath: null,
 		address: {
-			value: 'м. Амстердам (Нідерланди)',
+			value: 'м. Амстердам, Нідерланди',
 			link: 'https://www.google.com/maps/place/%D0%90%D0%BC%D1%81%D1%82%D0%B5%D1%80%D0%B4%D0%B0%D0%BC,+%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B/@52.3547607,4.7391532,11z/data=!3m1!4b1!4m6!3m5!1s0x47c63fb5949a7755:0x6600fd4cb7c0af8d!8m2!3d52.3675734!4d4.9041389!16zL20vMGszcA?authuser=0&entry=ttu',
 		},
 		nationality: 'мабуть українка',
@@ -7143,7 +7153,7 @@ const data = [
 		dateOfDeath: null,
 		placeOfDeath: null,
 		address: {
-			value: 'м. Амстердам (Нідерланди)',
+			value: 'м. Амстердам, Нідерланди',
 			link: 'https://www.google.com/maps/place/%D0%90%D0%BC%D1%81%D1%82%D0%B5%D1%80%D0%B4%D0%B0%D0%BC,+%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B/@52.3547607,4.7391532,11z/data=!3m1!4b1!4m6!3m5!1s0x47c63fb5949a7755:0x6600fd4cb7c0af8d!8m2!3d52.3675734!4d4.9041389!16zL20vMGszcA?authuser=0&entry=ttu',
 		},
 		nationality: 'мабуть українка',
