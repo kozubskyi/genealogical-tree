@@ -5020,6 +5020,7 @@ const data = [
 		email: undefined,
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/jean.jornitsky',
+			instagram: 'https://www.instagram.com/jornitsky',
 		},
 		parents: {
 			mother: '3-47',
@@ -5130,7 +5131,7 @@ const data = [
 		},
 		nationality: 'мабуть українець',
 		citizenship: 'СРСР, Україна',
-		phone: undefined,
+		phone: '+380989703733', // 16.10.2023 from Facebook
 		email: undefined,
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/profile.php?id=100011734742791',
