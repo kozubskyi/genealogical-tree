@@ -1202,11 +1202,8 @@ const data = [
 		kinship: '2-юрідний прадід, а Денис - 2-юрідний праонук',
 		branch: 'Шпирко-Голяк',
 		position: {
-			// generation: 2,
-			// place: 48.5,
-			// line: 2,
 			generation: 2,
-			place: 53.5,
+			place: 54,
 		},
 	},
 	{
@@ -1242,11 +1239,8 @@ const data = [
 		kinship: '2-юрідна прабабуся, а Денис - 2-юрідний праонук',
 		branch: 'Шпирко-Голяк',
 		position: {
-			// generation: 2,
-			// place: 49.5,
-			// line: 2,
 			generation: 2,
-			place: 54.5,
+			place: 55,
 		},
 	},
 	{
@@ -1279,11 +1273,8 @@ const data = [
 		kinship: '2-юрідний прадід, а Денис - 2-юрідний праонук',
 		branch: 'Шпирко-Голяк',
 		position: {
-			// generation: 2,
-			// place: 52,
 			generation: 2,
 			place: 49.5,
-			// line: 2,
 		},
 	},
 	{
@@ -1319,11 +1310,8 @@ const data = [
 		kinship: '2-юрідна прабабуся, а Денис - 2-юрідний праонук',
 		branch: 'Шпирко-Голяк',
 		position: {
-			// generation: 2,
-			// place: 53,
 			generation: 2,
 			place: 50.5,
-			// line: 2,
 		},
 	},
 
@@ -2205,7 +2193,7 @@ const data = [
 		maidenName: 'Пиць',
 		name: 'Ніна',
 		patronymic: 'Василівна',
-		photo: null,
+		photo: require('./photos/Корінь (Пиць) Ніна Василівна.jpg'),
 		gender: 'female',
 		status: 'spouse of relative',
 		dateOfBirth: '02.05.1938',
@@ -2915,7 +2903,6 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			// place: 50.5,
 			place: 54.5,
 		},
 	},
@@ -2953,7 +2940,6 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			// place: 51.5,
 			place: 55.5,
 		},
 	},
@@ -2993,7 +2979,6 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			// place: 52.5,
 			place: 50.5,
 		},
 	},
@@ -3031,7 +3016,6 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			// place: 53.5,
 			place: 51.5,
 		},
 	},
@@ -3068,7 +3052,6 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			// place: 54.5,
 			place: 52.5,
 		},
 	},
@@ -3109,7 +3092,6 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			// place: 55.5,
 			place: 53.5,
 		},
 	},
@@ -3146,7 +3128,7 @@ const data = [
 	// 	branch: 'Шпирко-Голяк',
 	// 	position: {
 	// 		generation: 3,
-	// 		place: 56.5,
+	// 		place: 57,
 	// 	},
 	// },
 
@@ -4139,6 +4121,7 @@ const data = [
 		position: {
 			generation: 4,
 			place: 29,
+			line: 1,
 		},
 	},
 	{
@@ -4953,7 +4936,6 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			// place: 50.5,
 			place: 54.5,
 		},
 	},
@@ -4991,7 +4973,6 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			// place: 51.5,
 			place: 55.5,
 		},
 	},
@@ -5033,7 +5014,6 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			// place: 52.5,
 			place: 50.5,
 		},
 	},
@@ -5071,7 +5051,6 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			// place: 53.5,
 			place: 51.5,
 		},
 	},
@@ -5108,7 +5087,7 @@ const data = [
 	// 	branch: 'Шпирко-Голяк',
 	// 	position: {
 	// 		generation: 4,
-	// 		place: 54.5,
+	// 		place: 55,
 	// 	},
 	// },
 	{
@@ -5148,7 +5127,6 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			// place: 54.5,
 			place: 52.5,
 		},
 	},
@@ -5188,7 +5166,6 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			// place: 55.5,
 			place: 53.5,
 		},
 	},
@@ -5511,7 +5488,8 @@ const data = [
 		phone: null,
 		email: null,
 		socialNetworks: {
-			facebook: 'https://www.facebook.com/profile.php?id=100028062673974',
+			facebook1: 'https://www.facebook.com/profile.php?id=100028062673974',
+			facebook2: 'https://www.facebook.com/profile.php?id=100020364580198',
 		},
 		parents: {
 			mother: '4-13',
@@ -5927,36 +5905,82 @@ const data = [
 		kinship: '3-юрідна сестра, а Денис 3-юрідний брат',
 		position: {
 			generation: 5,
-			place: 23.5,
+			place: 23,
+		},
+	},
+	{
+		id: '5-22.1',
+		surname: 'Падун',
+		maidenName: null,
+		name: 'Юрій',
+		patronymic: undefined,
+		photo: require('./photos/Падун Юрій.jpg'),
+		gender: 'male',
+		status: 'spouse of relative',
+		dateOfBirth: undefined,
+		placeOfBirth: 'мабуть м. Бориспіль',
+		dead: false,
+		dateOfDeath: null,
+		placeOfDeath: null,
+		nativeLocality: 'м. Бориспіль',
+		address: {
+			value: 'м. Бориспіль',
+			link: 'https://www.google.com/maps/place/%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+08300/@50.3695874,30.8710373,12z/data=!3m1!4b1!4m6!3m5!1s0x40d4e8ae77cf2579:0xfa81b50295e219d8!8m2!3d50.3482!4d30.95615!16zL20vMDQ2eHkw?authuser=0&entry=ttu',
+		},
+		nationality: 'українець',
+		citizenship: 'СРСР, Україна',
+		phone: null,
+		email: null,
+		socialNetworks: {
+			facebook1: 'https://www.facebook.com/profile.php?id=100030665059143',
+			facebook2: 'https://www.facebook.com/profile.php?id=100071702863635',
+		},
+		parents: {
+			mother: undefined,
+			father: undefined,
+		},
+		brothersAndSisters: [],
+		children: [],
+		spouse: '5-22',
+		kinship: '3-юрідний зять, а Денис - 3-юрідний шурин',
+		position: {
+			generation: 5,
+			place: 24,
 		},
 	},
 	{
 		id: '5-22',
-		surname: undefined,
+		surname: 'Падун',
 		maidenName: 'Сахно',
 		name: 'Ірина',
 		patronymic: undefined,
-		photo: null,
+		photo: require('./photos/Падун (Сахно) Ірина.jpg'),
 		gender: 'female',
 		status: 'relative',
 		dateOfBirth: undefined,
-		placeOfBirth: undefined,
+		placeOfBirth: 'мабуть м. Бориспіль',
 		dead: false,
 		dateOfDeath: null,
 		placeOfDeath: null,
-		address: { value: undefined, link: undefined },
-		nationality: 'мабуть українка',
-		citizenship: 'мабуть СРСР, Україна',
+		nativeLocality: 'м. Бориспіль',
+		address: {
+			value: 'м. Бориспіль',
+			link: 'https://www.google.com/maps/place/%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+08300/@50.3695874,30.8710373,12z/data=!3m1!4b1!4m6!3m5!1s0x40d4e8ae77cf2579:0xfa81b50295e219d8!8m2!3d50.3482!4d30.95615!16zL20vMDQ2eHkw?authuser=0&entry=ttu',
+		},
+		nationality: 'українка',
+		citizenship: 'СРСР, Україна',
 		phone: null,
 		email: null,
-		socialNetworks: null,
+		socialNetworks: {
+			facebook: 'https://www.facebook.com/profile.php?id=100025406601831',
+		},
 		parents: {
 			mother: '4-25',
 			father: '4-24',
 		},
 		brothersAndSisters: ['5-23'],
 		children: [],
-		spouse: undefined,
+		spouse: '5-22.1',
 		kinship: '3-юрідна сестра, а Денис - 3-юрідний брат',
 		position: {
 			generation: 5,
@@ -5965,35 +5989,78 @@ const data = [
 	},
 	{
 		id: '5-23',
-		surname: undefined,
+		surname: 'Іваненко',
 		maidenName: 'Сахно',
 		name: 'Людмила',
 		patronymic: undefined,
-		photo: null,
+		photo: require('./photos/Іваненко (Сахно) Людмила.jpg'),
 		gender: 'female',
 		status: 'relative',
-		dateOfBirth: undefined,
-		placeOfBirth: undefined,
+		dateOfBirth: '07.06.1979',
+		placeOfBirth: 'мабуть м. Бориспіль',
 		dead: false,
 		dateOfDeath: null,
 		placeOfDeath: null,
-		address: { value: undefined, link: undefined },
-		nationality: 'мабуть українка',
-		citizenship: 'мабуть СРСР, Україна',
+		nativeLocality: 'м. Бориспіль',
+		address: {
+			value: 'м. Бориспіль',
+			link: 'https://www.google.com/maps/place/%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+08300/@50.3695874,30.8710373,12z/data=!3m1!4b1!4m6!3m5!1s0x40d4e8ae77cf2579:0xfa81b50295e219d8!8m2!3d50.3482!4d30.95615!16zL20vMDQ2eHkw?authuser=0&entry=ttu',
+		},
+		nationality: 'українка',
+		citizenship: 'СРСР, Україна',
 		phone: null,
 		email: null,
-		socialNetworks: null,
+		socialNetworks: {
+			facebook: 'https://www.facebook.com/profile.php?id=100027288300253',
+		},
 		parents: {
 			mother: '4-25',
 			father: '4-24',
 		},
 		brothersAndSisters: ['5-22'],
-		children: [],
-		spouse: undefined,
+		children: ['6-15', '6-16'],
+		spouse: '5-23.1',
 		kinship: '3-юрідна сестра, а Денис - 3-юрідний брат',
 		position: {
 			generation: 5,
 			place: 26,
+		},
+	},
+	{
+		id: '5-23.1',
+		surname: 'Іваненко',
+		maidenName: null,
+		name: undefined,
+		patronymic: undefined,
+		photo: null,
+		gender: 'male',
+		status: 'spouse of relative',
+		dateOfBirth: undefined,
+		placeOfBirth: undefined,
+		dead: false,
+		dateOfDeath: null,
+		placeOfDeath: null,
+		// nativeLocality: 'м. Бориспіль',
+		address: {
+			value: 'мабуть м. Бориспіль',
+			link: 'https://www.google.com/maps/place/%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+08300/@50.3695874,30.8710373,12z/data=!3m1!4b1!4m6!3m5!1s0x40d4e8ae77cf2579:0xfa81b50295e219d8!8m2!3d50.3482!4d30.95615!16zL20vMDQ2eHkw?authuser=0&entry=ttu',
+		},
+		nationality: 'мабуть українець',
+		citizenship: 'мабуть СРСР, Україна',
+		phone: null,
+		email: null,
+		socialNetworks: null,
+		parents: {
+			mother: undefined,
+			father: undefined,
+		},
+		brothersAndSisters: [],
+		children: ['6-15', '6-16'],
+		spouse: '5-23',
+		kinship: '3-юрідний зять, а Денис - 3-юрідний шурин',
+		position: {
+			generation: 5,
+			place: 27,
 		},
 	},
 	{
@@ -6032,7 +6099,7 @@ const data = [
 		kinship: '3-юрідна невістка, а Денис - 3-юрідний дівер',
 		position: {
 			generation: 5,
-			place: 27,
+			place: 28,
 		},
 	},
 	{
@@ -6072,7 +6139,7 @@ const data = [
 		kinship: '3-юрідні брати',
 		position: {
 			generation: 5,
-			place: 28,
+			place: 29,
 		},
 	},
 	{
@@ -6111,7 +6178,7 @@ const data = [
 		kinship: '3-юрідна сестра, а Денис - 3-юрідний брат',
 		position: {
 			generation: 5,
-			place: 29,
+			place: 30,
 		},
 	},
 	{
@@ -6151,7 +6218,7 @@ const data = [
 		kinship: '3-юрідна сестра, а Денис - 3-юрідний брат',
 		position: {
 			generation: 5,
-			place: 30,
+			place: 31,
 		},
 	},
 	{
@@ -6184,7 +6251,7 @@ const data = [
 		kinship: '3-юрідний зять, а Денис - 3-юрідний шурин',
 		position: {
 			generation: 5,
-			place: 31,
+			place: 32,
 		},
 	},
 	{
@@ -6220,7 +6287,7 @@ const data = [
 		kinship: '3-юрідний зять, а Денис - 3-юрідний шурин',
 		position: {
 			generation: 5,
-			place: 32,
+			place: 33,
 		},
 	},
 	{
@@ -6259,7 +6326,7 @@ const data = [
 		kinship: '3-юрідна сестра, а Денис - 3-юрідний брат',
 		position: {
 			generation: 5,
-			place: 33,
+			place: 34,
 		},
 	},
 	{
@@ -6299,7 +6366,7 @@ const data = [
 		kinship: '3-юрідні брати',
 		position: {
 			generation: 5,
-			place: 34,
+			place: 35,
 		},
 	},
 	{
@@ -6337,7 +6404,7 @@ const data = [
 		kinship: '3-юрідна невістка, а Денис - 3-юрідний дівер',
 		position: {
 			generation: 5,
-			place: 35,
+			place: 36,
 		},
 	},
 	{
@@ -6379,7 +6446,7 @@ const data = [
 		kinship: '3-юрідні брати',
 		position: {
 			generation: 5,
-			place: 36,
+			place: 37,
 		},
 	},
 	{
@@ -6419,7 +6486,7 @@ const data = [
 		kinship: '3-юрідна невістка, а Денис - 3-юрідний дівер',
 		position: {
 			generation: 5,
-			place: 37,
+			place: 38,
 		},
 	},
 	{
@@ -6460,7 +6527,7 @@ const data = [
 		kinship: '2-юрідні брати',
 		position: {
 			generation: 5,
-			place: 38,
+			place: 39,
 		},
 	},
 	{
@@ -6504,7 +6571,7 @@ const data = [
 		kinship: 'Дівчина, а Денис - хлопець',
 		position: {
 			generation: 5,
-			place: 39,
+			place: 40,
 		},
 	},
 	{
@@ -6554,7 +6621,7 @@ const data = [
 		// ],
 		position: {
 			generation: 5,
-			place: 40,
+			place: 41,
 		},
 	},
 	{
@@ -6593,7 +6660,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 5,
-			place: 41.5,
+			place: 42,
 		},
 	},
 	{
@@ -6628,7 +6695,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 5,
-			place: 42.5,
+			place: 43,
 		},
 	},
 	{
@@ -6663,7 +6730,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 5,
-			place: 43.5,
+			place: 44,
 		},
 	},
 	{
@@ -6701,7 +6768,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 5,
-			place: 44.5,
+			place: 45,
 		},
 	},
 	{
@@ -6739,7 +6806,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 5,
-			place: 45.5,
+			place: 46,
 		},
 	},
 
@@ -6954,7 +7021,7 @@ const data = [
 		kinship: '3-юрідний племінник, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 22.5,
+			place: 23,
 		},
 	},
 	{
@@ -6991,7 +7058,81 @@ const data = [
 		kinship: '3-юрідна племінниця, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 23.5,
+			place: 24,
+		},
+	},
+	{
+		id: '6-15',
+		surname: 'Іваненко',
+		maidenName: null,
+		name: 'Олексій',
+		patronymic: undefined,
+		photo: require('./photos/Іваненко Олексій.jpg'),
+		gender: 'male',
+		status: 'relative',
+		dateOfBirth: '18.07',
+		placeOfBirth: 'мабуть м. Бориспіль',
+		dead: false,
+		dateOfDeath: null,
+		placeOfDeath: null,
+		address: {
+			value: 'мабуть м. Бориспіль',
+			link: 'https://www.google.com/maps/place/%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+08300/@50.3695874,30.8710373,12z/data=!3m1!4b1!4m6!3m5!1s0x40d4e8ae77cf2579:0xfa81b50295e219d8!8m2!3d50.3482!4d30.95615!16zL20vMDQ2eHkw?authuser=0&entry=ttu',
+		},
+		nationality: 'українець',
+		citizenship: 'Україна',
+		phone: null,
+		email: null,
+		socialNetworks: null,
+		parents: {
+			mother: '5-23',
+			father: '5-23.1',
+		},
+		brothersAndSisters: ['6-16'],
+		children: [],
+		spouse: null,
+		kinship: '3-юрідний племінник, а Денис - 3-юрідний дядько',
+		// biography: [],
+		position: {
+			generation: 6,
+			place: 26,
+		},
+	},
+	{
+		id: '6-16',
+		surname: 'Іваненко',
+		maidenName: null,
+		name: 'Катерина',
+		patronymic: undefined,
+		photo: require('./photos/Іваненко Катерина.jpg'),
+		gender: 'female',
+		status: 'relative',
+		dateOfBirth: '05.06.2008',
+		placeOfBirth: 'мабуть м. Бориспіль',
+		dead: false,
+		dateOfDeath: null,
+		placeOfDeath: null,
+		address: {
+			value: 'мабуть м. Бориспіль',
+			link: 'https://www.google.com/maps/place/%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+08300/@50.3695874,30.8710373,12z/data=!3m1!4b1!4m6!3m5!1s0x40d4e8ae77cf2579:0xfa81b50295e219d8!8m2!3d50.3482!4d30.95615!16zL20vMDQ2eHkw?authuser=0&entry=ttu',
+		},
+		nationality: 'українка',
+		citizenship: 'Україна',
+		phone: null,
+		email: null,
+		socialNetworks: null,
+		parents: {
+			mother: '5-23',
+			father: '5-23.1',
+		},
+		brothersAndSisters: ['6-15'],
+		children: [],
+		spouse: null,
+		kinship: '3-юрідна племінниця, а Денис - 3-юрідний дядько',
+		// biography: [],
+		position: {
+			generation: 6,
+			place: 27,
 		},
 	},
 	{
@@ -7028,7 +7169,7 @@ const data = [
 		biography: ['Єдиний продовжувач прізвища Корінь серед усіх відомих гілок'],
 		position: {
 			generation: 6,
-			place: 27,
+			place: 28,
 		},
 	},
 	{
@@ -7064,7 +7205,7 @@ const data = [
 		kinship: '3-юрідна племінниця, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 28,
+			place: 29,
 		},
 	},
 	{
@@ -7100,7 +7241,7 @@ const data = [
 		kinship: '3-юрідний племінник, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 30,
+			place: 31,
 		},
 	},
 	{
@@ -7136,7 +7277,7 @@ const data = [
 		kinship: '3-юрідна племінниця, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 31,
+			place: 32,
 		},
 	},
 	{
@@ -7172,7 +7313,7 @@ const data = [
 		kinship: '3-юрідна племінниця, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 32,
+			place: 33,
 		},
 	},
 	{
@@ -7208,7 +7349,7 @@ const data = [
 		kinship: '3-юрідна племінниця, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 33,
+			place: 34,
 		},
 	},
 	{
@@ -7244,7 +7385,7 @@ const data = [
 		kinship: '3-юрідний племінник, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 34,
+			place: 35,
 		},
 	},
 

@@ -14,11 +14,12 @@
 	border-left: 1px solid rgba(0, 0, 0, 0.2);
 	position: absolute;
 	height: 2060px;
-	width: 1650px;
-	left: 4461px;
+	width: 1470px;
+	left: 4485px;
 	top: 0;
 	bottom: 0;
-	transform: matrix(1, 0, 0.24, 1, 0, 0);
+	/* transform: matrix(1, 0, 0.24, 1, 0, 0); */
+	transform: matrix(1, 0, 0.39, 1, 0, 0);
 }
 
 .Tree .branch-line span {

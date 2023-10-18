@@ -144,10 +144,10 @@ const PersonDetails = () => {
 												key={link}
 												className="sn-link"
 											>
-												{snName === 'facebook' && <Icon icon="devicon:facebook" fontSize={20} />}
-												{snName === 'instagram' && <Icon icon="skill-icons:instagram" fontSize={20} />}
-												{snName === 'telegram' && <Icon icon="logos:telegram" fontSize={20} />}
-												{snName === 'viber' && <Icon icon="basil:viber-solid" fontSize={20} color="#583eb5" />}
+												{snName.includes('facebook') && <Icon icon="devicon:facebook" fontSize={20} />}
+												{snName.includes('instagram') && <Icon icon="skill-icons:instagram" fontSize={20} />}
+												{snName.includes('telegram') && <Icon icon="logos:telegram" fontSize={20} />}
+												{snName.includes('viber') && <Icon icon="basil:viber-solid" fontSize={20} color="#583eb5" />}
 											</a>
 										))}
 									</td>
