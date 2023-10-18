@@ -60,7 +60,7 @@ const Person = props => {
 		if (parentsArray.length === 1) {
 			const parentPlace = parentsArray[0].position.place
 
-			const exceptions = ['5-21', '6-6']
+			const exceptions = ['5-21']
 
 			parentsMid = position.place <= parentPlace && !exceptions.includes(id) ? parentPlace - 0.5 : parentPlace + 0.5
 		} else {

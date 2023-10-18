@@ -7021,7 +7021,7 @@ const data = [
 		kinship: '3-юрідний племінник, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 23,
+			place: 22,
 		},
 	},
 	{
@@ -7058,7 +7058,7 @@ const data = [
 		kinship: '3-юрідна племінниця, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 24,
+			place: 23,
 		},
 	},
 	{
