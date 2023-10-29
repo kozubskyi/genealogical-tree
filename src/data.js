@@ -2684,6 +2684,7 @@ const data = [
 		email: null,
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/profile.php?id=100055772137639',
+			instagram: 'https://www.instagram.com/lydmila_ulianicheva',
 		},
 		parents: {
 			mother: '2-22',
@@ -4554,6 +4555,7 @@ const data = [
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/igor.kozubskiy',
 			telegram: 'https://www.t.me/arlagan',
+			instagram: 'https://www.instagram.com/igorkozubskiy',
 		},
 		parents: {
 			mother: '3-35',
@@ -4595,6 +4597,7 @@ const data = [
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/inna.bas.5',
 			telegram: 'https://www.t.me/+380962011149',
+			instagram: 'https://www.instagram.com/inna.bas.5',
 		},
 		parents: {
 			mother: '3-35',
@@ -5854,6 +5857,7 @@ const data = [
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/eugeniy.gogol',
 			telegram: 'https://www.t.me/Evgeniy_Gogol',
+			instagram: 'https://www.instagram.com/eugeniygogol'
 		},
 		parents: {
 			mother: '4-22',
