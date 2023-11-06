@@ -6636,7 +6636,7 @@ const data = [
 	},
 	{
 		id: '5-39',
-		surname: 'Дембицька',
+		surname: 'Басанько',
 		maidenName: null,
 		name: 'Єлизавета',
 		patronymic: 'Євгенівна',
