@@ -6639,7 +6639,7 @@ const data = [
 		surname: 'Басанько',
 		maidenName: null,
 		name: 'Єлизавета',
-		patronymic: 'Євгенівна',
+		patronymic: 'Євгеніївна',
 		photo: require('./photos/Дембицька Єлизавета Євгенівна.jpg'),
 		gender: 'female',
 		status: 'relative',
