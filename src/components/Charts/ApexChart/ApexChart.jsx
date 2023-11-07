@@ -4,36 +4,19 @@ import './ApexChart.css'
 import data from '../../../data.js'
 
 const ApexChart = ({ type }) => {
+	let titleText = ''
 	let series = []
 	let labels = []
 	let colors = []
-	let titleText = ''
 
 	if (type === 'gender') {
-		series = [0, 0, 0]
-		labels = ['жіноча', 'чоловіча', 'невідомо']
-		colors = ['rgb(255, 99, 132)', 'rgb(54, 162, 235)', 'rgb(180,185,190)']
 		titleText = 'Стать (гендер)'
-
-		for (let i = 0; i < data.length; i++) {
-			const person = data[i]
-
-			if (person.gender === 'female') series[0] += 1
-			if (person.gender === 'male') series[1] += 1
-			if (person.gender === undefined) series[2] += 1
-		}
-	}
-
-	if (type === 'gender relatives') {
 		series = [0, 0, 0]
 		labels = ['жіноча', 'чоловіча', 'невідомо']
 		colors = ['rgb(255, 99, 132)', 'rgb(54, 162, 235)', 'rgb(180,185,190)']
-		titleText = 'Стать (тільки родичі, без подружжя)'
 
 		for (let i = 0; i < data.length; i++) {
 			const person = data[i]
-
-			if (person.status === 'spouse of relative') continue
 
 			if (person.gender === 'female') series[0] += 1
 			if (person.gender === 'male') series[1] += 1
@@ -42,6 +25,7 @@ const ApexChart = ({ type }) => {
 	}
 
 	if (type === 'address') {
+		titleText = 'Місця проживання'
 		labels = [
 			'невідомо',
 			'м. Бориспіль',
@@ -82,7 +66,6 @@ const ApexChart = ({ type }) => {
 		// 	'rgb(238,104,104)',
 		// 	'rgb(47,100,151)',
 		// ]
-		titleText = 'Місця проживання'
 
 		for (let i = 0; i < data.length; i++) {
 			const person = data[i]
