@@ -60,9 +60,7 @@ const Person = props => {
 		if (parentsArray.length === 1) {
 			const parentPlace = parentsArray[0].position.place
 
-			const exceptions = []
-
-			parentsMid = position.place <= parentPlace && !exceptions.includes(id) ? parentPlace - 0.5 : parentPlace + 0.5
+			parentsMid = position.place <= parentPlace ? parentPlace - 0.5 : parentPlace + 0.5
 		} else {
 			parentsMid = parentsArray.reduce((acc, parent) => acc + parent.position.place, 0) / 2
 		}
@@ -76,19 +74,17 @@ const Person = props => {
 			styles.height = parentWithLine.position.line * 20 + 20
 		}
 
-		// if (id === '5-19') console.log(position.place, parentsMid)
-
 		if (position.place > parentsMid) {
 			styles.right = '49.5%'
 			styles.borderRight = border
-			// styles.borderTopRightRadius = 4
 			styles.width = position.place * 114 - parentsMid * 114 + 1
 		} else {
 			styles.left = '49.5%'
 			styles.borderLeft = border
-			// styles.borderTopLeftRadius = 4
 			styles.width = parentsMid * 114 - position.place * 114 + 1
 		}
+
+		if (id === '4-36') styles.width = 171
 
 		return styles
 	}

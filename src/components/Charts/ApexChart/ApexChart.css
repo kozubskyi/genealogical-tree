@@ -11,20 +11,19 @@
 
 .ApexChart.gender {
 	top: 1600px;
-	/* left: 4525px; */
-	left: 5050px;
+	left: 4950px;
 }
 
 .ApexChart.gender.relatives {
 	top: 1600px;
-	left: 5050px;
+	left: 5000px;
 }
 
 .ApexChart.address {
 	width: 600px;
 	min-width: 600px;
 	top: 1600px;
-	left: 5575px;
+	left: 5525px;
 }
 
 .ApexChart .apexcharts-title-text {

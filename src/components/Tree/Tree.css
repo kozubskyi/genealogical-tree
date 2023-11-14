@@ -1,12 +1,7 @@
 .Tree {
 	margin: 10px;
 	width: max-content;
-	/* width: 100vw;
-	height: 100vh; */
 	position: relative;
-	/* width: 6443px;
-	height: 2088px;
-	border: 1px solid red; */
 	transition: transform 0.2s ease-in-out;
 }
 
@@ -14,12 +9,11 @@
 	border-left: 1px solid rgba(0, 0, 0, 0.2);
 	position: absolute;
 	height: 2060px;
-	width: 1470px;
-	left: 4485px;
+	width: 1340px;
+	left: 4474px;
 	top: 0;
 	bottom: 0;
-	/* transform: matrix(1, 0, 0.24, 1, 0, 0); */
-	transform: matrix(1, 0, 0.39, 1, 0, 0);
+	transform: matrix(1, 0, 0.45, 1, 0, 0);
 }
 
 .Tree .branch-line span {

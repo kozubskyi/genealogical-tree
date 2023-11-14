@@ -238,7 +238,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 1,
-			place: 44,
+			place: 43.5,
 		},
 	},
 	{
@@ -272,7 +272,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 1,
-			place: 45,
+			place: 44.5,
 		},
 	},
 	{
@@ -306,7 +306,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 1,
-			place: 47.5,
+			place: 47,
 		},
 	},
 	{
@@ -340,7 +340,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 1,
-			place: 48.5,
+			place: 48,
 		},
 	},
 	{
@@ -374,7 +374,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 1,
-			place: 50.5,
+			place: 50,
 		},
 	},
 	{
@@ -408,7 +408,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 1,
-			place: 52.5,
+			place: 52,
 		},
 	},
 
@@ -958,7 +958,7 @@ const data = [
 		kinship: 'Прадід, а Денис - праонук',
 		position: {
 			generation: 2,
-			place: 36,
+			place: 35,
 		},
 	},
 	{
@@ -991,7 +991,7 @@ const data = [
 		kinship: 'Прабабуся, а Денис - праонук',
 		position: {
 			generation: 2,
-			place: 37,
+			place: 36,
 		},
 	},
 	{
@@ -1025,7 +1025,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 40.5,
+			place: 40,
 			line: 1,
 		},
 	},
@@ -1060,7 +1060,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 41.5,
+			place: 41,
 			line: 1,
 		},
 	},
@@ -1095,7 +1095,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 44,
+			place: 43.5,
 		},
 	},
 	{
@@ -1132,7 +1132,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 45,
+			place: 44.5,
 		},
 	},
 	{
@@ -1169,7 +1169,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 46,
+			place: 45.5,
 		},
 	},
 	{
@@ -1203,7 +1203,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 54,
+			place: 53.5,
 		},
 	},
 	{
@@ -1240,7 +1240,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 55,
+			place: 54.5,
 		},
 	},
 	{
@@ -1274,7 +1274,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 49.5,
+			place: 49,
 		},
 	},
 	{
@@ -1311,7 +1311,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 50.5,
+			place: 50,
 		},
 	},
 
@@ -2326,7 +2326,7 @@ const data = [
 		kinship: '2-юрідна бабуся, а Денис - онуковий племінник (2-юрідний онук)',
 		position: {
 			generation: 3,
-			place: 33,
+			place: 32.5,
 		},
 	},
 	{
@@ -2362,7 +2362,7 @@ const data = [
 		kinship: '2-юрідний дід, а Денис - онуковий племінник (2-юрідний онук)',
 		position: {
 			generation: 3,
-			place: 34,
+			place: 33.5,
 		},
 	},
 	{
@@ -2395,7 +2395,7 @@ const data = [
 		kinship: '2-юрідний дід, а Денис - онуковий племінник (2-юрідний онук)',
 		position: {
 			generation: 3,
-			place: 36,
+			place: 35,
 		},
 	},
 	{
@@ -2432,7 +2432,7 @@ const data = [
 		kinship: 'Дід, а Денис - онук',
 		position: {
 			generation: 3,
-			place: 37,
+			place: 36,
 		},
 	},
 	{
@@ -2475,7 +2475,7 @@ const data = [
 		],
 		position: {
 			generation: 3,
-			place: 38,
+			place: 37,
 		},
 	},
 	{
@@ -2512,7 +2512,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 39.5,
+			place: 39,
 		},
 	},
 	{
@@ -2549,7 +2549,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 40.5,
+			place: 40,
 		},
 	},
 	{
@@ -2583,7 +2583,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 41.5,
+			place: 41,
 		},
 	},
 	{
@@ -2620,7 +2620,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 42.5,
+			place: 42,
 		},
 	},
 	{
@@ -2657,7 +2657,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 43.5,
+			place: 43,
 		},
 	},
 	{
@@ -2697,7 +2697,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 44.5,
+			place: 44,
 		},
 	},
 	{
@@ -2733,7 +2733,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 45.5,
+			place: 45,
 		},
 	},
 	{
@@ -2767,7 +2767,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 47.5,
+			place: 47,
 		},
 	},
 	{
@@ -2801,7 +2801,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 49.5,
+			place: 49,
 		},
 	},
 	{
@@ -2834,7 +2834,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 46.5,
+			place: 46,
 		},
 	},
 	{
@@ -2867,7 +2867,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 48.5,
+			place: 48,
 		},
 	},
 	{
@@ -2904,7 +2904,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 54.5,
+			place: 54,
 		},
 	},
 	{
@@ -2941,7 +2941,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 55.5,
+			place: 55,
 		},
 	},
 	{
@@ -2980,7 +2980,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 50.5,
+			place: 50,
 		},
 	},
 	{
@@ -3017,7 +3017,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 51.5,
+			place: 51,
 		},
 	},
 	{
@@ -3053,7 +3053,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 52.5,
+			place: 52,
 		},
 	},
 	{
@@ -3093,7 +3093,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 53.5,
+			place: 53,
 		},
 	},
 	// {
@@ -4609,7 +4609,8 @@ const data = [
 		},
 		brothersAndSisters: ['4-42'],
 		children: ['5-39'],
-		spouse: '4-44',
+		// spouse: '4-44',
+		spouse: null,
 		kinship: 'Тітка, а Денис - племінник',
 		branch: 'Шпирко-Голяк',
 		position: {
@@ -4617,47 +4618,47 @@ const data = [
 			place: 41,
 		},
 	},
-	{
-		id: '4-44',
-		surname: 'Дембицький',
-		maidenName: null,
-		name: 'Євгеній',
-		patronymic: 'Михайлович',
-		photo: require('./photos/Дембицький Євгеній Михайлович.JPG'),
-		gender: 'male',
-		status: 'spouse of relative',
-		dateOfBirth: '09.02.1981',
-		placeOfBirth: undefined,
-		dead: false,
-		dateOfDeath: null,
-		placeOfDeath: null,
-		address: {
-			value: 'м. Київ',
-			// value: 'м. Київ, просп. Генерала Ватутіна, 26, кв. 249',
-			link: 'https://www.google.com/maps/place/%D0%BF%D1%80%D0%BE%D1%81%D0%BF.+%D0%93%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D0%B0+%D0%92%D0%B0%D1%82%D1%83%D1%82%D0%B8%D0%BD%D0%B0,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4944233,30.5964692,18z/data=!4m6!3m5!1s0x40d4d04b8408936b:0xa9666626a8ba6f4!8m2!3d50.4943997!4d30.5969808!16s%2Fg%2F11c4cnhbvl?authuser=0&entry=ttu',
-		},
-		nationality: 'українець',
-		citizenship: 'СРСР, Україна',
-		phone: undefined,
-		email: undefined,
-		socialNetworks: {
-			facebook: 'https://www.facebook.com/evgeniy.dembitskiy',
-			telegram: 'https://www.t.me/D_Evgeniy',
-		},
-		parents: {
-			mother: undefined,
-			father: undefined,
-		},
-		brothersAndSisters: [],
-		children: ['5-39'],
-		spouse: '4-43',
-		kinship: 'Дядько, а Денис - племінник',
-		branch: 'Шпирко-Голяк',
-		position: {
-			generation: 4,
-			place: 42,
-		},
-	},
+	// {
+	// 	id: '4-44',
+	// 	surname: 'Дембицький',
+	// 	maidenName: null,
+	// 	name: 'Євгеній',
+	// 	patronymic: 'Михайлович',
+	// 	photo: require('./photos/Дембицький Євгеній Михайлович.JPG'),
+	// 	gender: 'male',
+	// 	status: 'spouse of relative',
+	// 	dateOfBirth: '09.02.1981',
+	// 	placeOfBirth: undefined,
+	// 	dead: false,
+	// 	dateOfDeath: null,
+	// 	placeOfDeath: null,
+	// 	address: {
+	// 		value: 'м. Київ',
+	// 		// value: 'м. Київ, просп. Генерала Ватутіна, 26, кв. 249',
+	// 		link: 'https://www.google.com/maps/place/%D0%BF%D1%80%D0%BE%D1%81%D0%BF.+%D0%93%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D0%B0+%D0%92%D0%B0%D1%82%D1%83%D1%82%D0%B8%D0%BD%D0%B0,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4944233,30.5964692,18z/data=!4m6!3m5!1s0x40d4d04b8408936b:0xa9666626a8ba6f4!8m2!3d50.4943997!4d30.5969808!16s%2Fg%2F11c4cnhbvl?authuser=0&entry=ttu',
+	// 	},
+	// 	nationality: 'українець',
+	// 	citizenship: 'СРСР, Україна',
+	// 	phone: undefined,
+	// 	email: undefined,
+	// 	socialNetworks: {
+	// 		facebook: 'https://www.facebook.com/evgeniy.dembitskiy',
+	// 		telegram: 'https://www.t.me/D_Evgeniy',
+	// 	},
+	// 	parents: {
+	// 		mother: undefined,
+	// 		father: undefined,
+	// 	},
+	// 	brothersAndSisters: [],
+	// 	children: ['5-39'],
+	// 	spouse: '4-43',
+	// 	kinship: 'Дядько, а Денис - племінник',
+	// 	branch: 'Шпирко-Голяк',
+	// 	position: {
+	// 		generation: 4,
+	// 		place: 42,
+	// 	},
+	// },
 	{
 		id: '4-45',
 		surname: 'Грималовський',
@@ -4698,7 +4699,7 @@ const data = [
 		// ],
 		position: {
 			generation: 4,
-			place: 43,
+			place: 42,
 		},
 	},
 	{
@@ -4737,7 +4738,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 44,
+			place: 43,
 		},
 	},
 	{
@@ -4774,7 +4775,8 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 45,
+			place: 44,
+			line: 1,
 		},
 	},
 	{
@@ -4807,7 +4809,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 46,
+			place: 45,
 		},
 	},
 	{
@@ -4840,7 +4842,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 47,
+			place: 46,
 		},
 	},
 	{
@@ -4873,7 +4875,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 48,
+			place: 47,
 		},
 	},
 	{
@@ -4906,7 +4908,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 49,
+			place: 48,
 		},
 	},
 	{
@@ -4943,7 +4945,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 54.5,
+			place: 53,
 		},
 	},
 	{
@@ -4980,7 +4982,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 55.5,
+			place: 54,
 		},
 	},
 	{
@@ -5021,7 +5023,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 50.5,
+			place: 49,
 		},
 	},
 	{
@@ -5058,7 +5060,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 51.5,
+			place: 50,
 		},
 	},
 	// {
@@ -5134,7 +5136,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 52.5,
+			place: 51,
 		},
 	},
 	{
@@ -5173,7 +5175,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 53.5,
+			place: 52,
 		},
 	},
 
@@ -6661,7 +6663,8 @@ const data = [
 		socialNetworks: null,
 		parents: {
 			mother: '4-43',
-			father: '4-44',
+			// father: '4-44',
+			father: null,
 		},
 		brothersAndSisters: [],
 		children: [],
