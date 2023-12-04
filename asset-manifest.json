@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/genealogical-tree/static/css/main.83fb0726.css",
-    "main.js": "/genealogical-tree/static/js/main.cf169c11.js",
+    "main.js": "/genealogical-tree/static/js/main.f8993cc6.js",
     "static/media/Корінь Михайло Іванович.JPEG": "/genealogical-tree/static/media/Корінь Михайло Іванович.a073ffe3a0a738074335.JPEG",
     "static/media/Яків.JPEG": "/genealogical-tree/static/media/Яків.f03fe4c63a11614a8b34.JPEG",
     "static/media/Ярмак Анна Василівна.jpg": "/genealogical-tree/static/media/Ярмак Анна Василівна.01daf8c881ffd3d5b26b.jpg",
@@ -51,6 +51,7 @@
     "static/media/Сердцева Таїсія Тимофіївна.jpg": "/genealogical-tree/static/media/Сердцева Таїсія Тимофіївна.4ae5dee21adef9994e39.jpg",
     "static/media/Корень (Маско) Анна (Галина) Іванівна.jpg": "/genealogical-tree/static/media/Корень (Маско) Анна (Галина) Іванівна.c6980640991f09be3299.jpg",
     "static/media/Корень Галина Григорівна.jpg": "/genealogical-tree/static/media/Корень Галина Григорівна.0f91ad5381584ca29aaf.jpg",
+    "static/media/Падун (Сахно) Ірина Анатоліївна.jpg": "/genealogical-tree/static/media/Падун (Сахно) Ірина Анатоліївна.22991bed6bc506796793.jpg",
     "static/media/Баранова (Паніна) Тетяна Михайлівна.jpg": "/genealogical-tree/static/media/Баранова (Паніна) Тетяна Михайлівна.b5a462ccdc1e19682d91.jpg",
     "static/media/Жорницька Тетяна Миколаївна.JPG": "/genealogical-tree/static/media/Жорницька Тетяна Миколаївна.cda49ba894cadf7e0069.JPG",
     "static/media/Грималовська Єлизавета Юнусівна.JPG": "/genealogical-tree/static/media/Грималовська Єлизавета Юнусівна.956ba316d3f0e3143761.JPG",
@@ -89,7 +90,6 @@
     "static/media/Іваненко (Сахно) Людмила.jpg": "/genealogical-tree/static/media/Іваненко (Сахно) Людмила.47a956f8c1517a42fc0e.jpg",
     "static/media/Корінь Маргарита Олександрівна.jpg": "/genealogical-tree/static/media/Корінь Маргарита Олександрівна.8b662f6ed5bbfddcb196.jpg",
     "static/media/Козубська (Лісніченко) Олена Миколаївна.jpg": "/genealogical-tree/static/media/Козубська (Лісніченко) Олена Миколаївна.a96be92fb8649dc6b39b.jpg",
-    "static/media/Падун (Сахно) Ірина.jpg": "/genealogical-tree/static/media/Падун (Сахно) Ірина.111bce84fcb6fb741b81.jpg",
     "static/media/Корінь Олександр Олександрович.jpg": "/genealogical-tree/static/media/Корінь Олександр Олександрович.b4a09f1b88af77ddf46e.jpg",
     "static/media/Корінь Божена Олександрівна.jpg": "/genealogical-tree/static/media/Корінь Божена Олександрівна.ccd3591b503ff80127e1.jpg",
     "static/media/Сердцев Єгор Артемович.JPG": "/genealogical-tree/static/media/Сердцев Єгор Артемович.dc9e591cc1ac08f4d430.JPG",
@@ -100,10 +100,10 @@
     "static/media/Баранов Анатолій Андрійович.jpg": "/genealogical-tree/static/media/Баранов Анатолій Андрійович.cee7125d96cc69089905.jpg",
     "index.html": "/genealogical-tree/index.html",
     "main.83fb0726.css.map": "/genealogical-tree/static/css/main.83fb0726.css.map",
-    "main.cf169c11.js.map": "/genealogical-tree/static/js/main.cf169c11.js.map"
+    "main.f8993cc6.js.map": "/genealogical-tree/static/js/main.f8993cc6.js.map"
   },
   "entrypoints": [
     "static/css/main.83fb0726.css",
-    "static/js/main.cf169c11.js"
+    "static/js/main.f8993cc6.js"
   ]
 }
