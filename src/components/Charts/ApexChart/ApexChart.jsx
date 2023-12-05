@@ -72,20 +72,22 @@ const ApexChart = ({ type }) => {
 
 			if (person.dead) continue
 
-			if (person.address?.value === undefined) person.address.value = 'невідомо'
+			const addressValue = person.address.value ?? 'невідомо'
 
-			const index = labels.indexOf(person.address.value)
+			const index = labels.indexOf(addressValue)
 
 			if (index >= 0 && series[index] === undefined) {
 				series[index] = 1
 			} else if (index >= 0 && series[index] !== undefined) {
 				series[index] += 1
 			} else {
-				labels.push(person.address.value)
+				labels.push(addressValue)
 				series[labels.length - 1] = 1
 			}
 		}
 	}
+
+	console.log({ labels, colors })
 
 	const options = {
 		labels,
