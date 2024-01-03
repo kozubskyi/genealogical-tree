@@ -9,17 +9,17 @@ const { DEFAULT_URL } = constants
 const Person = props => {
 	const {
 		id = '0',
-		photo,
 		surname,
 		maidenName,
 		name,
 		patronymic,
+		photo,
 		gender,
 		status,
-		dateOfBirth,
-		dead = false,
-		dateOfDeath,
-		parents = { mother: undefined, father: undefined },
+		birthDate,
+		dead,
+		deathDate,
+		parents,
 		brothersAndSisters,
 		spouse,
 		children,
@@ -32,7 +32,7 @@ const Person = props => {
 		const styles = {}
 		const border = '1px solid black'
 
-		const parentsArray = data.filter(person => person.id === parents.mother || person.id === parents.father)
+		const parentsArray = data.filter(person => person.id === parents?.mother || person.id === parents?.father)
 
 		if (parentsArray.length === 0) {
 			const brothersAndSistersArray = data.filter(person => brothersAndSisters.includes(person.id))
@@ -179,18 +179,18 @@ const Person = props => {
 					) : (
 						''
 					)}
-					{dateOfBirth ? (
+					{birthDate ? (
 						<>
 							{(surname || name || patronymic) && <br />}
-							{dateOfBirth}
+							{birthDate}
 						</>
 					) : (
 						''
 					)}
-					{dead && dateOfDeath ? (
+					{dead && deathDate ? (
 						<>
-							{(surname || name || patronymic) && dateOfBirth.length > 7 && <br />}
-							{dateOfBirth.length > 7 ? `- ${dateOfDeath}` : ` - ${dateOfDeath}`}
+							{(surname || name || patronymic) && birthDate.length > 7 && <br />}
+							{birthDate.length > 7 ? `- ${deathDate}` : ` - ${deathDate}`}
 						</>
 					) : (
 						''

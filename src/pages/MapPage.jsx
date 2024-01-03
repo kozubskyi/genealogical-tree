@@ -1,9 +1,13 @@
-import React from 'react'
+import Sidebar from '../components/Sidebar/Sidebar'
+import Map from '../components/Map/Map'
 
 const MapPage = () => {
-  return (
-    <div>MapPage</div>
-  )
+	return (
+		<div style={{ display: 'flex' }}>
+			<Sidebar />
+			<Map />
+		</div>
+	)
 }
 
 export default MapPage

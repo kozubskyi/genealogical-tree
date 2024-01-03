@@ -33,8 +33,8 @@ const Tree = () => {
 				{data.map(person => (
 					<Person key={person.id} {...person} />
 				))}
-				<ApexChart type="gender" />
-				<ApexChart type="address" />
+				{/* <ApexChart type="gender" />
+				<ApexChart type="address" /> */}
 			</div>
 			<Info />
 		</>
