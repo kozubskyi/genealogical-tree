@@ -196,6 +196,7 @@ const PersonDetails = () => {
 												{snName.includes('instagram') && <Icon icon="skill-icons:instagram" fontSize={20} />}
 												{snName.includes('telegram') && <Icon icon="logos:telegram" fontSize={20} />}
 												{snName.includes('viber') && <Icon icon="basil:viber-solid" fontSize={20} color="#583eb5" />}
+												{snName.includes('tiktok') && <Icon icon="logos:tiktok-icon" fontSize={20} />}
 											</a>
 										))}
 									</td>

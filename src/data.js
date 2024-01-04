@@ -5254,6 +5254,7 @@ const data = [
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/profile.php?id=100007990413188',
 			instagram: 'https://www.instagram.com/paninvania/',
+			tiktok: "https://www.tiktok.com/@ivan.panin3",
 		},
 		parents: {
 			mother: '4-31',
@@ -5715,7 +5716,8 @@ const data = [
 		email: null,
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/profile.php?id=100027050149185',
-			instagram: 'https://www.instagram.com/yarmak_ilia/',
+			instagram: 'https://www.instagram.com/yarmak_ilia',
+			tiktok: 'https://www.tiktok.com/@ilia_yarmak',
 		},
 		parents: {
 			mother: '5-21',
