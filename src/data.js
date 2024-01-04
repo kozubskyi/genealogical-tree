@@ -5581,7 +5581,7 @@ const data = [
 		brothersAndSisters: [],
 		children: ['7-1'],
 		spouse: '6-1',
-		kinship: '',
+		kinship: 'мабуть 4-юрідний зять або, можливо, 4-юрідний племінник, а Денис - 4-юрідний дядько',
 		position: {
 			generation: 6,
 			place: 8.5,
@@ -5834,8 +5834,7 @@ const data = [
 		brothersAndSisters: null,
 		children: [],
 		spouse: '6-15',
-		kinship: '',
-		// biography: [],
+		kinship: 'мабуть 3-юрідна невістка або, можливо, 3-юрідна племінниця, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
 			place: 24,
