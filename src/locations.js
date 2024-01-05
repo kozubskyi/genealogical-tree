@@ -156,7 +156,7 @@ const locations = {
 		link: links.boryspilKoroliova10,
 	},
 	boryspilBermud: {
-		text: 'м. Бориспіль, "Бермуд", вул. ?, ?, кв. ?',
+		text: 'м. Бориспіль, "Бермуд"',
 		link: links.boryspilBermud,
 	},
 	boryspilYevropeiska: {
@@ -184,7 +184,7 @@ const locations = {
 		link: links.kyivBratstvaTarasivtsiv6Bapp52,
 	},
 	kyivTuretskeMistechko: {
-		text: 'м. Київ, "Турецьке містечко", вул. ?, ?',
+		text: 'м. Київ, "Турецьке містечко"',
 		link: links.kyivTuretskeMistechko,
 	},
 	kyivPivnichneKladovysche: {

@@ -47,11 +47,13 @@ const PersonDetails = () => {
 	} = person
 
 	function calculateAge() {
-		if (!birthDate || birthDate === '?' || deathDate === '?' || birthDate.slice(birthDate.length - 4).includes('?')) {
-			return null
-		}
+		if (!birthDate || birthDate === '?' || deathDate === '?') return null
 
-		let birthDateArray = birthDate.split('.').reverse()
+		const slicedBirthDate = birthDate.slice(0, 10)
+
+		if (slicedBirthDate.slice(-5).includes('?')) return null
+
+		let birthDateArray = slicedBirthDate.split('.').reverse()
 		birthDateArray = birthDateArray.filter(el => !el.includes('?'))
 
 		const birthDatePrepared = birthDateArray.join('-').replace('≈', '')
@@ -211,7 +213,7 @@ const PersonDetails = () => {
 												href={link}
 												target="_blank"
 												rel="noreferrer noopener"
-												title={snName}
+												title={link}
 												key={link}
 												className="sn-link"
 											>
