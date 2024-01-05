@@ -8,6 +8,8 @@ const links = {
 		'https://www.google.com/maps/place/%D0%92%D0%B0%D1%80%D1%88%D0%B0%D0%B2%D0%B0,+%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0/@52.2330335,20.8963878,11z/data=!3m1!4b1!4m6!3m5!1s0x471ecc669a869f01:0x72f0be2a88ead3fc!8m2!3d52.2296756!4d21.0122287!16zL20vMDgxbV8?authuser=0&entry=ttu',
 	telaviv:
 		'https://www.google.com/maps/place/%D0%A2%D0%B5%D0%BB%D1%8C-%D0%90%D0%B2%D0%B8%D0%B2,+%D0%98%D0%B7%D1%80%D0%B0%D0%B8%D0%BB%D1%8C/@32.0880503,34.7148447,12z/data=!3m1!4b1!4m6!3m5!1s0x151d4ca6193b7c1f:0xc1fb72a2c0963f90!8m2!3d32.0852999!4d34.7817676!16zL20vMDdxenY?authuser=0&entry=ttu',
+	toronto:
+		'https://www.google.com/maps/place/%D0%A2%D0%BE%D1%80%D0%BE%D0%BD%D1%82%D0%BE,+%D0%9E%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%BE,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B4%D0%B0/@43.718371,-79.5428663,11z/data=!3m1!4b1!4m6!3m5!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!8m2!3d43.653226!4d-79.3831843!16zL20vMGg3aDY?authuser=0&entry=ttu',
 	voronkiv:
 		'https://www.google.com/maps/place/%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+08352/@50.2148337,30.858403,13z/data=!3m1!4b1!4m6!3m5!1s0x40d4ed1cea9cc269:0xdc656e4470c0c9c3!8m2!3d50.2227764!4d30.903976!16s%2Fg%2F120xv685?entry=ttu',
 	soshnykiv:
@@ -86,6 +88,10 @@ const locations = {
 	telaviv: {
 		text: 'м. Тель-Авів',
 		link: links.telaviv,
+	},
+	toronto: {
+		text: 'м. Торонто',
+		link: links.toronto,
 	},
 	netherlands: {
 		text: 'Нідерланди',
