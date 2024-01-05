@@ -46,17 +46,38 @@ const PersonDetails = () => {
 		// sources,
 	} = person
 
-	const calculateAge = (birthDate, deathDate) => {
-		const startDate = new Date(birthDate.split('.').reverse().join('-'))
-		const finishDate = deathDate ? new Date(deathDate.split('.').reverse().join('-')) : new Date()
+	function calculateAge() {
+		if (!birthDate || birthDate === '?' || deathDate === '?' || birthDate.slice(birthDate.length - 4).includes('?')) {
+			return null
+		}
 
-		const ageInMillis = finishDate - startDate
+		let birthDateArray = birthDate.split('.').reverse()
+		birthDateArray = birthDateArray.filter(el => !el.includes('?'))
+
+		const birthDatePrepared = birthDateArray.join('-').replace('≈', '')
+
+		const startDate = new Date(birthDatePrepared)
+
+		let endDate = new Date()
+
+		if (deathDate) {
+			let deathDateArray = deathDate.split('.').reverse()
+			deathDateArray = deathDateArray.filter(el => !el.includes('?'))
+
+			const deathDatePrepared = deathDateArray.join('-').replace('≈', '')
+
+			endDate = new Date(deathDatePrepared)
+		}
+
+		const millisInHalfDay = 43200000
+		const ageInMillis = endDate - startDate + millisInHalfDay
 
 		return Math.floor(ageInMillis / (365.25 * 24 * 60 * 60 * 1000))
 	}
 
 	const UNKNOWN = 'невідомо'
 	const fullName = `${surname ?? ''} ${maidenName ? `(${maidenName})` : ''} ${name ?? ''} ${patronymic ?? ''}`.trim()
+	const age = calculateAge()
 
 	return (
 		<div className="Details" onClick={handleBackdropClick}>
@@ -99,7 +120,8 @@ const PersonDetails = () => {
 										<a href={birthPlace.link} target="_blank" rel="noreferrer noopener">
 											{birthPlace.text}
 										</a>
-									)}
+									)}{' '}
+									{!dead && age && <span>({age} років)</span>}
 									{!birthDate && !birthPlace && UNKNOWN}{' '}
 								</td>
 							</tr>
@@ -119,7 +141,8 @@ const PersonDetails = () => {
 											<a href={deathPlace.link} target="_blank" rel="noreferrer noopener">
 												{deathPlace.text}
 											</a>
-										)}
+										)}{' '}
+										{dead && age && <span>({age} років)</span>}
 										{!deathDate && !deathPlace && UNKNOWN}
 									</td>
 								</tr>

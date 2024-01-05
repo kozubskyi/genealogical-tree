@@ -12,7 +12,7 @@ function App() {
 				<Route path={DEFAULT_URL} element={<TreePage />}>
 					<Route path={'person/:id'} element={<PersonPage />} />
 				</Route>
-				<Route path={`${DEFAULT_URL}/map`} element={<MapPage />} />
+				{/* <Route path={`${DEFAULT_URL}/map`} element={<MapPage />} /> */}
 				<Route path="*" element={<Navigate to={DEFAULT_URL} replace />} />
 			</Routes>
 			{/* <RouteButtons /> */}

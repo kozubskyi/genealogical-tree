@@ -77,10 +77,10 @@
 	font-family: 'Akrobat Black', 'Arial Narrow', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
-/* 
+
 .Details span {
 	color: silver;
-} */
+}
 
 @media screen and (min-width: 560px) {
 	.Details .card {
