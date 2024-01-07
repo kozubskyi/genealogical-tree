@@ -48,6 +48,7 @@ const PersonDetails = () => {
 
 	function calculateAge() {
 		if (!birthDate || birthDate === '?' || deathDate === '?') return null
+		if (dead && !deathDate) return null
 
 		const slicedBirthDate = birthDate.slice(0, 10)
 
@@ -115,7 +116,6 @@ const PersonDetails = () => {
 								</td>
 								<td>
 									{birthDate ?? ''}
-									{/* {!dead && <span>({calculateAge(birthDate)})</span>} */}
 									{birthDate && birthPlace && ', '}
 									{typeof birthPlace === 'string' && birthPlace}
 									{typeof birthPlace === 'object' && (
@@ -177,6 +177,7 @@ const PersonDetails = () => {
 											{nativeLocality.text}
 										</a>
 									)}
+									{typeof nativeLocality === 'string' && nativeLocality}
 									{!nativeLocality && UNKNOWN}
 								</td>
 							</tr>
@@ -222,6 +223,7 @@ const PersonDetails = () => {
 												{snName.includes('telegram') && <Icon icon="logos:telegram" fontSize={20} />}
 												{snName.includes('viber') && <Icon icon="basil:viber-solid" fontSize={20} color="#583eb5" />}
 												{snName.includes('tiktok') && <Icon icon="logos:tiktok-icon" fontSize={20} />}
+												{snName.includes('youtube') && <Icon icon="bi:youtube" fontSize={20} color="red" />}
 											</a>
 										))}
 									</td>
