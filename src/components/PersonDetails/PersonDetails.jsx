@@ -188,13 +188,13 @@ const PersonDetails = () => {
 									{dead && gender === 'female' && 'Похована:'}
 								</td>
 								<td>
-									{location ? (
+									{typeof location === 'string' && location}
+									{typeof location === 'object' && (
 										<a href={location.link} target="_blank" rel="noreferrer noopener">
 											{location.text}
 										</a>
-									) : (
-										UNKNOWN
 									)}
+									{!location && UNKNOWN}
 								</td>
 							</tr>
 							{status !== 'creator' && (
