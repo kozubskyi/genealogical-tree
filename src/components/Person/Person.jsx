@@ -109,9 +109,9 @@ const Person = props => {
 
 			const childrenMid = childrenObjects.reduce((acc, child) => acc + child.position.place, 0) / children.length
 
-			const exceptions = ['3-35']
+			const exceptions = ['2-6']
 
-			return position.place >= childrenMid && !exceptions.includes(id) ? leftStyles : rightStyles
+			return position.place >= childrenMid || exceptions.includes(id) ? leftStyles : rightStyles
 		}
 
 		const spouseObject = data.find(person => person.id === spouse)

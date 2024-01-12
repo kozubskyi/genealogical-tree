@@ -41,6 +41,8 @@ const PersonDetails = () => {
 		nativeLocality,
 		location,
 		socialNetworks,
+		brothersAndSisters,
+		children,
 		kinship,
 		// facts,
 		// sources,
@@ -197,6 +199,24 @@ const PersonDetails = () => {
 									{!location && UNKNOWN}
 								</td>
 							</tr>
+							{/* {status === 'relative' && <tr>
+								<td>
+									Кількість{' '}
+									<a
+										href="https://uk.wikipedia.org/wiki/%D0%A1%D1%83%D1%80%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D1%86%D1%96"
+										target="_blank"
+										rel="noreferrer noopener"
+									>
+										суродженців
+									</a>
+									:
+								</td>
+								<td>{brothersAndSisters.length}</td>
+							</tr>}
+							<tr>
+								<td>Кількість дітей:</td>
+								<td>{children.length}</td>
+							</tr> */}
 							{status !== 'creator' && (
 								<tr>
 									<td>
