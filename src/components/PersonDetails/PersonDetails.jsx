@@ -160,7 +160,7 @@ const PersonDetails = () => {
 								<td>{citizenship ?? UNKNOWN}</td>
 							</tr>
 							<tr>
-								<td>Рідне місто:</td>
+								<td>Рідний регіон:</td>
 								<td>
 									{nativeLocality &&
 										Array.isArray(nativeLocality) &&
