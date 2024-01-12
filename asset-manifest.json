@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/genealogical-tree/static/css/main.bdd2b177.css",
-    "main.js": "/genealogical-tree/static/js/main.dadb81a0.js",
+    "main.css": "/genealogical-tree/static/css/main.44896551.css",
+    "main.js": "/genealogical-tree/static/js/main.d4000737.js",
     "static/media/Корінь Михайло Іванович.JPEG": "/genealogical-tree/static/media/Корінь Михайло Іванович.a073ffe3a0a738074335.JPEG",
     "static/media/Яків.JPEG": "/genealogical-tree/static/media/Яків.f03fe4c63a11614a8b34.JPEG",
     "static/media/Ярмак Анна Василівна.jpg": "/genealogical-tree/static/media/Ярмак Анна Василівна.01daf8c881ffd3d5b26b.jpg",
@@ -92,6 +92,7 @@
     "static/media/Панін Іван Михайлович.jpg": "/genealogical-tree/static/media/Панін Іван Михайлович.f84e222009f412b45aad.jpg",
     "static/media/Козубський Денис Ігорович.jpg": "/genealogical-tree/static/media/Козубський Денис Ігорович.3b86383e4415ce060d4b.jpg",
     "static/media/(Рак) Олена Олексіївна.PNG": "/genealogical-tree/static/media/(Рак) Олена Олексіївна.da7570e4e113ef6eb5ae.PNG",
+    "static/media/Виноградний Олександр.jpg": "/genealogical-tree/static/media/Виноградний Олександр.1fab291d9167a14337b4.jpg",
     "static/media/Гоголь Євгеній Віталійович.jpg": "/genealogical-tree/static/media/Гоголь Євгеній Віталійович.22212b245cb7b7553886.jpg",
     "static/media/Щербеньов Павло Анатолійович.jpg": "/genealogical-tree/static/media/Щербеньов Павло Анатолійович.ce63059b6575daabf89e.jpg",
     "static/media/Падун Юрій Юрійович.jpg": "/genealogical-tree/static/media/Падун Юрій Юрійович.74672caf183cb0165deb.jpg",
@@ -131,11 +132,11 @@
     "static/media/Сахно Анатолій Григорович.jpg": "/genealogical-tree/static/media/Сахно Анатолій Григорович.cc8fe1a71e370fd7b2c9.jpg",
     "static/media/Баранов Анатолій Андрійович.jpg": "/genealogical-tree/static/media/Баранов Анатолій Андрійович.cee7125d96cc69089905.jpg",
     "index.html": "/genealogical-tree/index.html",
-    "main.bdd2b177.css.map": "/genealogical-tree/static/css/main.bdd2b177.css.map",
-    "main.dadb81a0.js.map": "/genealogical-tree/static/js/main.dadb81a0.js.map"
+    "main.44896551.css.map": "/genealogical-tree/static/css/main.44896551.css.map",
+    "main.d4000737.js.map": "/genealogical-tree/static/js/main.d4000737.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdd2b177.css",
-    "static/js/main.dadb81a0.js"
+    "static/css/main.44896551.css",
+    "static/js/main.d4000737.js"
   ]
 }
