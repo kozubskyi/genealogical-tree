@@ -19,6 +19,8 @@ const links = {
 		'https://www.google.com/maps/place/%D0%9E%D0%B2%D1%80%D1%83%D1%87,+%D0%96%D0%B8%D1%82%D0%BE%D0%BC%D0%B8%D1%80%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+11101/@51.3245729,28.7668805,13z/data=!3m1!4b1!4m6!3m5!1s0x472987f8b974aae1:0xc133be32ddf9c30a!8m2!3d51.3268314!4d28.8028968!16zL20vMDhkdmc5?authuser=0&entry=ttu',
 	aarhus:
 		'https://www.google.com/maps/place/%D0%9E%D1%80%D1%85%D1%83%D1%81,+%D0%94%D0%B0%D0%BD%D0%B8%D1%8F/@56.1781721,10.0995744,12z/data=!3m1!4b1!4m6!3m5!1s0x464c4cb15397788b:0x8c4dd7d9912ea2af!8m2!3d56.162939!4d10.203921!16zL20vMGx6cA?authuser=0&entry=ttu',
+	donetskRegion:
+		'https://www.google.com/maps/place/%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@48.0465524,36.4977124,8z/data=!3m1!4b1!4m6!3m5!1s0x40df9b18a23dd57b:0xba4f260a04a24c24!8m2!3d48.015883!4d37.80285!16zL20vMDJoODA0?authuser=0&entry=ttu',
 	netherlands:
 		'https://www.google.com/maps/place/%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B/@52.1869225,2.6404952,7z/data=!3m1!4b1!4m6!3m5!1s0x47c609c3db87e4bb:0xb3a175ceffbd0a9f!8m2!3d52.132633!4d5.291266!16zL20vMDU5ajI?authuser=0&entry=ttu',
 	italy:
@@ -105,6 +107,10 @@ const locations = {
 	aarhus: {
 		text: 'м. Орхус',
 		link: links.aarhus,
+	},
+	donetskRegion: {
+		text: 'Донеччина',
+		link: links.donetskRegion
 	},
 	netherlands: {
 		text: 'Нідерланди',
