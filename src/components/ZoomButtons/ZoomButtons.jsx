@@ -1,10 +1,11 @@
-import { useEffect } from 'react'
+// import { useEffect } from 'react'
 import './ZoomButtons.css'
 
 const ZoomButtons = props => {
 	const { scale, setScale, scaleMinValue } = props
 
-	const zoomValue = 1.188
+	// const zoomValue = 1.188
+	const zoomValue = 1.25
 
 	// useEffect(() => {
 	// 	const onWheel = evt => {

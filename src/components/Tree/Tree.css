@@ -9,11 +9,11 @@
 	border-left: 1px solid rgba(0, 0, 0, 0.2);
 	position: absolute;
 	height: 2060px;
-	width: 1360px;
-	left: 5500px;
+	width: 1250px;
+	left: 5505px;
 	top: 0;
 	bottom: 0;
-	transform: matrix(1, 0, 0.45, 1, 0, 0);
+	transform: matrix(1, 0, 0.55, 1, 0, 0);
 }
 
 .Tree .branch-line span {

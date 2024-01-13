@@ -2157,7 +2157,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 36,
+			place: 36.5,
 		},
 	},
 	{
@@ -2198,7 +2198,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 37,
+			place: 37.5,
 		},
 	},
 	{
