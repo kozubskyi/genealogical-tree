@@ -67,11 +67,9 @@ const Person = props => {
 
 		styles.borderTop = border
 
-		const parentWithLine = parentsArray.find(parent => parent.position.line)
-
-		if (parentWithLine) {
-			styles.top = parentWithLine.position.line * -20
-			styles.height = parentWithLine.position.line * 20 + 20
+		if (parentsArray.every(parent => parent.position.line)) {
+			styles.top = parentsArray[0].position.line * -20
+			styles.height = parentsArray[0].position.line * 20 + 20
 		}
 
 		if (position.place > parentsMid) {
