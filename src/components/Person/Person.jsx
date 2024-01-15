@@ -195,8 +195,6 @@ const Person = props => {
 					)}
 				</div>
 			</NavLink>
-
-			{/* {areDetailsOpened && <Details key={id} {...props} />} */}
 		</div>
 	)
 }
