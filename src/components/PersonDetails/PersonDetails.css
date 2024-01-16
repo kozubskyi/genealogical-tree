@@ -20,7 +20,10 @@
 	background-color: white;
 	padding: 15px;
 	min-width: 200px;
+	max-height: calc(100vh - 30px);
+	max-height: calc(100dvh - 30px);
 	border-radius: 8px;
+	overflow-y: auto;
 }
 
 .Details .card .left {
@@ -30,6 +33,16 @@
 
 .Details .card .right {
 	padding: 15px 0 0 0;
+}
+
+.Details h2 {
+	font-size: 1rem;
+	color: silver;
+	margin: 0.67rem 0;
+}
+
+.Details .card p {
+	margin: 0.67rem 0 0 0;
 }
 
 .Details .photo {
@@ -84,6 +97,10 @@
 
 @media screen and (min-width: 560px) {
 	.Details .card {
+		max-width: 800px;
+	}
+
+	.Details .card .info {
 		display: flex;
 	}
 
