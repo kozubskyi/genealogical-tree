@@ -4,7 +4,7 @@ import data from '../../data'
 const Info = () => {
 	return (
 		<div className="Info">
-			<div>Версія: 0.2.32</div>
+			<div>Версія: 0.2.33</div>
 			<div>Оновлено: 20.01.2024</div>
 			<div>Всього родичів: {data.length}</div>
 		</div>
