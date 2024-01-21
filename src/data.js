@@ -2747,10 +2747,9 @@ const data = [
 		location: locations.probablyBoryspilLisova5,
 		phone: null,
 		email: null,
-		// socialNetworks: {
-		// 	facebook: 'https://www.facebook.com/profile.php?id=100025786430574',
-		// },
-		socialNetworks: null,
+		socialNetworks: {
+			facebook: 'https://www.facebook.com/profile.php?id=100025786430574',
+		},
 		parents: {
 			mother: undefined,
 			father: undefined,
@@ -4601,7 +4600,7 @@ const data = [
 		nationality: 'українець',
 		citizenship: 'Україна (раніше СРСР)',
 		nativeLocality: locations.probablyBoryspil,
-		location: locations.boryspil,
+		location: 'м. Бориспіль, вул. Лісова, ?',
 		phone: null,
 		email: null,
 		socialNetworks: {
@@ -4634,7 +4633,7 @@ const data = [
 		nationality: 'українка',
 		citizenship: 'Україна (раніше СРСР)',
 		nativeLocality: locations.boryspil,
-		location: locations.boryspil,
+		location: 'м. Бориспіль, вул. Лісова, ?',
 		phone: null,
 		email: null,
 		socialNetworks: {
@@ -6431,7 +6430,7 @@ const data = [
 		nationality: 'українець',
 		citizenship: 'Україна',
 		nativeLocality: locations.boryspil,
-		location: locations.boryspil,
+		location: 'м. Бориспіль, вул. Лісова, ?',
 		phone: null,
 		email: null,
 		socialNetworks: null,
@@ -6465,7 +6464,7 @@ const data = [
 		nationality: 'українець',
 		citizenship: 'Україна',
 		nativeLocality: locations.boryspil,
-		location: locations.boryspil,
+		location: 'м. Бориспіль, вул. Лісова, ?',
 		phone: null,
 		email: null,
 		socialNetworks: null,
