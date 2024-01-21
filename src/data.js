@@ -29,7 +29,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 1,
-			place: 9.5,
+			place: 11.5,
 		},
 	},
 	{
@@ -62,7 +62,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 1,
-			place: 10.5,
+			place: 12.5,
 		},
 	},
 	{
@@ -95,7 +95,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 1,
-			place: 18.5,
+			place: 20,
 			line: 1,
 		},
 	},
@@ -135,7 +135,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 1,
-			place: 19.5,
+			place: 21,
 			line: 1,
 		},
 	},
@@ -175,7 +175,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 1,
-			place: 27,
+			place: 28,
 		},
 	},
 	{
@@ -214,7 +214,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 1,
-			place: 28,
+			place: 29,
 		},
 	},
 
@@ -244,7 +244,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 6,
+			place: 8,
 		},
 	},
 	{
@@ -287,7 +287,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 7,
+			place: 9,
 		},
 	},
 	{
@@ -315,7 +315,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 18.5,
+			place: 20.5,
 		},
 	},
 	{
@@ -357,7 +357,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 17.5,
+			place: 19.5,
 		},
 	},
 	{
@@ -385,7 +385,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 10.5,
+			place: 13,
 		},
 	},
 	{
@@ -427,7 +427,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 11.5,
+			place: 14,
 		},
 	},
 	{
@@ -470,7 +470,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 14,
+			place: 16.5,
 		},
 	},
 	{
@@ -510,7 +510,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 15,
+			place: 17.5,
 		},
 	},
 	{
@@ -544,7 +544,7 @@ const data = [
 		],
 		position: {
 			generation: 2,
-			place: 21.5,
+			place: 23,
 		},
 	},
 	{
@@ -584,7 +584,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 22.5,
+			place: 24,
 		},
 	},
 	{
@@ -624,7 +624,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 27.5,
+			place: 28.5,
 		},
 	},
 	{
@@ -667,7 +667,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 26.5,
+			place: 27.5,
 		},
 	},
 	{
@@ -718,7 +718,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 33.5,
+			place: 34.5,
 			line: 1,
 		},
 	},
@@ -767,7 +767,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 32.5,
+			place: 33.5,
 			line: 1,
 		},
 	},
@@ -810,7 +810,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 47,
+			place: 48,
 		},
 	},
 	{
@@ -854,7 +854,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 48,
+			place: 49,
 		},
 	},
 	{
@@ -897,7 +897,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 49,
+			place: 50,
 		},
 	},
 
@@ -937,7 +937,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 3,
+			place: 6,
 		},
 	},
 	{
@@ -980,7 +980,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 4,
+			place: 7,
 		},
 	},
 	{
@@ -1020,7 +1020,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 7.5,
+			place: 9.5,
 		},
 	},
 	{
@@ -1063,7 +1063,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 8.5,
+			place: 10.5,
 		},
 	},
 	{
@@ -1106,7 +1106,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 9.5,
+			place: 11.5,
 		},
 	},
 	{
@@ -1142,7 +1142,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 10.5,
+			place: 12.5,
 		},
 	},
 	{
@@ -1154,14 +1154,14 @@ const data = [
 		photo: null,
 		gender: 'male',
 		status: 'relative',
-		birthDate: '?',
+		birthDate: undefined,
 		birthPlace: locations.probablyBoryspil,
-		dead: true,
-		deathDate: '<1945',
+		dead: undefined,
+		deathDate: undefined,
 		deathPlace: undefined,
 		nationality: 'українець',
-		citizenship: 'СРСР',
-		nativeLocality: locations.boryspil,
+		citizenship: 'можливо Литва (раніше СРСР)',
+		nativeLocality: locations.maybeBoryspil,
 		location: undefined,
 		phone: null,
 		email: null,
@@ -1175,9 +1175,12 @@ const data = [
 		spouse: null,
 		kinship: '3-юрідний дід, а Денис - 2-юрідний онуковий племінник (3-юрідний онук)',
 		branch: 'Коренів',
+		facts: [
+			"Багато років тому переїхав у Литву. Останній раз приїжджав у Бориспіль ще приблизно у 1985-му році. Після цього зв'язок з родиною не підтримував. Наразі про нього нічого не відомо.",
+		],
 		position: {
 			generation: 3,
-			place: 13,
+			place: 16.5,
 		},
 	},
 	{
@@ -1225,7 +1228,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 14,
+			place: 15.5,
 		},
 	},
 	{
@@ -1270,7 +1273,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 15,
+			place: 14.5,
 		},
 	},
 	{
@@ -1310,7 +1313,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 19,
+			place: 20,
 		},
 	},
 	{
@@ -1353,7 +1356,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 20,
+			place: 21,
 		},
 	},
 	{
@@ -1397,7 +1400,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 21,
+			place: 22,
 		},
 	},
 	{
@@ -1430,7 +1433,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 23.5,
+			place: 24.5,
 		},
 	},
 	{
@@ -1466,7 +1469,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 24.5,
+			place: 25.5,
 		},
 	},
 	{
@@ -1515,7 +1518,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 26.5,
+			place: 27.5,
 		},
 	},
 	{
@@ -1560,7 +1563,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 25.5,
+			place: 26.5,
 		},
 	},
 	{
@@ -1603,7 +1606,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 28.5,
+			place: 29.5,
 		},
 	},
 	{
@@ -1639,7 +1642,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 27.5,
+			place: 28.5,
 		},
 	},
 	{
@@ -1682,7 +1685,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 30.5,
+			place: 31.5,
 		},
 	},
 	{
@@ -1715,7 +1718,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 31.5,
+			place: 32.5,
 		},
 	},
 	{
@@ -1758,7 +1761,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 29.5,
+			place: 30.5,
 		},
 	},
 	{
@@ -1806,7 +1809,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 34,
+			place: 35,
 		},
 	},
 	{
@@ -1854,7 +1857,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 35,
+			place: 36,
 		},
 	},
 	{
@@ -1899,7 +1902,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 36,
+			place: 37,
 		},
 	},
 	{
@@ -1943,7 +1946,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 37,
+			place: 38,
 		},
 	},
 	{
@@ -1999,7 +2002,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 38,
+			place: 39,
 		},
 	},
 	{
@@ -2039,7 +2042,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 39,
+			place: 40,
 		},
 	},
 	{
@@ -2082,7 +2085,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 40.5,
+			place: 41.5,
 		},
 	},
 	{
@@ -2122,7 +2125,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 41.5,
+			place: 42.5,
 		},
 	},
 	{
@@ -2170,7 +2173,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 43,
+			place: 44,
 		},
 	},
 	{
@@ -2215,7 +2218,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 44,
+			place: 45,
 		},
 	},
 	{
@@ -2264,7 +2267,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 45.5,
+			place: 46.5,
 		},
 	},
 	{
@@ -2316,7 +2319,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 46.5,
+			place: 47.5,
 		},
 	},
 	{
@@ -2359,7 +2362,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 48,
+			place: 49,
 		},
 	},
 	{
@@ -2422,7 +2425,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 49,
+			place: 50,
 		},
 	},
 	{
@@ -2489,7 +2492,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 3,
-			place: 50,
+			place: 51,
 		},
 	},
 
@@ -2498,7 +2501,7 @@ const data = [
 		id: '4-1.1',
 		surname: 'Виноградна',
 		maidenName: undefined,
-		name: 'Валентина',
+		name: 'Ірина',
 		patronymic: undefined,
 		photo: null,
 		gender: 'female',
@@ -2521,7 +2524,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 1,
+			place: 3,
 		},
 	},
 	{
@@ -2557,12 +2560,12 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 2,
+			place: 4,
 		},
 	},
 	{
 		id: '4-64.1',
-		surname: undefined,
+		surname: 'Марченко',
 		maidenName: null,
 		name: undefined,
 		patronymic: undefined,
@@ -2587,12 +2590,12 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 3,
+			place: 5,
 		},
 	},
 	{
 		id: '4-64',
-		surname: undefined,
+		surname: 'Марченко',
 		maidenName: 'Виноградна',
 		name: 'Ольга',
 		patronymic: 'Павлівна',
@@ -2622,12 +2625,12 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 4,
+			place: 6,
 		},
 	},
 	{
 		id: '4-65',
-		surname: undefined,
+		surname: 'Кропива',
 		maidenName: 'Виноградна',
 		name: 'Оксана',
 		patronymic: 'Павлівна',
@@ -2657,15 +2660,14 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 5,
-			line: 1,
+			place: 7,
 		},
 	},
 	{
 		id: '4-65.1',
-		surname: undefined,
+		surname: 'Кропива',
 		maidenName: null,
-		name: undefined,
+		name: 'Микола',
 		patronymic: undefined,
 		photo: null,
 		gender: 'male',
@@ -2688,8 +2690,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 6,
-			line: 1,
+			place: 8,
 		},
 	},
 	{
@@ -2723,21 +2724,19 @@ const data = [
 		kinship: '3-юрідний дядько, а Денис - 3-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 8,
+			place: 10,
 		},
 	},
 	{
 		id: '4-16',
 		surname: 'Крисанова',
-		maidenName: undefined,
+		maidenName: 'Чеховська',
 		name: 'Ніна',
-		patronymic: undefined,
-		// photo: require('./photos/Крисанова Ніна.jpg'),
-		photo: null,
+		patronymic: 'Дмитрівна',
+		photo: require('./photos/Крисанова Ніна Дмитрівна.jpg'),
 		gender: 'female',
 		status: 'spouse of relative',
-		// birthDate: '12.04.1964',
-		birthDate: undefined,
+		birthDate: '12.04.1964',
 		birthPlace: undefined,
 		dead: false,
 		deathDate: null,
@@ -2762,7 +2761,7 @@ const data = [
 		kinship: '3-юрідна тітка, а Денис - 3-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 9.5,
+			place: 11.5,
 		},
 	},
 	{
@@ -2771,14 +2770,14 @@ const data = [
 		maidenName: null,
 		name: 'Віктор',
 		patronymic: 'Афіногенович',
-		photo: null,
+		photo: require('./photos/Крисанов Віктор Афіногенович.png'),
 		gender: 'male',
 		status: 'relative',
-		birthDate: '1958',
-		birthPlace: undefined,
+		birthDate: '23.04.1958',
+		birthPlace: locations.probablyBoryspil,
 		dead: false,
-		deathDate: undefined,
-		deathPlace: undefined,
+		deathDate: null,
+		deathPlace: null,
 		nationality: 'українець',
 		citizenship: 'Україна (раніше СРСР)',
 		nativeLocality: locations.boryspil,
@@ -2799,7 +2798,7 @@ const data = [
 		kinship: '3-юрідний дядько, а Денис - 3-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 10.5,
+			place: 12.5,
 		},
 	},
 	{
@@ -2808,13 +2807,13 @@ const data = [
 		maidenName: null,
 		name: 'Сергій',
 		patronymic: 'Афіногенович',
-		photo: null,
+		photo: require('./photos/Крисанов Сергій Афіногенович.jpg'),
 		gender: 'male',
 		status: 'relative',
-		birthDate: '1960',
-		birthPlace: undefined,
+		birthDate: '21.06.1960',
+		birthPlace: locations.probablyBoryspil,
 		dead: true,
-		deathDate: '≈2019',
+		deathDate: '14.12.2018',
 		deathPlace: undefined,
 		nationality: 'українець',
 		citizenship: 'Україна (раніше СРСР)',
@@ -2829,47 +2828,47 @@ const data = [
 		},
 		brothersAndSisters: ['4-17'],
 		children: ['5-14'],
-		spouse: '4-19',
+		spouse: null,
 		kinship: '3-юрідний дядько, а Денис - 3-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 11.5,
+			place: 13.5,
 		},
 	},
-	{
-		id: '4-19',
-		surname: 'Крисанова',
-		maidenName: undefined,
-		name: undefined,
-		patronymic: undefined,
-		photo: null,
-		gender: 'female',
-		status: 'spouse of relative',
-		birthDate: undefined,
-		birthPlace: undefined,
-		dead: undefined,
-		deathDate: undefined,
-		deathPlace: undefined,
-		nationality: 'мабуть українка',
-		citizenship: 'мабуть Україна (раніше СРСР)',
-		nativeLocality: undefined,
-		location: undefined,
-		phone: null,
-		email: null,
-		socialNetworks: null,
-		parents: {
-			mother: undefined,
-			father: undefined,
-		},
-		brothersAndSisters: [],
-		children: ['5-14'],
-		spouse: '4-18',
-		kinship: '3-юрідна тітка, а Денис - 3-юрідний племінник',
-		position: {
-			generation: 4,
-			place: 12.5,
-		},
-	},
+	// {
+	// 	id: '4-19',
+	// 	surname: 'Крисанова',
+	// 	maidenName: undefined,
+	// 	name: "Світлана",
+	// 	patronymic: undefined,
+	// 	photo: null,
+	// 	gender: 'female',
+	// 	status: 'spouse of relative',
+	// 	birthDate: undefined,
+	// 	birthPlace: undefined,
+	// 	dead: undefined,
+	// 	deathDate: undefined,
+	// 	deathPlace: undefined,
+	// 	nationality: 'мабуть українка',
+	// 	citizenship: 'мабуть Україна (раніше СРСР)',
+	// 	nativeLocality: undefined,
+	// 	location: undefined,
+	// 	phone: null,
+	// 	email: null,
+	// 	socialNetworks: null,
+	// 	parents: {
+	// 		mother: undefined,
+	// 		father: undefined,
+	// 	},
+	// 	brothersAndSisters: [],
+	// 	children: ['5-14'],
+	// 	spouse: '4-18',
+	// 	kinship: '3-юрідна тітка, а Денис - 3-юрідний племінник',
+	// 	position: {
+	// 		generation: 4,
+	// 		place: 12.5,
+	// 	},
+	// },
 	{
 		id: '4-2',
 		surname: 'Яцюта',
@@ -2904,7 +2903,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 14,
+			place: 15,
 		},
 	},
 	{
@@ -2944,7 +2943,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 15,
+			place: 16,
 		},
 	},
 	{
@@ -2980,8 +2979,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 16,
-			line: 1,
+			place: 17,
 		},
 	},
 	{
@@ -3020,8 +3018,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 17,
-			line: 1,
+			place: 18,
 		},
 	},
 	{
@@ -3057,7 +3054,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 18,
+			place: 19,
 		},
 	},
 	{
@@ -3090,7 +3087,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 19,
+			place: 20,
 		},
 	},
 	{
@@ -3127,7 +3124,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 20,
+			place: 21,
 		},
 	},
 	{
@@ -3163,7 +3160,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 21,
+			place: 22,
 		},
 	},
 	{
@@ -3196,7 +3193,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 22,
+			place: 23,
 		},
 	},
 	{
@@ -3230,7 +3227,7 @@ const data = [
 		kinship: '3-юрідна тітка, а Денис - 3-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 24.5,
+			place: 25.5,
 		},
 	},
 	{
@@ -3260,7 +3257,7 @@ const data = [
 		facts: ['Народився 30.12.1959 проте офіційно вирішили записати 01.01.1960.'],
 		position: {
 			generation: 4,
-			place: 23.5,
+			place: 24.5,
 		},
 	},
 	{
@@ -3294,7 +3291,7 @@ const data = [
 		kinship: '3-юрідна тітка, а Денис - 3-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 25.5,
+			place: 26.5,
 		},
 	},
 	{
@@ -3325,7 +3322,7 @@ const data = [
 		kinship: '3-юрідний дядько, а Денис - 3-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 26.5,
+			place: 27.5,
 		},
 	},
 	{
@@ -3362,7 +3359,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 27.5,
+			place: 28.5,
 		},
 	},
 	{
@@ -3398,7 +3395,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 28.5,
+			place: 29.5,
 		},
 	},
 	{
@@ -3431,7 +3428,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 29.5,
+			place: 30.5,
 		},
 	},
 	{
@@ -3467,7 +3464,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 30.5,
+			place: 31.5,
 		},
 	},
 	{
@@ -3500,7 +3497,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 4,
-			place: 31.5,
+			place: 32.5,
 		},
 	},
 	{
@@ -3533,7 +3530,7 @@ const data = [
 		kinship: '2-юрідна тітка, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 33,
+			place: 34,
 		},
 	},
 	{
@@ -3570,7 +3567,7 @@ const data = [
 		kinship: '2-юрідний дядько, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 34,
+			place: 35,
 		},
 	},
 	{
@@ -3615,7 +3612,7 @@ const data = [
 		kinship: '2-юрідна тітка, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 35,
+			place: 36,
 		},
 	},
 	{
@@ -3657,7 +3654,7 @@ const data = [
 		kinship: '2-юрідна тітка, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 36,
+			place: 37,
 		},
 	},
 	{
@@ -3691,7 +3688,7 @@ const data = [
 		kinship: '2-юрідний дядько, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 37,
+			place: 38,
 		},
 	},
 	{
@@ -3725,7 +3722,7 @@ const data = [
 		kinship: '2-юрідна тітка, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 38,
+			place: 39,
 		},
 	},
 	{
@@ -3761,7 +3758,7 @@ const data = [
 		kinship: '2-юрідний дядько, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 39,
+			place: 40,
 		},
 	},
 	{
@@ -3794,7 +3791,7 @@ const data = [
 		kinship: '2-юрідна тітка, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 40,
+			place: 41,
 		},
 	},
 	{
@@ -3833,7 +3830,7 @@ const data = [
 		kinship: '2-юрідний дядько, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 41,
+			place: 42,
 		},
 	},
 	{
@@ -3885,7 +3882,7 @@ const data = [
 		kinship: '2-юрідна тітка, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 42,
+			place: 43,
 			line: 1,
 		},
 	},
@@ -3924,7 +3921,7 @@ const data = [
 		kinship: '2-юрідний дядько, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 43,
+			place: 44,
 		},
 	},
 	{
@@ -3962,7 +3959,7 @@ const data = [
 		kinship: '2-юрідна тітка, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 44,
+			place: 45,
 		},
 	},
 	{
@@ -4002,7 +3999,7 @@ const data = [
 		kinship: '2-юрідний дядько, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 45,
+			place: 46,
 		},
 	},
 	{
@@ -4042,7 +4039,7 @@ const data = [
 		kinship: '2-юрідна тітка, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 46,
+			place: 47,
 			line: 1,
 		},
 	},
@@ -4077,7 +4074,7 @@ const data = [
 		kinship: '2-юрідний(-а) дядько/тітка, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 47,
+			place: 48,
 		},
 	},
 	{
@@ -4111,7 +4108,7 @@ const data = [
 		kinship: '2-юрідна тітка, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 48,
+			place: 49,
 		},
 	},
 	{
@@ -4145,7 +4142,7 @@ const data = [
 		kinship: '2-юрідний(-а) дядько/тітка, а Денис - 2-юрідний племінник',
 		position: {
 			generation: 4,
-			place: 49,
+			place: 50,
 		},
 	},
 	{
@@ -4197,7 +4194,7 @@ const data = [
 		kinship: 'Дядько, а Денис - племінник',
 		position: {
 			generation: 4,
-			place: 50,
+			place: 51,
 		},
 	},
 	{
@@ -4261,7 +4258,7 @@ const data = [
 		kinship: 'Тітка, а Денис - племінник',
 		position: {
 			generation: 4,
-			place: 51,
+			place: 52,
 		},
 	},
 	{
@@ -4323,7 +4320,7 @@ const data = [
 		kinship: 'Мати, а Денис - син',
 		position: {
 			generation: 4,
-			place: 52,
+			place: 53,
 		},
 	},
 
@@ -4349,7 +4346,7 @@ const data = [
 		phone: null,
 		email: null,
 		socialNetworks: null,
-		children: [],
+		children: ['6-27'],
 		spouse: '5-46',
 		kinship: '5-юрідний зять, а Денис - 5-юрідний шурин',
 		position: {
@@ -4361,7 +4358,7 @@ const data = [
 		id: '5-46',
 		surname: undefined,
 		maidenName: 'Виноградна',
-		name: 'Оксана',
+		name: 'Наталія',
 		patronymic: 'Анатоліївна',
 		photo: null,
 		gender: 'female',
@@ -4383,7 +4380,7 @@ const data = [
 			father: '4-1',
 		},
 		brothersAndSisters: ['5-1'],
-		children: [],
+		children: ['6-27'],
 		spouse: '5-46.1',
 		kinship: '5-юрідна сестра, а Денис - 5-юрідний брат',
 		position: {
@@ -4419,7 +4416,7 @@ const data = [
 			father: '4-1',
 		},
 		brothersAndSisters: ['5-46'],
-		children: ['6-23'],
+		children: ['6-23', '6-23.1', '6-23.2'],
 		spouse: '5-1.1',
 		kinship: '5-юрідні брати',
 		position: {
@@ -4448,7 +4445,7 @@ const data = [
 		phone: null,
 		email: null,
 		socialNetworks: null,
-		children: ['6-23'],
+		children: ['6-23', '6-23.1', '6-23.2'],
 		spouse: '5-1',
 		kinship: '5-юрідна невістка, а Денис - 5-юрідний дівер',
 		position: {
@@ -4458,7 +4455,7 @@ const data = [
 	},
 	{
 		id: '5-47',
-		surname: undefined,
+		surname: 'Марченко',
 		maidenName: null,
 		name: 'Сергій',
 		patronymic: undefined,
@@ -4492,7 +4489,7 @@ const data = [
 	},
 	{
 		id: '5-48',
-		surname: undefined,
+		surname: 'Марченко',
 		maidenName: null,
 		name: undefined,
 		patronymic: undefined,
@@ -4527,7 +4524,7 @@ const data = [
 	{
 		id: '5-49',
 		surname: undefined,
-		maidenName: undefined,
+		maidenName: 'Кропива',
 		name: 'Оксана',
 		patronymic: undefined,
 		photo: null,
@@ -4592,19 +4589,19 @@ const data = [
 		surname: 'Кривицький',
 		maidenName: null,
 		name: 'Олександр',
-		patronymic: undefined,
-		photo: require('./photos/Кривицький Олександр.jpg'),
+		patronymic: 'Володимирович',
+		photo: require('./photos/Кривицький Олександр Володимирович.jpg'),
 		gender: 'male',
 		status: 'spouse of relative',
-		birthDate: undefined,
+		birthDate: '09.12.1983',
 		birthPlace: undefined,
 		dead: false,
-		deathDate: undefined,
-		deathPlace: undefined,
-		nationality: 'мабуть українець',
-		citizenship: 'мабуть Україна (раніше СРСР)',
-		nativeLocality: undefined,
-		location: undefined,
+		deathDate: null,
+		deathPlace: null,
+		nationality: 'українець',
+		citizenship: 'Україна (раніше СРСР)',
+		nativeLocality: locations.probablyBoryspil,
+		location: locations.boryspil,
 		phone: null,
 		email: null,
 		socialNetworks: {
@@ -4612,12 +4609,12 @@ const data = [
 		},
 		parents: undefined,
 		brothersAndSisters: [],
-		children: [],
+		children: ['6-24', '6-25'],
 		spouse: '5-13',
 		kinship: '4-юрідний зять, а Денис - 4-юрідний шурин',
 		position: {
 			generation: 5,
-			place: 9.5,
+			place: 12.5,
 		},
 	},
 	{
@@ -4629,11 +4626,11 @@ const data = [
 		photo: require('./photos/Кривицька (Крисанова) Альона Вікторівна.jpg'),
 		gender: 'female',
 		status: 'relative',
-		birthDate: undefined,
-		birthPlace: undefined,
+		birthDate: '24.10.1989',
+		birthPlace: locations.probablyBoryspil,
 		dead: false,
-		deathDate: undefined,
-		deathPlace: undefined,
+		deathDate: null,
+		deathPlace: null,
 		nationality: 'українка',
 		citizenship: 'Україна (раніше СРСР)',
 		nativeLocality: locations.boryspil,
@@ -4648,12 +4645,12 @@ const data = [
 			father: '4-17',
 		},
 		brothersAndSisters: ['5-44'],
-		children: [],
+		children: ['6-24', '6-25'],
 		spouse: '5-13.1',
 		kinship: '4-юрідна сестра, а Денис - 4-юрідний брат',
 		position: {
 			generation: 5,
-			place: 10.5,
+			place: 11.5,
 		},
 	},
 	{
@@ -4665,8 +4662,8 @@ const data = [
 		photo: require('./photos/Крисанов Дмитро Вікторович.jpg'),
 		gender: 'male',
 		status: 'relative',
-		birthDate: undefined,
-		birthPlace: undefined,
+		birthDate: '16.08.1983',
+		birthPlace: locations.probablyBoryspil,
 		dead: false,
 		deathDate: undefined,
 		deathPlace: undefined,
@@ -4689,19 +4686,19 @@ const data = [
 		kinship: '4-юрідні брати',
 		position: {
 			generation: 5,
-			place: 11.5,
+			place: 10.5,
 		},
 	},
 	{
 		id: '5-44.1',
 		surname: 'Крисанова',
-		maidenName: undefined,
+		maidenName: 'Гнутова',
 		name: 'Ольга',
-		patronymic: undefined,
+		patronymic: 'Олександрівна',
 		photo: null,
 		gender: 'female',
 		status: 'spouse of relative',
-		birthDate: undefined,
+		birthDate: '19.06.1982',
 		birthPlace: undefined,
 		dead: false,
 		deathDate: null,
@@ -4720,7 +4717,7 @@ const data = [
 		kinship: '4-юрідна невістка, а Денис - 4-юрідний дівер',
 		position: {
 			generation: 5,
-			place: 12.5,
+			place: 9.5,
 		},
 	},
 	{
@@ -4766,7 +4763,7 @@ const data = [
 		photo: require('./photos/Кацевал (Крисанова) Анна Сергіївна.jpg'),
 		gender: 'female',
 		status: 'relative',
-		birthDate: '20.12.19??',
+		birthDate: '20.12.1987',
 		birthPlace: 'мабуть м. Бориспіль',
 		dead: false,
 		deathDate: null,
@@ -5019,18 +5016,13 @@ const data = [
 		dead: false,
 		deathDate: undefined,
 		deathPlace: undefined,
-		nationality: undefined,
-		citizenship: undefined,
+		nationality: 'мабуть українець',
+		citizenship: 'мабуть Україна (раніше СРСР)',
 		nativeLocality: undefined,
 		location: locations.maybeBoryspil,
 		phone: null,
 		email: null,
 		socialNetworks: null,
-		parents: {
-			mother: undefined,
-			father: undefined,
-		},
-		brothersAndSisters: [],
 		children: ['6-1'],
 		spouse: '5-6',
 		kinship: '4-юрідний зять, а Денис - 4-юрідний шурин',
@@ -5041,7 +5033,7 @@ const data = [
 	},
 	{
 		id: '5-8',
-		surname: undefined,
+		surname: 'Гришина',
 		maidenName: 'Матлак',
 		name: 'Ольга',
 		patronymic: 'Михайлівна',
@@ -5065,12 +5057,41 @@ const data = [
 			father: '4-9',
 		},
 		brothersAndSisters: [],
-		children: [],
-		spouse: undefined,
+		children: ['6-26'],
+		spouse: '5-8.1',
 		kinship: '4-юрідна сестра, а Денис - 4-юрідний брат',
 		position: {
 			generation: 5,
 			place: 22,
+		},
+	},
+	{
+		id: '5-8.1',
+		surname: 'Гришин',
+		maidenName: null,
+		name: 'Дмитро',
+		patronymic: undefined,
+		photo: null,
+		gender: 'male',
+		status: 'spouse of relative',
+		birthDate: undefined,
+		birthPlace: undefined,
+		dead: false,
+		deathDate: null,
+		deathPlace: null,
+		nationality: 'мабуть українець',
+		citizenship: 'мабуть Україна (раніше СРСР)',
+		nativeLocality: locations.maybeBoryspil,
+		location: locations.probablyBoryspil,
+		phone: null,
+		email: null,
+		socialNetworks: null,
+		children: ['6-26'],
+		spouse: '5-8',
+		kinship: '4-юрідний зять, а Денис - 4-юрідний шурин',
+		position: {
+			generation: 5,
+			place: 23,
 		},
 	},
 	{
@@ -5104,7 +5125,7 @@ const data = [
 		kinship: '4-юрідні брати',
 		position: {
 			generation: 5,
-			place: 28.5,
+			place: 29.5,
 		},
 	},
 	{
@@ -5141,7 +5162,7 @@ const data = [
 		kinship: '4-юрідні брати',
 		position: {
 			generation: 5,
-			place: 23.5,
+			place: 24.5,
 		},
 	},
 	{
@@ -5178,7 +5199,7 @@ const data = [
 		kinship: '4-юрідна сестра, а Денис 4-юрідний брат',
 		position: {
 			generation: 5,
-			place: 24.5,
+			place: 25.5,
 		},
 	},
 	{
@@ -5209,7 +5230,7 @@ const data = [
 		kinship: '4-юрідний зять, а Денис - 4-юрідний шурин',
 		position: {
 			generation: 5,
-			place: 25.5,
+			place: 26.5,
 		},
 	},
 	{
@@ -5240,7 +5261,7 @@ const data = [
 		kinship: '4-юрідна невістка, а Денис - 4-юрідний дівер',
 		position: {
 			generation: 5,
-			place: 27.5,
+			place: 28.5,
 		},
 	},
 	{
@@ -5277,7 +5298,7 @@ const data = [
 		kinship: '4-юрідні брати',
 		position: {
 			generation: 5,
-			place: 26.5,
+			place: 27.5,
 		},
 	},
 	{
@@ -5313,7 +5334,7 @@ const data = [
 		kinship: '3-юрідна сестра, а Денис - 3-юрідний брат',
 		position: {
 			generation: 5,
-			place: 30,
+			place: 31,
 		},
 	},
 	{
@@ -5346,7 +5367,7 @@ const data = [
 		kinship: '3-юрідний зять, а Денис - 3-юрідний шурин',
 		position: {
 			generation: 5,
-			place: 31,
+			place: 32,
 		},
 	},
 	{
@@ -5387,7 +5408,7 @@ const data = [
 		kinship: '3-юрідні брати',
 		position: {
 			generation: 5,
-			place: 32,
+			place: 33,
 		},
 	},
 	{
@@ -5423,7 +5444,7 @@ const data = [
 		kinship: '3-юрідна невістка, а Денис - 3-юрідний дівер',
 		position: {
 			generation: 5,
-			place: 33,
+			place: 34,
 		},
 	},
 	{
@@ -5463,7 +5484,7 @@ const data = [
 		kinship: '3-юрідні брати',
 		position: {
 			generation: 5,
-			place: 34,
+			place: 35,
 		},
 	},
 	{
@@ -5505,7 +5526,7 @@ const data = [
 		kinship: '3-юрідні брати',
 		position: {
 			generation: 5,
-			place: 35,
+			place: 36,
 		},
 	},
 	{
@@ -5545,7 +5566,7 @@ const data = [
 		kinship: '3-юрідна сестра, а Денис 3-юрідний брат',
 		position: {
 			generation: 5,
-			place: 36,
+			place: 37,
 		},
 	},
 	{
@@ -5581,7 +5602,7 @@ const data = [
 		kinship: '3-юрідна сестра, а Денис - 3-юрідний брат',
 		position: {
 			generation: 5,
-			place: 37,
+			place: 38,
 		},
 	},
 	{
@@ -5615,7 +5636,7 @@ const data = [
 		kinship: '3-юрідний зять, а Денис - 3-юрідний шурин',
 		position: {
 			generation: 5,
-			place: 38,
+			place: 39,
 		},
 	},
 	{
@@ -5655,7 +5676,7 @@ const data = [
 		kinship: '3-юрідна сестра, а Денис - 3-юрідний брат',
 		position: {
 			generation: 5,
-			place: 39,
+			place: 40,
 		},
 	},
 	{
@@ -5692,7 +5713,7 @@ const data = [
 		kinship: '3-юрідний зять, а Денис - 3-юрідний шурин',
 		position: {
 			generation: 5,
-			place: 40,
+			place: 41,
 		},
 	},
 	{
@@ -5733,7 +5754,7 @@ const data = [
 		kinship: '3-юрідні брати',
 		position: {
 			generation: 5,
-			place: 41,
+			place: 42,
 		},
 	},
 	{
@@ -5773,7 +5794,7 @@ const data = [
 		kinship: '3-юрідна невістка, а Денис - 3-юрідний дівер',
 		position: {
 			generation: 5,
-			place: 42,
+			place: 43,
 		},
 	},
 	{
@@ -5813,7 +5834,7 @@ const data = [
 		kinship: '3-юрідна сестра, а Денис - 3-юрідний брат',
 		position: {
 			generation: 5,
-			place: 43,
+			place: 44,
 		},
 	},
 	{
@@ -5854,7 +5875,7 @@ const data = [
 		kinship: '3-юрідна сестра, а Денис - 3-юрідний брат',
 		position: {
 			generation: 5,
-			place: 44,
+			place: 45,
 		},
 	},
 	{
@@ -5888,7 +5909,7 @@ const data = [
 		kinship: '3-юрідний зять, а Денис - 3-юрідний шурин',
 		position: {
 			generation: 5,
-			place: 45,
+			place: 46,
 		},
 	},
 	{
@@ -5922,7 +5943,7 @@ const data = [
 		kinship: '3-юрідний зять, а Денис - 3-юрідний шурин',
 		position: {
 			generation: 5,
-			place: 46,
+			place: 47,
 		},
 	},
 	{
@@ -5962,7 +5983,7 @@ const data = [
 		kinship: '3-юрідна сестра, а Денис - 3-юрідний брат',
 		position: {
 			generation: 5,
-			place: 47,
+			place: 48,
 		},
 	},
 	{
@@ -6000,7 +6021,7 @@ const data = [
 		kinship: '3-юрідні брати',
 		position: {
 			generation: 5,
-			place: 48,
+			place: 49,
 		},
 	},
 	{
@@ -6036,7 +6057,7 @@ const data = [
 		kinship: '3-юрідна невістка, а Денис - 3-юрідний дівер',
 		position: {
 			generation: 5,
-			place: 49,
+			place: 50,
 		},
 	},
 	{
@@ -6078,7 +6099,7 @@ const data = [
 		kinship: '3-юрідні брати',
 		position: {
 			generation: 5,
-			place: 50,
+			place: 51,
 		},
 	},
 	{
@@ -6114,7 +6135,7 @@ const data = [
 		kinship: '3-юрідна невістка, а Денис - 3-юрідний дівер',
 		position: {
 			generation: 5,
-			place: 51,
+			place: 52,
 		},
 	},
 	{
@@ -6155,7 +6176,7 @@ const data = [
 		kinship: '2-юрідні брати',
 		position: {
 			generation: 5,
-			place: 52,
+			place: 53,
 		},
 	},
 	{
@@ -6199,7 +6220,7 @@ const data = [
 		kinship: 'Дівчина, а Денис - хлопець',
 		position: {
 			generation: 5,
-			place: 53,
+			place: 54,
 		},
 	},
 	{
@@ -6252,11 +6273,45 @@ const data = [
 		// ],
 		position: {
 			generation: 5,
-			place: 54,
+			place: 55,
 		},
 	},
 
 	// generation 6
+	{
+		id: '6-27',
+		surname: undefined,
+		maidenName: null,
+		name: undefined,
+		patronymic: undefined,
+		photo: null,
+		gender: undefined,
+		status: 'relative',
+		birthDate: undefined,
+		birthPlace: locations.probablyBoryspil,
+		dead: false,
+		deathDate: null,
+		deathPlace: null,
+		nationality: 'українець(-ка)',
+		citizenship: 'Україна',
+		nativeLocality: locations.boryspil,
+		location: locations.boryspil,
+		phone: null,
+		email: null,
+		socialNetworks: null,
+		parents: {
+			mother: '5-46',
+			father: '5-46.1',
+		},
+		brothersAndSisters: [],
+		children: [],
+		spouse: null,
+		kinship: '5-юрідний племінник(-ця), а Денис - 5-юрідний дядько',
+		position: {
+			generation: 6,
+			place: 1.5,
+		},
+	},
 	{
 		id: '6-23',
 		surname: undefined,
@@ -6282,13 +6337,149 @@ const data = [
 			mother: '5-1.1',
 			father: '5-1',
 		},
-		brothersAndSisters: [],
+		brothersAndSisters: ['6-23.1', '6-23.2'],
 		children: [],
 		spouse: null,
 		kinship: '5-юрідний племінник(-ця), а Денис - 5-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 3.5,
+			place: 3,
+		},
+	},
+	{
+		id: '6-23.1',
+		surname: undefined,
+		maidenName: null,
+		name: undefined,
+		patronymic: undefined,
+		photo: null,
+		gender: undefined,
+		status: 'relative',
+		birthDate: undefined,
+		birthPlace: locations.probablyBoryspil,
+		dead: false,
+		deathDate: null,
+		deathPlace: null,
+		nationality: 'українець(-ка)',
+		citizenship: 'Україна',
+		nativeLocality: locations.boryspil,
+		location: locations.boryspil,
+		phone: null,
+		email: null,
+		socialNetworks: null,
+		parents: {
+			mother: '5-1.1',
+			father: '5-1',
+		},
+		brothersAndSisters: ['6-23', '6-23.2'],
+		children: [],
+		spouse: null,
+		kinship: '5-юрідний племінник(-ця), а Денис - 5-юрідний дядько',
+		position: {
+			generation: 6,
+			place: 4,
+		},
+	},
+	{
+		id: '6-23.2',
+		surname: undefined,
+		maidenName: null,
+		name: undefined,
+		patronymic: undefined,
+		photo: null,
+		gender: undefined,
+		status: 'relative',
+		birthDate: undefined,
+		birthPlace: locations.probablyBoryspil,
+		dead: false,
+		deathDate: null,
+		deathPlace: null,
+		nationality: 'українець(-ка)',
+		citizenship: 'Україна',
+		nativeLocality: locations.boryspil,
+		location: locations.boryspil,
+		phone: null,
+		email: null,
+		socialNetworks: null,
+		parents: {
+			mother: '5-1.1',
+			father: '5-1',
+		},
+		brothersAndSisters: ['6-23', '6-23.1'],
+		children: [],
+		spouse: null,
+		kinship: '5-юрідний племінник(-ця), а Денис - 5-юрідний дядько',
+		position: {
+			generation: 6,
+			place: 5,
+		},
+	},
+	{
+		id: '6-24',
+		surname: 'Кривицький',
+		maidenName: null,
+		name: 'Станіслав',
+		patronymic: 'Олександрович',
+		photo: require('./photos/Кривицький Станіслав Олександрович.jpg'),
+		gender: 'male',
+		status: 'relative',
+		birthDate: '17.09.2012',
+		birthPlace: locations.probablyBoryspil,
+		dead: false,
+		deathDate: null,
+		deathPlace: null,
+		nationality: 'українець',
+		citizenship: 'Україна',
+		nativeLocality: locations.boryspil,
+		location: locations.boryspil,
+		phone: null,
+		email: null,
+		socialNetworks: null,
+		parents: {
+			mother: '5-13',
+			father: '5-13.1',
+		},
+		brothersAndSisters: ['6-25'],
+		children: [],
+		spouse: null,
+		kinship: '4-юрідний племінник, а Денис - 4-юрідний дядько',
+		position: {
+			generation: 6,
+			place: 11.5,
+		},
+	},
+	{
+		id: '6-25',
+		surname: 'Кривицький',
+		maidenName: null,
+		name: 'Артем',
+		patronymic: 'Олександрович',
+		photo: require('./photos/Кривицький Артем Олександрович.jpg'),
+		gender: 'male',
+		status: 'relative',
+		birthDate: '17.09.2019',
+		birthPlace: locations.probablyBoryspil,
+		dead: false,
+		deathDate: null,
+		deathPlace: null,
+		nationality: 'українець',
+		citizenship: 'Україна',
+		nativeLocality: locations.boryspil,
+		location: locations.boryspil,
+		phone: null,
+		email: null,
+		socialNetworks: null,
+		parents: {
+			mother: '5-13',
+			father: '5-13.1',
+		},
+		brothersAndSisters: ['6-24'],
+		children: [],
+		spouse: null,
+		kinship: '4-юрідний племінник, а Денис - 4-юрідний дядько',
+		position: {
+			generation: 6,
+			place: 12.5,
 		},
 	},
 	{
@@ -6300,7 +6491,7 @@ const data = [
 		photo: null,
 		gender: 'male',
 		status: 'relative',
-		birthDate: undefined,
+		birthDate: '24.07.2008',
 		birthPlace: locations.probablyBoryspil,
 		dead: false,
 		deathDate: null,
@@ -6322,7 +6513,7 @@ const data = [
 		kinship: '4-юрідний племінник, а Денис - 4-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 12,
+			place: 10,
 		},
 	},
 	{
@@ -6464,6 +6655,40 @@ const data = [
 		},
 	},
 	{
+		id: '6-26',
+		surname: 'Гришина',
+		maidenName: null,
+		name: '?',
+		patronymic: 'Дмитрівна',
+		photo: null,
+		gender: 'female',
+		status: 'relative',
+		birthDate: undefined,
+		birthPlace: locations.probablyBoryspil,
+		dead: false,
+		deathDate: null,
+		deathPlace: null,
+		nationality: 'українка',
+		citizenship: 'Україна',
+		nativeLocality: locations.probablyBoryspil,
+		location: locations.maybeBoryspil,
+		phone: null,
+		email: null,
+		socialNetworks: null,
+		parents: {
+			mother: '5-8',
+			father: '5-8.1',
+		},
+		brothersAndSisters: [],
+		children: [],
+		spouse: null,
+		kinship: '4-юрідна племінниця, а Денис - 4-юрідний дядько',
+		position: {
+			generation: 6,
+			place: 22.5,
+		},
+	},
+	{
 		id: '6-21',
 		surname: 'Дзюба',
 		maidenName: null,
@@ -6494,7 +6719,7 @@ const data = [
 		kinship: '4-юрідний племінник, а Денис - 4-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 25,
+			place: 26,
 		},
 	},
 	{
@@ -6530,7 +6755,7 @@ const data = [
 		kinship: '3-юрідна племінниця, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 29.5,
+			place: 30.5,
 		},
 	},
 	{
@@ -6564,7 +6789,7 @@ const data = [
 		kinship: '3-юрідний племінник, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 30.5,
+			place: 31.5,
 		},
 	},
 	{
@@ -6598,7 +6823,7 @@ const data = [
 		kinship: '3-юрідний племінник, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 32.5,
+			place: 33.5,
 		},
 	},
 	{
@@ -6640,7 +6865,7 @@ const data = [
 		kinship: '3-юрідний племінник, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 34,
+			place: 35,
 		},
 	},
 	{
@@ -6678,7 +6903,7 @@ const data = [
 		kinship: '3-юрідна племінниця, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 35,
+			place: 36,
 		},
 	},
 	{
@@ -6713,10 +6938,12 @@ const data = [
 		children: [],
 		spouse: '6-15.1',
 		kinship: '3-юрідний племінник, а Денис - 3-юрідний дядько',
-		// biography: ['Президент відзначив державними нагородами понад 120 захисників та захисниць України - https://armyinform.com.ua/2023/08/04/prezydent-vidznachyv-derzhavnymy-nagorodamy-ponad-120-zahysnykiv-ta-zahysnycz-ukrayiny'],
+		facts: [
+			'Президент України Володимир Зеленський відзначив державними нагородами понад 120 захисників та захисниць України. Молодший сержант Каралі Олексій Іванович нагороджений орденом "За мужність" ІІІ ступеня (https://armyinform.com.ua/2023/08/04/prezydent-vidznachyv-derzhavnymy-nagorodamy-ponad-120-zahysnykiv-ta-zahysnycz-ukrayiny).',
+		],
 		position: {
 			generation: 6,
-			place: 36,
+			place: 37,
 		},
 	},
 	{
@@ -6750,7 +6977,7 @@ const data = [
 		kinship: '3-юрідна невістка, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 37,
+			place: 38,
 		},
 	},
 	{
@@ -6782,10 +7009,9 @@ const data = [
 		children: [],
 		spouse: null,
 		kinship: '3-юрідна племінниця, а Денис - 3-юрідний дядько',
-		// biography: [],
 		position: {
 			generation: 6,
-			place: 38,
+			place: 39,
 		},
 	},
 	{
@@ -6820,7 +7046,7 @@ const data = [
 		biography: [],
 		position: {
 			generation: 6,
-			place: 39,
+			place: 40,
 		},
 	},
 	{
@@ -6858,7 +7084,7 @@ const data = [
 		biography: [],
 		position: {
 			generation: 6,
-			place: 40,
+			place: 41,
 		},
 	},
 	{
@@ -6893,7 +7119,7 @@ const data = [
 		facts: ['Єдиний продовжувач прізвища Корінь серед усіх відомих гілок.'],
 		position: {
 			generation: 6,
-			place: 41,
+			place: 42,
 		},
 	},
 	{
@@ -6927,7 +7153,7 @@ const data = [
 		kinship: '3-юрідна племінниця, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 42,
+			place: 43,
 		},
 	},
 	{
@@ -6965,7 +7191,7 @@ const data = [
 		kinship: '3-юрідний племінник, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 44,
+			place: 45,
 		},
 	},
 	{
@@ -7003,7 +7229,7 @@ const data = [
 		kinship: '3-юрідна племінниця, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 45,
+			place: 46,
 		},
 	},
 	{
@@ -7041,7 +7267,7 @@ const data = [
 		kinship: '3-юрідна племінниця, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 46,
+			place: 47,
 		},
 	},
 	{
@@ -7075,7 +7301,7 @@ const data = [
 		kinship: '3-юрідна племінниця, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 47,
+			place: 48,
 		},
 	},
 	{
@@ -7109,7 +7335,7 @@ const data = [
 		kinship: '3-юрідний племінник, а Денис - 3-юрідний дядько',
 		position: {
 			generation: 6,
-			place: 48.5,
+			place: 49.5,
 		},
 	},
 
@@ -7189,7 +7415,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 1,
-			place: 56.5,
+			place: 57.5,
 		},
 	},
 	{
@@ -7229,7 +7455,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 1,
-			place: 57.5,
+			place: 58.5,
 		},
 	},
 	{
@@ -7269,7 +7495,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 1,
-			place: 60,
+			place: 61,
 		},
 	},
 	{
@@ -7313,7 +7539,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 1,
-			place: 61,
+			place: 62,
 		},
 	},
 	{
@@ -7353,7 +7579,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 1,
-			place: 63,
+			place: 64,
 		},
 	},
 	{
@@ -7393,7 +7619,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 1,
-			place: 65,
+			place: 66,
 		},
 	},
 
@@ -7435,7 +7661,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 53,
+			place: 54,
 			line: 1,
 		},
 	},
@@ -7476,7 +7702,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 54,
+			place: 55,
 			line: 1,
 		},
 	},
@@ -7517,7 +7743,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 56.5,
+			place: 57.5,
 		},
 	},
 	{
@@ -7560,7 +7786,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 57.5,
+			place: 58.5,
 		},
 	},
 	{
@@ -7606,7 +7832,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 58.5,
+			place: 59.5,
 		},
 	},
 	{
@@ -7649,7 +7875,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 62,
+			place: 63,
 		},
 	},
 	{
@@ -7695,7 +7921,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 63,
+			place: 64,
 		},
 	},
 	{
@@ -7735,7 +7961,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 67.5,
+			place: 68.5,
 		},
 	},
 	{
@@ -7778,7 +8004,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 2,
-			place: 66.5,
+			place: 67.5,
 		},
 	},
 
@@ -7821,7 +8047,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 52,
+			place: 53,
 		},
 	},
 	{
@@ -7862,7 +8088,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 53,
+			place: 54,
 		},
 	},
 	{
@@ -7898,7 +8124,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 54,
+			place: 55,
 		},
 	},
 	{
@@ -7935,7 +8161,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 55,
+			place: 56,
 		},
 	},
 	{
@@ -7975,7 +8201,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 56,
+			place: 57,
 		},
 	},
 	{
@@ -8019,7 +8245,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 57,
+			place: 58,
 		},
 	},
 	{
@@ -8057,7 +8283,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 58,
+			place: 59,
 		},
 	},
 	{
@@ -8093,7 +8319,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 59,
+			place: 60,
 		},
 	},
 	{
@@ -8129,7 +8355,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 60,
+			place: 61,
 		},
 	},
 	{
@@ -8165,7 +8391,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 61,
+			place: 62,
 		},
 	},
 	{
@@ -8201,7 +8427,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 62,
+			place: 63,
 		},
 	},
 	{
@@ -8236,7 +8462,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 63,
+			place: 64,
 		},
 	},
 	{
@@ -8272,7 +8498,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 64,
+			place: 65,
 		},
 	},
 	{
@@ -8305,7 +8531,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 65,
+			place: 66,
 		},
 	},
 	{
@@ -8348,7 +8574,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 66,
+			place: 67,
 		},
 	},
 	{
@@ -8384,7 +8610,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 67,
+			place: 68,
 		},
 	},
 	{
@@ -8417,7 +8643,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 3,
-			place: 68
+			place: 69,
 		},
 	},
 
@@ -8462,7 +8688,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 53,
+			place: 54,
 		},
 	},
 	{
@@ -8506,7 +8732,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 54,
+			place: 55,
 		},
 	},
 	{
@@ -8546,7 +8772,7 @@ const data = [
 		// ],
 		position: {
 			generation: 4,
-			place: 55,
+			place: 56,
 		},
 	},
 	{
@@ -8583,7 +8809,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 56,
+			place: 57,
 		},
 	},
 	{
@@ -8618,7 +8844,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 57,
+			place: 58,
 			line: 1,
 		},
 	},
@@ -8654,7 +8880,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 58.5,
+			place: 59.5,
 		},
 	},
 	{
@@ -8689,7 +8915,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 59.5,
+			place: 60.5,
 		},
 	},
 	{
@@ -8724,7 +8950,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 60.5,
+			place: 61.5,
 		},
 	},
 	{
@@ -8759,7 +8985,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 61.5,
+			place: 62.5,
 		},
 	},
 	{
@@ -8802,7 +9028,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 63,
+			place: 64,
 		},
 	},
 	{
@@ -8837,7 +9063,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 64,
+			place: 65,
 		},
 	},
 	{
@@ -8875,7 +9101,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 65,
+			place: 66,
 		},
 	},
 	{
@@ -8916,7 +9142,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 66,
+			place: 67,
 		},
 	},
 	{
@@ -8951,7 +9177,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 67,
+			place: 68,
 		},
 	},
 	{
@@ -8986,7 +9212,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 4,
-			place: 68,
+			place: 69,
 		},
 	},
 
@@ -9028,7 +9254,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 5,
-			place: 55,
+			place: 56,
 		},
 	},
 	{
@@ -9063,7 +9289,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 5,
-			place: 56,
+			place: 57,
 		},
 	},
 	{
@@ -9098,7 +9324,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 5,
-			place: 57,
+			place: 58,
 		},
 	},
 	{
@@ -9133,7 +9359,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 5,
-			place: 58,
+			place: 59,
 		},
 	},
 	{
@@ -9168,7 +9394,7 @@ const data = [
 		branch: 'Шпирко-Голяк',
 		position: {
 			generation: 5,
-			place: 59,
+			place: 60,
 		},
 	},
 ]
