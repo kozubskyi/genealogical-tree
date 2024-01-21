@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/genealogical-tree/static/css/main.685bfe92.css",
-    "main.js": "/genealogical-tree/static/js/main.303c0851.js",
+    "main.js": "/genealogical-tree/static/js/main.5f61a9f4.js",
     "static/media/Корінь Михайло Іванович.JPEG": "/genealogical-tree/static/media/Корінь Михайло Іванович.a073ffe3a0a738074335.JPEG",
     "static/media/Яків.JPEG": "/genealogical-tree/static/media/Яків.f03fe4c63a11614a8b34.JPEG",
     "static/media/Ярмак Анна Василівна.jpg": "/genealogical-tree/static/media/Ярмак Анна Василівна.01daf8c881ffd3d5b26b.jpg",
@@ -85,7 +85,9 @@
     "static/media/Степанов Євгеній Олександрович.jpg": "/genealogical-tree/static/media/Степанов Євгеній Олександрович.3eee31f1b65961562a08.jpg",
     "static/media/Лісніченко (Корінь) Надія Іванівна.JPG": "/genealogical-tree/static/media/Лісніченко (Корінь) Надія Іванівна.43addd91569fbce93c20.JPG",
     "static/media/Жорницький Микола Миколайович.jpg": "/genealogical-tree/static/media/Жорницький Микола Миколайович.db18b8bffda9ed3c57f8.jpg",
+    "static/media/Крисанов Дмитро Вікторович.png": "/genealogical-tree/static/media/Крисанов Дмитро Вікторович.1cb07484946894b37c2c.png",
     "static/media/Піскунова (Лісніченко) Інна Миколаївна.jpg": "/genealogical-tree/static/media/Піскунова (Лісніченко) Інна Миколаївна.0fd3e6c3d1ae5c735d97.jpg",
+    "static/media/Крисанова (Гнутова) Ольга Олександрівна.png": "/genealogical-tree/static/media/Крисанова (Гнутова) Ольга Олександрівна.29d58b878e5e20c26a50.png",
     "static/media/Сердцева-Макарчук Євгенія.jpg": "/genealogical-tree/static/media/Сердцева-Макарчук Євгенія.1ffe8f67e2689fef5075.jpg",
     "static/media/Степура Платон Андрійович.jpg": "/genealogical-tree/static/media/Степура Платон Андрійович.0b868af2e0a78a9174db.jpg",
     "static/media/Юрченко (Корень) Ольга Петрівна.jpg": "/genealogical-tree/static/media/Юрченко (Корень) Ольга Петрівна.f7a0830bdce47573ddac.jpg",
@@ -142,10 +144,10 @@
     "static/media/Баранов Анатолій Андрійович.jpg": "/genealogical-tree/static/media/Баранов Анатолій Андрійович.cee7125d96cc69089905.jpg",
     "index.html": "/genealogical-tree/index.html",
     "main.685bfe92.css.map": "/genealogical-tree/static/css/main.685bfe92.css.map",
-    "main.303c0851.js.map": "/genealogical-tree/static/js/main.303c0851.js.map"
+    "main.5f61a9f4.js.map": "/genealogical-tree/static/js/main.5f61a9f4.js.map"
   },
   "entrypoints": [
     "static/css/main.685bfe92.css",
-    "static/js/main.303c0851.js"
+    "static/js/main.5f61a9f4.js"
   ]
 }
