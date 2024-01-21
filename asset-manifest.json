@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/genealogical-tree/static/css/main.685bfe92.css",
-    "main.js": "/genealogical-tree/static/js/main.5f61a9f4.js",
+    "main.js": "/genealogical-tree/static/js/main.2666f51b.js",
     "static/media/Корінь Михайло Іванович.JPEG": "/genealogical-tree/static/media/Корінь Михайло Іванович.a073ffe3a0a738074335.JPEG",
     "static/media/Яків.JPEG": "/genealogical-tree/static/media/Яків.f03fe4c63a11614a8b34.JPEG",
     "static/media/Ярмак Анна Василівна.jpg": "/genealogical-tree/static/media/Ярмак Анна Василівна.01daf8c881ffd3d5b26b.jpg",
@@ -20,6 +20,7 @@
     "static/media/Трошков Василь Федорович.jpg": "/genealogical-tree/static/media/Трошков Василь Федорович.957e565b3bdda5759634.jpg",
     "static/media/Корецька (Корень) Галина Василівна.jpg": "/genealogical-tree/static/media/Корецька (Корень) Галина Василівна.4b55230067a0236d667e.jpg",
     "static/media/Грималовський Петро Петрович.JPG": "/genealogical-tree/static/media/Грималовський Петро Петрович.c4c5651cce43923b41d7.JPG",
+    "static/media/Матлак Валентина Георгіївна.jpg": "/genealogical-tree/static/media/Матлак Валентина Георгіївна.bf918bdc9f7c898169e7.jpg",
     "static/media/Корень Василь Карпович.jpg": "/genealogical-tree/static/media/Корень Василь Карпович.fd87ee5e25f5dcd35bae.jpg",
     "static/media/Гавриловська Маргарита Миколаївна.jpg": "/genealogical-tree/static/media/Гавриловська Маргарита Миколаївна.a2b07ebfba5b5841c9ae.jpg",
     "static/media/Корінь (Давиденко) Любов Андріївна.jpg": "/genealogical-tree/static/media/Корінь (Давиденко) Любов Андріївна.6a46967d15d6d2b9b94f.jpg",
@@ -144,10 +145,10 @@
     "static/media/Баранов Анатолій Андрійович.jpg": "/genealogical-tree/static/media/Баранов Анатолій Андрійович.cee7125d96cc69089905.jpg",
     "index.html": "/genealogical-tree/index.html",
     "main.685bfe92.css.map": "/genealogical-tree/static/css/main.685bfe92.css.map",
-    "main.5f61a9f4.js.map": "/genealogical-tree/static/js/main.5f61a9f4.js.map"
+    "main.2666f51b.js.map": "/genealogical-tree/static/js/main.2666f51b.js.map"
   },
   "entrypoints": [
     "static/css/main.685bfe92.css",
-    "static/js/main.5f61a9f4.js"
+    "static/js/main.2666f51b.js"
   ]
 }
