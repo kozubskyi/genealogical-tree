@@ -4525,7 +4525,7 @@ const data = [
 		surname: undefined,
 		maidenName: 'Кропива',
 		name: 'Оксана',
-		patronymic: undefined,
+		patronymic: 'Миколаївна',
 		photo: null,
 		gender: 'female',
 		status: 'relative',
