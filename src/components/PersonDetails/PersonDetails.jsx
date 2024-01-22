@@ -167,9 +167,13 @@ const PersonDetails = () => {
 												return (
 													<>
 														{i === 0 ? '' : ', '}{' '}
-														<a href={locality.link} target="_blank" rel="noreferrer noopener">
-															{locality.text}
-														</a>
+														{typeof locality === 'string' ? (
+															locality
+														) : (
+															<a href={locality.link} target="_blank" rel="noreferrer noopener">
+																{locality.text}
+															</a>
+														)}
 													</>
 												)
 											})}
