@@ -5,7 +5,7 @@ const ZoomButtons = props => {
 	const { scale, setScale, scaleMinValue } = props
 
 	// const zoomValue = 1.188
-	const zoomValue = 1.215
+	const zoomValue = 1.223
 
 	// useEffect(() => {
 	// 	const onWheel = evt => {

@@ -60,7 +60,9 @@ const Person = props => {
 		if (parentsArray.length === 1) {
 			const parentPlace = parentsArray[0].position.place
 
-			parentsMid = position.place <= parentPlace ? parentPlace - 0.5 : parentPlace + 0.5
+			const exceptions = ['3-6']
+
+			parentsMid = position.place <= parentPlace && !exceptions.includes(id) ? parentPlace - 0.5 : parentPlace + 0.5
 		} else {
 			parentsMid = parentsArray.reduce((acc, parent) => acc + parent.position.place, 0) / 2
 		}
@@ -109,7 +111,7 @@ const Person = props => {
 
 			const exceptions = ['2-6']
 
-			return position.place >= childrenMid || exceptions.includes(id) ? leftStyles : rightStyles
+			return position.place >= childrenMid && !exceptions.includes(id) ? leftStyles : rightStyles
 		}
 
 		const spouseObject = data.find(person => person.id === spouse)

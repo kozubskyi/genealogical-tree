@@ -75,7 +75,9 @@ const PersonDetails = () => {
 		const millisInHalfDay = 43200000
 		const ageInMillis = endDate - startDate + millisInHalfDay
 
-		return Math.floor(ageInMillis / (365.25 * 24 * 60 * 60 * 1000))
+		const years = Math.floor(ageInMillis / (365.25 * 24 * 60 * 60 * 1000))
+
+		return new Intl.NumberFormat('uk-UA', { style: 'unit', unit: 'year', unitDisplay: 'long' }).format(years)
 	}
 
 	const UNKNOWN = 'невідомо'
@@ -124,7 +126,7 @@ const PersonDetails = () => {
 												{birthPlace.text}
 											</a>
 										)}{' '}
-										{!dead && age && <span>({age} років)</span>}
+										{!dead && age && <span>({age})</span>}
 										{!birthDate && !birthPlace && UNKNOWN}{' '}
 									</td>
 								</tr>
@@ -137,7 +139,6 @@ const PersonDetails = () => {
 										</td>
 										<td>
 											{deathDate ?? ''}
-											{/* {dead && <span>({calculateAge(birthDate, deathDate)})</span>} */}
 											{deathDate && deathPlace && ', '}
 											{typeof deathPlace === 'string' && deathPlace}
 											{typeof deathPlace === 'object' && (
@@ -145,7 +146,7 @@ const PersonDetails = () => {
 													{deathPlace.text}
 												</a>
 											)}{' '}
-											{dead && age && <span>({age} років)</span>}
+											{dead && age && <span>({age})</span>}
 											{!deathDate && !deathPlace && UNKNOWN}
 										</td>
 									</tr>
