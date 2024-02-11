@@ -46,38 +46,38 @@ const PersonDetails = () => {
 		// sources,
 	} = person
 
-	function calculateAge() {
-		if (!birthDate || birthDate === '?' || deathDate === '?') return null
+	const prepareDate = date => date.replace('≈', '').replace('<', '').replace('>', '').slice(0, 10).split('.').reverse()
+
+	const calculateAge = () => {
+		if (!birthDate || birthDate === '?' || birthDate.includes('-')) return null
+		if (deathDate === '?' || (deathDate && deathDate.includes('-'))) return null
 		if (dead && !deathDate) return null
 
-		const slicedBirthDate = birthDate.slice(0, 10)
+		const birthDateArray = prepareDate(birthDate)
 
-		if (slicedBirthDate.slice(-5).includes('?')) return null
+		if (birthDateArray[0].includes('?')) return null
 
-		let birthDateArray = slicedBirthDate.split('.').reverse()
-		birthDateArray = birthDateArray.filter(el => !el.includes('?'))
-
-		const birthDatePrepared = birthDateArray.join('-').replace('≈', '')
-
-		const startDate = new Date(birthDatePrepared)
-
-		let endDate = new Date()
+		const startDate = new Date(birthDateArray.filter(num => !isNaN(num)))
+		let finishDate = null
 
 		if (deathDate) {
-			let deathDateArray = deathDate.split('.').reverse()
-			deathDateArray = deathDateArray.filter(el => !el.includes('?'))
+			const deathDateArray = prepareDate(deathDate)
 
-			const deathDatePrepared = deathDateArray.join('-').replace('≈', '')
+			if (deathDateArray[0].includes('?')) return null
 
-			endDate = new Date(deathDatePrepared)
+			finishDate = new Date(deathDateArray.filter(num => !isNaN(num)))
+		} else {
+			const now = new Date()
+			finishDate = new Date([now.getFullYear(), now.getMonth() + 1, now.getDate()])
 		}
 
-		const millisInHalfDay = 43200000
-		const ageInMillis = endDate - startDate + millisInHalfDay
+		const ageDate = new Date(finishDate - startDate)
+		let year = ageDate.getUTCFullYear()
 
-		const years = Math.floor(ageInMillis / (365.25 * 24 * 60 * 60 * 1000))
+		if (ageDate.getMonth() === 11 && ageDate.getDate() === 31) year += 1
 
-		return new Intl.NumberFormat('uk-UA', { style: 'unit', unit: 'year', unitDisplay: 'long' }).format(years)
+		const age = year - 1970
+		return new Intl.NumberFormat('uk-UA', { style: 'unit', unit: 'year', unitDisplay: 'long' }).format(age)
 	}
 
 	const UNKNOWN = 'невідомо'
