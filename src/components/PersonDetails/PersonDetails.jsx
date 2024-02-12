@@ -260,7 +260,7 @@ const PersonDetails = () => {
 				{facts && (
 					<>
 						<div>
-							<h2>Цікаві факти:</h2>
+							{/* <h2>Цікаві факти:</h2> */}
 							{facts.map(fact => (
 								<p>{fact}</p>
 							))}
