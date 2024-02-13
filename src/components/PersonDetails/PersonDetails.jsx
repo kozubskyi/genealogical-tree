@@ -46,7 +46,18 @@ const PersonDetails = () => {
 		// sources,
 	} = person
 
-	const prepareDate = date => date.replace('≈', '').replace('<', '').replace('>', '').slice(0, 10).split('.').reverse()
+	const prepareDate = date => {
+		let preparedDate = date.replace('≈', '').replace('<', '').replace('>', '').slice(0, 10).split('.').reverse()
+
+		if (preparedDate[0].includes('?')) return null
+		if (preparedDate.length === 1) {
+			preparedDate = [preparedDate[0], 0, 1]
+		} else {
+			preparedDate = preparedDate.filter(num => !isNaN(num)).map((num, i) => (i === 1 ? Number(num) - 1 : Number(num)))
+		}
+
+		return preparedDate
+	}
 
 	const calculateAge = () => {
 		if (!birthDate || birthDate === '?' || birthDate.includes('-')) return null
@@ -55,20 +66,20 @@ const PersonDetails = () => {
 
 		const birthDateArray = prepareDate(birthDate)
 
-		if (birthDateArray[0].includes('?')) return null
+		if (!birthDateArray) return null
 
-		const startDate = new Date(birthDateArray.filter(num => !isNaN(num)))
+		const startDate = new Date(...birthDateArray)
 		let finishDate = null
 
 		if (deathDate) {
 			const deathDateArray = prepareDate(deathDate)
 
-			if (deathDateArray[0].includes('?')) return null
+			if (!deathDateArray) return null
 
-			finishDate = new Date(deathDateArray.filter(num => !isNaN(num)))
+			finishDate = new Date(...deathDateArray)
 		} else {
 			const now = new Date()
-			finishDate = new Date([now.getFullYear(), now.getMonth() + 1, now.getDate()])
+			finishDate = new Date(now.getFullYear(), now.getMonth(), now.getDate())
 		}
 
 		const ageDate = new Date(finishDate - startDate)
@@ -77,6 +88,9 @@ const PersonDetails = () => {
 		if (ageDate.getMonth() === 11 && ageDate.getDate() === 31) year += 1
 
 		const age = year - 1970
+
+		console.log({ startDate, finishDate, age })
+
 		return new Intl.NumberFormat('uk-UA', { style: 'unit', unit: 'year', unitDisplay: 'long' }).format(age)
 	}
 
