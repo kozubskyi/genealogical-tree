@@ -89,8 +89,6 @@ const ApexChart = ({ type }) => {
 		}
 	}
 
-	console.log({ labels, colors })
-
 	const options = {
 		labels,
 		colors,

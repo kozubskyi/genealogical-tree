@@ -3537,7 +3537,7 @@ const data = [
 		phone: null,
 		email: null,
 		socialNetworks: {
-			facebook: 'https://www.facebook.com/profile.php?id=100008562495224'
+			facebook: 'https://www.facebook.com/profile.php?id=100008562495224',
 		},
 		parents: {
 			mother: '3-8',
@@ -5755,7 +5755,7 @@ const data = [
 		phone: null,
 		email: null,
 		socialNetworks: {
-			facebook: 'https://www.facebook.com/yuriy.yurchenko203',
+			facebook: 'https://www.facebook.com/yuriy.yurchenko.5203',
 			instagram: 'https://www.instagram.com/yurchenkoyurii',
 		},
 		parents: {

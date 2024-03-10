@@ -51,7 +51,7 @@ const PersonDetails = () => {
 
 		if (preparedDate[0].includes('?')) return null
 		if (preparedDate.length === 1) {
-			preparedDate = [preparedDate[0], 0, 1]
+			preparedDate = [preparedDate[0], 6, 1, 0, 0, 0, 0]
 		} else {
 			preparedDate = preparedDate.filter(num => !isNaN(num)).map((num, i) => (i === 1 ? Number(num) - 1 : Number(num)))
 		}
@@ -88,8 +88,6 @@ const PersonDetails = () => {
 		if (ageDate.getMonth() === 11 && ageDate.getDate() === 31) year += 1
 
 		const age = year - 1970
-
-		console.log({ startDate, finishDate, age })
 
 		return new Intl.NumberFormat('uk-UA', { style: 'unit', unit: 'year', unitDisplay: 'long' }).format(age)
 	}
