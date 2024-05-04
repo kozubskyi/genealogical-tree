@@ -29,7 +29,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 1,
-			place: 13.5,
+			place: 12.5,
 		},
 	},
 	{
@@ -62,7 +62,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 1,
-			place: 14.5,
+			place: 13.5,
 		},
 	},
 	{
@@ -175,7 +175,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 1,
-			place: 32.5,
+			place: 33,
 		},
 	},
 	{
@@ -214,7 +214,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 1,
-			place: 33.5,
+			place: 34,
 		},
 	},
 
@@ -244,7 +244,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 10.5,
+			place: 9.5,
 		},
 	},
 	{
@@ -287,7 +287,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 11.5,
+			place: 10.5,
 		},
 	},
 	{
@@ -315,7 +315,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 24,
+			place: 23.5,
 		},
 	},
 	{
@@ -357,7 +357,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 25,
+			place: 22.5,
 		},
 	},
 	{
@@ -388,7 +388,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 15,
+			place: 14,
 		},
 	},
 	{
@@ -433,7 +433,44 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 16,
+			place: 15,
+		},
+	},
+	{
+		id: '2-11',
+		surname: 'Корінь',
+		maidenName: undefined,
+		name: 'Олена',
+		patronymic: undefined,
+		photo: null,
+		gender: 'female',
+		status: 'spouse of relative',
+		birthDate: '?',
+		birthPlace: 'можливо м. Бориспіль',
+		dead: true,
+		deathDate: '23.12.1936',
+		deathPlace: undefined,
+		nationality: 'мабуть українка',
+		citizenship: 'СРСР (раніше мабуть УНР, російська імперія)',
+		nativeLocality: locations.probablyBoryspil,
+		location: {
+			text: 'Бориспільське кладовище по вул. Тургенєва',
+			link: "https://www.google.com/maps/place/50%C2%B021'46.6%22N+30%C2%B058'22.0%22E/@50.3629544,30.9701951,17z/data=!3m1!4b1!4m4!3m3!8m2!3d50.362951!4d30.97277?authuser=0&entry=ttu",
+		},
+		phone: null,
+		email: null,
+		socialNetworks: null,
+		parents: undefined,
+		brothersAndSisters: [],
+		children: ['3-17'],
+		spouse: '2-12',
+		kinship: '2-юрідна прабабуся, а Денис - 2-юрідний праонук',
+		facts: ['Померла при родах доньки Віри та її сестри близнючки.'],
+		sources: ['Розповіді Лісніченко (Корінь) Надії Іванівни'],
+		branch: 'Коренів',
+		position: {
+			generation: 2,
+			place: 17.5,
 		},
 	},
 	{
@@ -453,7 +490,10 @@ const data = [
 		nationality: 'українець',
 		citizenship: 'СРСР (раніше УНР, російська імперія)',
 		nativeLocality: locations.boryspil,
-		location: undefined,
+		location: {
+			text: 'Бориспільське міське (Рогозівське) кладовище, сектор 2, ряд ?, місце ?',
+			link: locations.boryspilMiskeKladovysche,
+		},
 		// addresses: [
 		// 	{
 		// 		text: 'мабуть м. Бориспіль, вул. Лісова, 5',
@@ -476,7 +516,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 19.5,
+			place: 18.5,
 		},
 	},
 	{
@@ -496,7 +536,10 @@ const data = [
 		nationality: 'мабуть українка',
 		citizenship: 'СРСР (раніше УНР, російська імперія)',
 		nativeLocality: locations.maybeBoryspil,
-		location: undefined,
+		location: {
+			text: 'Бориспільське міське (Рогозівське) кладовище, сектор 2, ряд ?, місце ?',
+			link: locations.boryspilMiskeKladovysche,
+		},
 		// addresses: [
 		// 	{
 		// 		text: 'мабуть м. Бориспіль, вул. Лісова, 5',
@@ -509,14 +552,14 @@ const data = [
 		socialNetworks: null,
 		parents: undefined,
 		brothersAndSisters: [],
-		children: [],
+		children: ['3-18'],
 		spouse: '2-12',
 		kinship: '2-юрідна прабабуся, а Денис - 2-юрідний праонук',
 		sources: ['Розповіді Лісніченко (Корінь) Надії Іванівни'],
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 20.5,
+			place: 19.5,
 		},
 	},
 	{
@@ -550,7 +593,7 @@ const data = [
 		],
 		position: {
 			generation: 2,
-			place: 33.5,
+			place: 33,
 		},
 	},
 	{
@@ -590,7 +633,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 34.5,
+			place: 34,
 		},
 	},
 	{
@@ -630,7 +673,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 29,
+			place: 28,
 		},
 	},
 	{
@@ -673,7 +716,7 @@ const data = [
 		branch: 'Коренів',
 		position: {
 			generation: 2,
-			place: 30,
+			place: 29,
 		},
 	},
 	{
@@ -1238,7 +1281,7 @@ const data = [
 		email: null,
 		socialNetworks: null,
 		parents: {
-			mother: '2-11',
+			mother: '2-13',
 			father: '2-12',
 		},
 		brothersAndSisters: ['3-17'],
@@ -1326,6 +1369,7 @@ const data = [
 		children: ['4-17', '4-18'],
 		spouse: '3-16',
 		kinship: '3-юрідна бабуся, а Денис - 2-юрідний онуковий племінник (3-юрідний онук)',
+		facts: ['При родах померла її мама Олена та сестра близнючка.'],
 		sources: ['Розповіді Лісніченко (Корінь) Надії Іванівни', 'Фото та дати узяті з надгробку на кладовищі'],
 		branch: 'Коренів',
 		position: {
@@ -9841,40 +9885,6 @@ const data = [
 ]
 
 const notIncludedRelatives = [
-	{
-		id: '2-11',
-		surname: undefined,
-		maidenName: undefined,
-		name: undefined,
-		patronymic: undefined,
-		photo: null,
-		gender: 'female',
-		status: 'spouse of relative',
-		birthDate: undefined,
-		birthPlace: 'можливо м. Бориспіль',
-		dead: true,
-		deathDate: undefined,
-		deathPlace: undefined,
-		nationality: 'мабуть українка',
-		citizenship: 'мабуть СРСР (раніше УНР, російська імперія)',
-		address: undefined,
-		prevAddresses: ['мабуть м. Бориспіль'],
-		burial: undefined,
-		phone: null,
-		email: null,
-		socialNetworks: null,
-		parents: undefined,
-		brothersAndSisters: [],
-		children: [],
-		spouse: '2-12',
-		kinship: '2-юрідна прабабуся, а Денис - 2-юрідний праонук',
-		sources: ['Розповіді Лісніченко (Корінь) Надії Іванівни'],
-		branch: 'Коренів',
-		position: {
-			generation: 2,
-			place: 18.5,
-		},
-	},
 	{
 		id: '3-51',
 		surname: 'Щербеньов',
