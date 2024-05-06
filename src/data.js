@@ -306,8 +306,11 @@ const data = [
 		deathPlace: undefined,
 		nationality: 'мабуть українець',
 		citizenship: 'СРСР (раніше УНР, російська імперія)',
-		nativeLocality: locations.maybeBoryspil,
-		location: undefined,
+		nativeLocality: locations.boryspil,
+		location: {
+			text: 'Бориспільське міське (Рогозівське) кладовище, сектор 1, ряд останній, місце ?',
+			link: "https://www.google.com/maps/place/50%C2%B019'56.5%22N+30%C2%B058'20.3%22E/@50.3323524,30.9697251,17z/data=!3m1!4b1!4m4!3m3!8m2!3d50.332349!4d30.9723?authuser=0&entry=ttu",
+		},
 		children: [],
 		spouse: '2-8',
 		kinship: '2-юрідний прадід, а Денис - 2-юрідний праонук',
@@ -335,7 +338,10 @@ const data = [
 		nationality: 'українка',
 		citizenship: 'СРСР (раніше УНР, російська імперія)',
 		nativeLocality: locations.boryspil,
-		location: undefined,
+		location: {
+			text: 'Бориспільське міське (Рогозівське) кладовище, сектор 1, ряд останній, місце ?',
+			link: "https://www.google.com/maps/place/50%C2%B019'56.5%22N+30%C2%B058'20.3%22E/@50.3323524,30.9697251,17z/data=!3m1!4b1!4m4!3m3!8m2!3d50.332349!4d30.9723?authuser=0&entry=ttu",
+		},
 		// 	{
 		// 		text: 'мабуть м. Бориспіль',
 		// 		link: 'https://www.google.com/maps/place/%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+08300/@50.3695874,30.8710375,12z/data=!3m1!4b1!4m6!3m5!1s0x40d4e8ae77cf2579:0xfa81b50295e219d8!8m2!3d50.3482!4d30.95615!16zL20vMDQ2eHkw?authuser=0&entry=ttu',
@@ -376,10 +382,10 @@ const data = [
 		deathPlace: undefined,
 		nationality: 'українець',
 		citizenship: 'СРСР (раніше УНР, російська імперія)',
-		nativeLocality: locations.maybeBoryspil,
+		nativeLocality: locations.probablyBoryspil,
 		location: {
-			text: 'Бориспільське міське (Рогозівське) кладовище, сектор 2, ряд ?, місце ?',
-			link: locations.boryspilMiskeKladovysche.link,
+			text: 'Бориспільське міське (Рогозівське) кладовище, сектор 1, ряд передостанній, місце ?',
+			link: "https://www.google.com/maps/place/50%C2%B019'56.5%22N+30%C2%B058'20.3%22E/@50.3323524,30.9697251,17z/data=!3m1!4b1!4m4!3m3!8m2!3d50.332349!4d30.9723?authuser=0&entry=ttu",
 		},
 		children: [],
 		spouse: '2-10',
@@ -409,8 +415,8 @@ const data = [
 		citizenship: 'СРСР (раніше УНР, російська імперія)',
 		nativeLocality: locations.boryspil,
 		location: {
-			text: 'Бориспільське міське (Рогозівське) кладовище, сектор 2, ряд ?, місце ?',
-			link: locations.boryspilMiskeKladovysche.link,
+			text: 'Бориспільське міське (Рогозівське) кладовище, сектор 1, ряд передостанній, місце ?',
+			link: "https://www.google.com/maps/place/50%C2%B019'56.5%22N+30%C2%B058'20.3%22E/@50.3323524,30.9697251,17z/data=!3m1!4b1!4m4!3m3!8m2!3d50.332349!4d30.9723?authuser=0&entry=ttu",
 		},
 		// 	{
 		// 		text: 'мабуть м. Бориспіль',
@@ -446,11 +452,11 @@ const data = [
 		gender: 'female',
 		status: 'spouse of relative',
 		birthDate: '?',
-		birthPlace: 'можливо м. Бориспіль',
+		birthPlace: locations.probablyBoryspil,
 		dead: true,
 		deathDate: '23.12.1936',
 		deathPlace: undefined,
-		nationality: 'мабуть українка',
+		nationality: 'українка',
 		citizenship: 'СРСР (раніше мабуть УНР, російська імперія)',
 		nativeLocality: locations.probablyBoryspil,
 		location: {
@@ -492,7 +498,7 @@ const data = [
 		nativeLocality: locations.boryspil,
 		location: {
 			text: 'Бориспільське міське (Рогозівське) кладовище, сектор 2, ряд ≈5-7, місце ?',
-			link: locations.boryspilMiskeKladovysche,
+			link: "https://www.google.com/maps/place/50%C2%B019'56.6%22N+30%C2%B058'18.7%22E/@50.3324034,30.9692951,17z/data=!3m1!4b1!4m4!3m3!8m2!3d50.3324!4d30.97187?authuser=0&entry=ttu",
 		},
 		// addresses: [
 		// 	{
@@ -538,7 +544,7 @@ const data = [
 		nativeLocality: locations.maybeBoryspil,
 		location: {
 			text: 'Бориспільське міське (Рогозівське) кладовище, сектор 2, ряд ≈5-7, місце ?',
-			link: locations.boryspilMiskeKladovysche,
+			link: "https://www.google.com/maps/place/50%C2%B019'56.6%22N+30%C2%B058'18.7%22E/@50.3324034,30.9692951,17z/data=!3m1!4b1!4m4!3m3!8m2!3d50.3324!4d30.97187?authuser=0&entry=ttu",
 		},
 		// addresses: [
 		// 	{
@@ -1113,8 +1119,11 @@ const data = [
 		deathPlace: undefined,
 		nationality: 'мабуть українка',
 		citizenship: 'мабуть Україна (раніше СРСР)',
-		nativeLocality: undefined,
-		location: undefined,
+		nativeLocality: locations.probablyBoryspil,
+		location: {
+			text: 'Бориспільське міське (Рогозівське) кладовище, сектор 1, ряд передпередостанній, місце ?',
+			link: "https://www.google.com/maps/place/50%C2%B019'56.5%22N+30%C2%B058'20.3%22E/@50.3323524,30.9697251,17z/data=!3m1!4b1!4m4!3m3!8m2!3d50.332349!4d30.9723?authuser=0&entry=ttu",
+		},
 		// addresses: [
 		// 	{
 		// 		text: 'можливо м. Бориспіль',
@@ -1152,9 +1161,12 @@ const data = [
 		deathDate: '07.11.2012',
 		deathPlace: undefined,
 		nationality: 'українець',
-		citizenship: 'мабуть Україна (раніше СРСР)',
+		citizenship: 'Україна (раніше СРСР)',
 		nativeLocality: locations.boryspil,
-		location: undefined,
+		location: {
+			text: 'Бориспільське міське (Рогозівське) кладовище, сектор 1, ряд передпередостанній, місце ?',
+			link: "https://www.google.com/maps/place/50%C2%B019'56.5%22N+30%C2%B058'20.3%22E/@50.3323524,30.9697251,17z/data=!3m1!4b1!4m4!3m3!8m2!3d50.332349!4d30.9723?authuser=0&entry=ttu",
+		},
 		// addresses: [
 		// 	{
 		// 		text: 'можливо м. Бориспіль',
