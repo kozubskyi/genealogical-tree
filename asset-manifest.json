@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/genealogical-tree/static/css/main.2acbd3ac.css",
-    "main.js": "/genealogical-tree/static/js/main.c1cfe2d5.js",
+    "main.js": "/genealogical-tree/static/js/main.1e215cc4.js",
     "static/media/Турло (Корінь) Євдокія Семенівна.JPG": "/genealogical-tree/static/media/Турло (Корінь) Євдокія Семенівна.6f40282c7c42c11bf060.JPG",
     "static/media/Турло Олександр Іванович.JPG": "/genealogical-tree/static/media/Турло Олександр Іванович.bee516db78b87a2dd816.JPG",
     "static/media/Турло Галина Никифорівна.JPG": "/genealogical-tree/static/media/Турло Галина Никифорівна.48580d15e8d0874c8e03.JPG",
@@ -107,13 +107,13 @@
     "static/media/Панін Іван Михайлович.jpg": "/genealogical-tree/static/media/Панін Іван Михайлович.f84e222009f412b45aad.jpg",
     "static/media/Кривицька (Крисанова) Альона Вікторівна.jpg": "/genealogical-tree/static/media/Кривицька (Крисанова) Альона Вікторівна.c7dfc76a12645314dc48.jpg",
     "static/media/Козубський Денис Ігорович.jpg": "/genealogical-tree/static/media/Козубський Денис Ігорович.3b86383e4415ce060d4b.jpg",
+    "static/media/Падун Юрій Юрійович.jpg": "/genealogical-tree/static/media/Падун Юрій Юрійович.307dad2e0b3f4d8166fc.jpg",
     "static/media/Степанова Тетяна.jpg": "/genealogical-tree/static/media/Степанова Тетяна.c55eb8743565b992d2f6.jpg",
     "static/media/(Рак) Олена Олексіївна.PNG": "/genealogical-tree/static/media/(Рак) Олена Олексіївна.da7570e4e113ef6eb5ae.PNG",
     "static/media/Виноградний Олександр Анатолійович.jpg": "/genealogical-tree/static/media/Виноградний Олександр Анатолійович.1fab291d9167a14337b4.jpg",
     "static/media/Крисанова Ніна Дмитрівна.jpg": "/genealogical-tree/static/media/Крисанова Ніна Дмитрівна.dbaf716872c0a0ef8935.jpg",
     "static/media/Гоголь Євгеній Віталійович.jpg": "/genealogical-tree/static/media/Гоголь Євгеній Віталійович.22212b245cb7b7553886.jpg",
     "static/media/Щербеньов Павло Анатолійович.jpg": "/genealogical-tree/static/media/Щербеньов Павло Анатолійович.ce63059b6575daabf89e.jpg",
-    "static/media/Падун Юрій Юрійович.jpg": "/genealogical-tree/static/media/Падун Юрій Юрійович.74672caf183cb0165deb.jpg",
     "static/media/Степура (Сердцева) Юлія Петрівна.jpg": "/genealogical-tree/static/media/Степура (Сердцева) Юлія Петрівна.83a4367f94c9176cf12e.jpg",
     "static/media/Степура Андрій.jpg": "/genealogical-tree/static/media/Степура Андрій.8a0d64bbf20515534250.jpg",
     "static/media/Лапко (Жукова) Тетяна Миколаївна.JPG": "/genealogical-tree/static/media/Лапко (Жукова) Тетяна Миколаївна.6d145754092321c3c665.JPG",
@@ -157,10 +157,10 @@
     "static/media/Баранов Анатолій Андрійович.jpg": "/genealogical-tree/static/media/Баранов Анатолій Андрійович.cee7125d96cc69089905.jpg",
     "index.html": "/genealogical-tree/index.html",
     "main.2acbd3ac.css.map": "/genealogical-tree/static/css/main.2acbd3ac.css.map",
-    "main.c1cfe2d5.js.map": "/genealogical-tree/static/js/main.c1cfe2d5.js.map"
+    "main.1e215cc4.js.map": "/genealogical-tree/static/js/main.1e215cc4.js.map"
   },
   "entrypoints": [
     "static/css/main.2acbd3ac.css",
-    "static/js/main.c1cfe2d5.js"
+    "static/js/main.1e215cc4.js"
   ]
 }
