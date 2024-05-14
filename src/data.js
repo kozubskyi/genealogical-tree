@@ -967,7 +967,7 @@ const data = [
 		patronymic: undefined,
 		photo: null,
 		gender: 'male',
-		status: 'spouse of relative',
+		status: undefined,
 		birthDate: undefined,
 		birthPlace: undefined,
 		dead: true,
@@ -997,7 +997,7 @@ const data = [
 		patronymic: undefined,
 		photo: null,
 		gender: 'female',
-		status: 'relative',
+		status: undefined,
 		birthDate: undefined,
 		birthPlace: locations.probablyBoryspil,
 		dead: undefined,
@@ -5102,6 +5102,7 @@ const data = [
 		email: null,
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/tanya.bystra',
+			instagram: 'https://www.instagram.com/tanushka_bystra',
 		},
 		parents: {
 			mother: '4-68',
