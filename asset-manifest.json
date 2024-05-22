@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/genealogical-tree/static/css/main.2acbd3ac.css",
-    "main.js": "/genealogical-tree/static/js/main.d1183db3.js",
+    "main.js": "/genealogical-tree/static/js/main.8cdbc963.js",
     "static/media/Турло (Корінь) Євдокія Семенівна.JPG": "/genealogical-tree/static/media/Турло (Корінь) Євдокія Семенівна.6f40282c7c42c11bf060.JPG",
     "static/media/Турло Олександр Іванович.JPG": "/genealogical-tree/static/media/Турло Олександр Іванович.bee516db78b87a2dd816.JPG",
     "static/media/Турло Галина Никифорівна.JPG": "/genealogical-tree/static/media/Турло Галина Никифорівна.48580d15e8d0874c8e03.JPG",
@@ -57,7 +57,6 @@
     "static/media/Трошков Максим Васильович.jpg": "/genealogical-tree/static/media/Трошков Максим Васильович.439814c3ec540b5b408f.jpg",
     "static/media/Баранкова (Капран) Валентина Анатоліївна.jpg": "/genealogical-tree/static/media/Баранкова (Капран) Валентина Анатоліївна.3123da50f72cf20e1fb4.jpg",
     "static/media/Корінь Василь Іванович.jpg": "/genealogical-tree/static/media/Корінь Василь Іванович.9a22247faef4f0517316.jpg",
-    "static/media/Жорницький Микола Миколайович.JPG": "/genealogical-tree/static/media/Жорницький Микола Миколайович.6fee837f10bf807e17a2.JPG",
     "static/media/Басанько Інна Михайлівна.jpg": "/genealogical-tree/static/media/Басанько Інна Михайлівна.34cfc2fb88adfbf6fdaa.jpg",
     "static/media/Козубський Ігор Юрійович.jpg": "/genealogical-tree/static/media/Козубський Ігор Юрійович.ddb0baf4cae51608040d.jpg",
     "static/media/Корень Дем'ян Семенович.jpg": "/genealogical-tree/static/media/Корень Дем'ян Семенович.015443ae2a2da0d72a8c.jpg",
@@ -102,6 +101,7 @@
     "static/media/Шорська Галина.jpg": "/genealogical-tree/static/media/Шорська Галина.0f03cb4cbff5ea55dd98.jpg",
     "static/media/Юрченко (Корень) Ольга Петрівна.jpg": "/genealogical-tree/static/media/Юрченко (Корень) Ольга Петрівна.f7a0830bdce47573ddac.jpg",
     "static/media/Козубський Юрій Романович.jpg": "/genealogical-tree/static/media/Козубський Юрій Романович.02bec3bea6c5e4f039ec.jpg",
+    "static/media/Жорницький Микола Миколайович.JPG": "/genealogical-tree/static/media/Жорницький Микола Миколайович.fcc9d993852d750421a3.JPG",
     "static/media/Матлак (Кобець) Ольга Омелянівна.jpg": "/genealogical-tree/static/media/Матлак (Кобець) Ольга Омелянівна.b3d9f705a273299a525b.jpg",
     "static/media/Юрченко Олег Леонідович.jpg": "/genealogical-tree/static/media/Юрченко Олег Леонідович.f66e5083fa59453f7b82.jpg",
     "static/media/Панін Іван Михайлович.jpg": "/genealogical-tree/static/media/Панін Іван Михайлович.f84e222009f412b45aad.jpg",
@@ -157,10 +157,10 @@
     "static/media/Баранов Анатолій Андрійович.jpg": "/genealogical-tree/static/media/Баранов Анатолій Андрійович.cee7125d96cc69089905.jpg",
     "index.html": "/genealogical-tree/index.html",
     "main.2acbd3ac.css.map": "/genealogical-tree/static/css/main.2acbd3ac.css.map",
-    "main.d1183db3.js.map": "/genealogical-tree/static/js/main.d1183db3.js.map"
+    "main.8cdbc963.js.map": "/genealogical-tree/static/js/main.8cdbc963.js.map"
   },
   "entrypoints": [
     "static/css/main.2acbd3ac.css",
-    "static/js/main.d1183db3.js"
+    "static/js/main.8cdbc963.js"
   ]
 }
