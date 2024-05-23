@@ -7806,7 +7806,9 @@ const data = [
 		location: locations.kyiv,
 		phone: null,
 		email: null,
-		socialNetworks: null,
+		socialNetworks: {
+			facebook: 'https://www.facebook.com/profile.php?id=100083548064869',
+		},
 		parents: {
 			mother: '5-24',
 			father: '5-25',
