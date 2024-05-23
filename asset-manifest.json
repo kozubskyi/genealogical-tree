@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/genealogical-tree/static/css/main.2acbd3ac.css",
-    "main.js": "/genealogical-tree/static/js/main.8cdbc963.js",
+    "main.js": "/genealogical-tree/static/js/main.26138e57.js",
     "static/media/Турло (Корінь) Євдокія Семенівна.JPG": "/genealogical-tree/static/media/Турло (Корінь) Євдокія Семенівна.6f40282c7c42c11bf060.JPG",
     "static/media/Турло Олександр Іванович.JPG": "/genealogical-tree/static/media/Турло Олександр Іванович.bee516db78b87a2dd816.JPG",
     "static/media/Турло Галина Никифорівна.JPG": "/genealogical-tree/static/media/Турло Галина Никифорівна.48580d15e8d0874c8e03.JPG",
@@ -124,10 +124,10 @@
     "static/media/Баранков Євгеній.jpg": "/genealogical-tree/static/media/Баранков Євгеній.e3b7c833fcfa0be2c9e6.jpg",
     "static/media/Гавриловський Микола Петрович.jpg": "/genealogical-tree/static/media/Гавриловський Микола Петрович.9f52abad301e775583af.jpg",
     "static/media/Матлак (Корінь) Любов Федорівна.jpg": "/genealogical-tree/static/media/Матлак (Корінь) Любов Федорівна.c065cdd6a0f53cff4ded.jpg",
-    "static/media/Корінь Лев Олександрович.jpg": "/genealogical-tree/static/media/Корінь Лев Олександрович.bbe49dd476a09e459936.jpg",
     "static/media/Басанько Єлизавета Євгеніївна.jpg": "/genealogical-tree/static/media/Басанько Єлизавета Євгеніївна.ba17af32295723812f4f.jpg",
     "static/media/Грималовська Наталія Петрівна.jpg": "/genealogical-tree/static/media/Грималовська Наталія Петрівна.860800866a562e256156.jpg",
     "static/media/Кривицький Артем Олександрович.jpg": "/genealogical-tree/static/media/Кривицький Артем Олександрович.232230430416b2cf72fa.jpg",
+    "static/media/Корінь Лев Олександрович.jpg": "/genealogical-tree/static/media/Корінь Лев Олександрович.f58f88dafb22bb60e5a6.jpg",
     "static/media/Корень Надія Акимівна.jpg": "/genealogical-tree/static/media/Корень Надія Акимівна.2e1526d3b6588f60d1e5.jpg",
     "static/media/Іваненко Катерина Дмитрівна.jpg": "/genealogical-tree/static/media/Іваненко Катерина Дмитрівна.134c84f44d994c46cc78.jpg",
     "static/media/Гавриловська (Матлак) Оксана Анатоліївна (35).jpg": "/genealogical-tree/static/media/Гавриловська (Матлак) Оксана Анатоліївна (35).006b264457c41ef891bb.jpg",
@@ -157,10 +157,10 @@
     "static/media/Баранов Анатолій Андрійович.jpg": "/genealogical-tree/static/media/Баранов Анатолій Андрійович.cee7125d96cc69089905.jpg",
     "index.html": "/genealogical-tree/index.html",
     "main.2acbd3ac.css.map": "/genealogical-tree/static/css/main.2acbd3ac.css.map",
-    "main.8cdbc963.js.map": "/genealogical-tree/static/js/main.8cdbc963.js.map"
+    "main.26138e57.js.map": "/genealogical-tree/static/js/main.26138e57.js.map"
   },
   "entrypoints": [
     "static/css/main.2acbd3ac.css",
-    "static/js/main.8cdbc963.js"
+    "static/js/main.26138e57.js"
   ]
 }
