@@ -3940,7 +3940,7 @@ const data = [
 		nationality: 'мабуть українка',
 		citizenship: 'Україна (раніше СРСР)',
 		nativeLocality: locations.probablyBoryspil,
-		location: locations.boryspilKoroliova10,
+		location: locations.boryspilKoroliova12,
 		phone: null,
 		email: null,
 		socialNetworks: {
@@ -3973,7 +3973,7 @@ const data = [
 		nationality: 'українець',
 		citizenship: 'Україна (раніше СРСР)',
 		nativeLocality: locations.boryspil,
-		location: locations.boryspilKoroliova10,
+		location: locations.boryspilKoroliova12,
 		phone: null,
 		email: null,
 		socialNetworks: {
@@ -6019,7 +6019,7 @@ const data = [
 		citizenship: 'Україна (раніше СРСР)',
 		nativeLocality: locations.boryspil,
 		location: {
-			...locations.boryspilKoroliova10,
+			...locations.boryspilKoroliova12,
 			lat: 50.35109,
 			lng: 30.95028,
 		},
@@ -6059,7 +6059,7 @@ const data = [
 		nationality: 'мабуть українка',
 		citizenship: 'Україна (раніше СРСР)',
 		nativeLocality: locations.probablyBoryspil,
-		location: locations.boryspilKoroliova10,
+		location: locations.boryspilKoroliova12,
 		phone: null,
 		email: null,
 		socialNetworks: {
@@ -7508,7 +7508,7 @@ const data = [
 		nationality: 'українець',
 		citizenship: 'Україна',
 		nativeLocality: locations.boryspil,
-		location: locations.boryspilKoroliova10,
+		location: locations.boryspilKoroliova12,
 		phone: null,
 		email: null,
 		socialNetworks: null,

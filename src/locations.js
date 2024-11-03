@@ -55,8 +55,8 @@ const links = {
 		'https://www.google.com/maps/place/52A,+%D1%83%D0%BB.+%D0%93%D1%80%D0%B8%D1%88%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F,+52%D0%90,+%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+08300/@50.3424329,30.9429801,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4e8b7cdcdce9f:0x1479513b1d58536a!8m2!3d50.3424295!4d30.945555!16s%2Fg%2F1tgx0j_6?authuser=0&entry=ttu',
 	boryspilHryshynska13:
 		'https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%93%D1%80%D0%B8%D1%88%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F,+13,+%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+08300/@50.3455719,30.9483582,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4e8b6d2861151:0x3fa3cf92a05a7a16!8m2!3d50.3455685!4d30.9509331!16s%2Fg%2F1tft_1py?authuser=0&entry=ttu',
-	boryspilKoroliova10:
-		'https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%91%D0%B2%D0%B0,+10,+%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+08300/@50.3559001,30.9568663,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4e8a8be779585:0x79f2c40dc5b4b9de!8m2!3d50.3558967!4d30.9594412!16s%2Fg%2F11sv877kcj?authuser=0&entry=ttu',
+	boryspilKoroliova12:
+		'https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%91%D0%B2%D0%B0,+12,+%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%9A%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+08300/@50.355977,30.956472,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4e8a8bcfc7b8f:0x30c3803a5ba799c8!8m2!3d50.3559736!4d30.9590469!16s%2Fg%2F1tm__rhf?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D',
 	boryspilBermud:
 		"https://www.google.com/maps/place/50%C2%B021'40.4%22N+30%C2%B056'15.8%22E/@50.3612374,30.9351491,17z/data=!3m1!4b1!4m4!3m3!8m2!3d50.361234!4d30.937724?authuser=0&entry=ttu",
 	boryspilYevropeiska:
@@ -188,9 +188,9 @@ const locations = {
 		text: 'м. Бориспіль, вул. Гришинська (Воровського), 13',
 		link: links.boryspilHryshynska13,
 	},
-	boryspilKoroliova10: {
-		text: 'м. Бориспіль, вул. Корольова, 10',
-		link: links.boryspilKoroliova10,
+	boryspilKoroliova12: {
+		text: 'м. Бориспіль, вул. Корольова, 12',
+		link: links.boryspilKoroliova12,
 	},
 	boryspilBermud: {
 		text: 'м. Бориспіль, "Бермуд"',
