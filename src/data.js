@@ -6454,6 +6454,7 @@ const data = [
 		email: null,
 		socialNetworks: {
 			facebook: 'https://www.facebook.com/profile.php?id=100007435665079',
+			instagram: 'https://www.instagram.com/margoolek',
 		},
 		parents: {
 			mother: '4-27',
