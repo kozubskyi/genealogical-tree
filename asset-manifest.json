@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/genealogical-tree/static/css/main.2acbd3ac.css",
-    "main.js": "/genealogical-tree/static/js/main.f3adabb3.js",
+    "main.js": "/genealogical-tree/static/js/main.43f41d5e.js",
     "static/media/Турло (Корінь) Євдокія Семенівна.JPG": "/genealogical-tree/static/media/Турло (Корінь) Євдокія Семенівна.6f40282c7c42c11bf060.JPG",
     "static/media/Турло Олександр Іванович.JPG": "/genealogical-tree/static/media/Турло Олександр Іванович.bee516db78b87a2dd816.JPG",
     "static/media/Турло Галина Никифорівна.JPG": "/genealogical-tree/static/media/Турло Галина Никифорівна.48580d15e8d0874c8e03.JPG",
@@ -157,10 +157,10 @@
     "static/media/Баранов Анатолій Андрійович.jpg": "/genealogical-tree/static/media/Баранов Анатолій Андрійович.cee7125d96cc69089905.jpg",
     "index.html": "/genealogical-tree/index.html",
     "main.2acbd3ac.css.map": "/genealogical-tree/static/css/main.2acbd3ac.css.map",
-    "main.f3adabb3.js.map": "/genealogical-tree/static/js/main.f3adabb3.js.map"
+    "main.43f41d5e.js.map": "/genealogical-tree/static/js/main.43f41d5e.js.map"
   },
   "entrypoints": [
     "static/css/main.2acbd3ac.css",
-    "static/js/main.f3adabb3.js"
+    "static/js/main.43f41d5e.js"
   ]
 }
